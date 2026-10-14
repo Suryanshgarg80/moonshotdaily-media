@@ -1,0 +1,80 @@
+// Runs on GitHub Actions on a schedule, so @moonshotdaily posts even when the Mac is asleep.
+// The Mac queues each day's finished posts under queue/<date>/ (queue.json + images/videos);
+// each run here publishes at most ONE item: the next unpublished one for today (America/Los_Angeles),
+// and records it in state/published.json so nothing is ever posted twice.
+import fs from 'node:fs';
+
+const API = 'https://graph.instagram.com/v23.0';
+const { IG_USER_ID, IG_ACCESS_TOKEN, GITHUB_REPOSITORY } = process.env;
+const MIN_GAP_MIN = 20;
+const RAW = `https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main`;
+
+// DRY_RUN=1 QUEUE_DATE=<folder>: builds the Instagram container (proves URLs + token work) but never publishes or records state
+const DRY = process.env.DRY_RUN === '1';
+const date = process.env.QUEUE_DATE || new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+const readJson = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return d; } };
+const state = readJson('state/published.json', { items: {}, last_ts: null, events: [] });
+const queue = readJson(`queue/${date}/queue.json`, null);
+const save = () => { fs.mkdirSync('state', { recursive: true }); fs.writeFileSync('state/published.json', JSON.stringify(state, null, 2)); };
+const event = e => { state.events = [...(state.events || []), { ts: new Date().toISOString(), ...e }].slice(-300); };
+
+if (!queue?.items?.length) { console.log(`nothing queued for ${date}`); process.exit(0); }
+const next = queue.items.find(it => !state.items[`${date}/${it.n}`]);
+if (!next) { console.log(`all ${queue.items.length} items for ${date} published`); process.exit(0); }
+if (state.last_ts && Date.now() - new Date(state.last_ts).getTime() < MIN_GAP_MIN * 60e3) { console.log('too soon after last post'); process.exit(0); }
+if (!IG_USER_ID || !IG_ACCESS_TOKEN) { console.error('missing IG secrets'); process.exit(4); }
+
+async function call(path, params, method = 'POST') {
+  const body = new URLSearchParams({ access_token: IG_ACCESS_TOKEN, ...params });
+  const r = await fetch(method === 'GET' ? `${API}${path}?${body}` : `${API}${path}`, method === 'GET' ? {} : { method, body });
+  const j = await r.json();
+  if (!r.ok || j.error) throw new Error(JSON.stringify(j.error || j));
+  return j;
+}
+async function waitReady(id, tries = 60) {
+  for (let i = 0; i < tries; i++) {
+    const s = await call(`/${id}`, { fields: 'status_code' }, 'GET');
+    if (s.status_code === 'FINISHED') return;
+    if (s.status_code === 'ERROR' || s.status_code === 'EXPIRED') throw new Error(`container ${id}: ${s.status_code}`);
+    await new Promise(r => setTimeout(r, 5000));
+  }
+  throw new Error(`container ${id} timed out`);
+}
+const url = f => `${RAW}/queue/${date}/${f}`;
+const publishContainer = async params => {
+  const c = await call(`/${IG_USER_ID}/media`, params); await waitReady(c.id);
+  if (DRY) { console.log(`DRY RUN: container ${c.id} ready (${params.media_type || 'IMAGE'}), not published`); process.exit(0); }
+  return (await call(`/${IG_USER_ID}/media_publish`, { creation_id: c.id })).id;
+};
+
+async function publish(it) {
+  if (it.type === 'carousel') {
+    const children = [];
+    for (const f of it.images) { const c = await call(`/${IG_USER_ID}/media`, { image_url: url(f), is_carousel_item: 'true' }); await waitReady(c.id); children.push(c.id); }
+    return ['carousel', await publishContainer({ media_type: 'CAROUSEL', children: children.join(','), caption: it.caption })];
+  }
+  if (it.type === 'reel') {
+    try { return ['reel', await publishContainer({ media_type: 'REELS', video_url: url(it.video), cover_url: url(it.image), caption: it.caption, share_to_feed: 'true' })]; }
+    catch (e) { event({ event: 'reel_failed_fallback_image', key: `${date}/${it.n}`, reason: String(e.message || e) }); }
+  }
+  return ['image', await publishContainer({ image_url: url(it.image), caption: it.caption })];
+}
+
+const key = `${date}/${next.n}`;
+try {
+  const [format, media_id] = await publish(next);
+  state.items[key] = { media_id, format, ts: new Date().toISOString(), headline: next.headline, tag: next.tag, company: next.company };
+  state.last_ts = state.items[key].ts;
+  event({ event: 'published', key, format, media_id });
+  console.log(`PUBLISHED ${key} as ${format} (${media_id}): ${next.headline}`);
+  if (next.story) {
+    try { const sid = await publishContainer({ media_type: 'STORIES', image_url: url(next.story) }); event({ event: 'story_published', key, media_id: sid }); console.log('story', sid); }
+    catch (e) { event({ event: 'story_failed', key, reason: String(e.message || e) }); }
+  }
+  save();
+} catch (e) {
+  event({ event: 'publish_failed', key, reason: String(e.message || e).slice(0, 500) });
+  save();
+  console.error('PUBLISH FAILED', e.message || e);
+  process.exit(5);
+}
