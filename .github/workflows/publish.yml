@@ -1,0 +1,52 @@
+name: publish
+
+# SF morning, ~30 min apart (UTC; 15:37 UTC = 8:37 AM PDT / 7:37 AM PST). Each run posts at most one item.
+on:
+  schedule:
+    - cron: '37 15 * * *'
+    - cron: '7 16 * * *'
+    - cron: '37 16 * * *'
+    - cron: '7 17 * * *'
+    - cron: '37 17 * * *'
+    - cron: '7 18 * * *'
+    - cron: '37 18 * * *'
+    - cron: '7 19 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Build the container but do not publish'
+        default: '0'
+      queue_date:
+        description: 'Queue folder to use (default: today in LA)'
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Publish next queued post
+        run: node publisher/publish.mjs
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run || '0' }}
+          QUEUE_DATE: ${{ inputs.queue_date || '' }}
+      - name: Save publish state
+        if: always()
+        run: |
+          git config user.name "moonshot-publisher"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state
+          git diff --cached --quiet || (git commit -m "state: $(date -u +%FT%TZ)" && git pull --rebase && git push)
