@@ -7,9 +7,17 @@
       "headline": "Two IIT-Delhi grads gave up ₹1.3 crore in salaries — their YC startup just raised $1M",
       "tag": "YC",
       "company": "ByteAsk"
+    },
+    "2026-10-15/02": {
+      "media_id": "18129928723752308",
+      "format": "reel",
+      "ts": "2026-10-15T22:11:45.345Z",
+      "headline": "This a16z speedrun startup gives factories an AI sales rep — and just raised $9.8M",
+      "tag": "A16Z",
+      "company": "Forgepoint"
     }
   },
-  "last_ts": "2026-10-15T16:55:42.040Z",
+  "last_ts": "2026-10-15T22:11:45.345Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -29,6 +37,13 @@
       "event": "story_failed",
       "key": "2026-10-15/01",
       "reason": "{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AEQLOqwLP6AvTiDMnlbxM6n\"}"
+    },
+    {
+      "ts": "2026-10-15T22:11:45.345Z",
+      "event": "published",
+      "key": "2026-10-15/02",
+      "format": "reel",
+      "media_id": "18129928723752308"
     }
   ]
 }
