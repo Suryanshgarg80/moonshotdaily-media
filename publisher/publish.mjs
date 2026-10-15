@@ -55,7 +55,11 @@ const url = f => `${RAW}/queue/${date}/${f}`;
 const publishContainer = async params => {
   const c = await call(`/${IG_USER_ID}/media`, params); await waitReady(c.id);
   if (DRY) { console.log(`DRY RUN: container ${c.id} ready (${params.media_type || 'IMAGE'}), not published`); process.exit(0); }
-  return (await call(`/${IG_USER_ID}/media_publish`, { creation_id: c.id })).id;
+  // Instagram sometimes reports FINISHED a moment before the media can be published (code 9007): wait and retry
+  for (let i = 0; ; i++) {
+    try { return (await call(`/${IG_USER_ID}/media_publish`, { creation_id: c.id })).id; }
+    catch (e) { if (i >= 5 || !String(e.message).includes('"code":9007')) throw e; await new Promise(r => setTimeout(r, 10000)); }
+  }
 };
 
 async function publish(it) {
