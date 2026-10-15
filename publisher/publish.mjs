@@ -23,6 +23,8 @@ const queue = readJson(`queue/${date}/queue.json`, null);
 const save = () => { fs.mkdirSync('state', { recursive: true }); fs.writeFileSync('state/published.json', JSON.stringify(state, null, 2)); };
 const event = e => { state.events = [...(state.events || []), { ts: new Date().toISOString(), ...e }].slice(-300); };
 
+// kill switch: a PAUSED file in the repo root stops all posting (used when Instagram blocks the app)
+if (fs.existsSync('PAUSED')) { console.log(`paused: ${fs.readFileSync('PAUSED', 'utf8').trim()}`); process.exit(0); }
 if (!queue?.items?.length) { console.log(`nothing queued for ${date}`); process.exit(0); }
 if (!IG_USER_ID || !IG_ACCESS_TOKEN) { console.error('missing IG secrets'); process.exit(4); }
 const sfHour = () => Number(new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', hour: 'numeric', hourCycle: 'h23' }).format(new Date()));
