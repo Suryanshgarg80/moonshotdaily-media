@@ -1,12 +1,16 @@
 // Runs on GitHub Actions on a schedule, so @moonshotdaily posts even when the Mac is asleep.
 // The Mac queues each day's finished posts under queue/<date>/ (queue.json + images/videos);
-// each run here publishes at most ONE item: the next unpublished one for today (America/Los_Angeles),
-// and records it in state/published.json so nothing is ever posted twice.
+// GitHub's schedule can start hours late, so one run works through the whole day's queue itself:
+// publish the next unpublished item, commit state/published.json (so nothing is ever posted twice,
+// even if the job dies), wait GAP_MIN, repeat — stopping at LATEST_HOUR in SF. Later runs just pick up leftovers.
 import fs from 'node:fs';
+import { execSync } from 'node:child_process';
 
 const API = 'https://graph.instagram.com/v23.0';
 const { IG_USER_ID, IG_ACCESS_TOKEN, GITHUB_REPOSITORY } = process.env;
 const MIN_GAP_MIN = 20;
+const GAP_MIN = Number(process.env.GAP_MIN || 30);
+const LATEST_HOUR = 16; // don't start new posts after 4 PM in San Francisco
 const RAW = `https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main`;
 
 // DRY_RUN=1 QUEUE_DATE=<folder>: builds the Instagram container (proves URLs + token work) but never publishes or records state
@@ -19,10 +23,14 @@ const save = () => { fs.mkdirSync('state', { recursive: true }); fs.writeFileSyn
 const event = e => { state.events = [...(state.events || []), { ts: new Date().toISOString(), ...e }].slice(-300); };
 
 if (!queue?.items?.length) { console.log(`nothing queued for ${date}`); process.exit(0); }
-const next = queue.items.find(it => !state.items[`${date}/${it.n}`]);
-if (!next) { console.log(`all ${queue.items.length} items for ${date} published`); process.exit(0); }
-if (state.last_ts && Date.now() - new Date(state.last_ts).getTime() < MIN_GAP_MIN * 60e3) { console.log('too soon after last post'); process.exit(0); }
 if (!IG_USER_ID || !IG_ACCESS_TOKEN) { console.error('missing IG secrets'); process.exit(4); }
+const sfHour = () => Number(new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', hour: 'numeric', hourCycle: 'h23' }).format(new Date()));
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+const commit = () => {
+  if (DRY || !process.env.GITHUB_ACTIONS) return;
+  execSync('git config user.name "moonshot-publisher" && git config user.email "41898282+github-actions[bot]@users.noreply.github.com"');
+  execSync('git add state && (git diff --cached --quiet || (git commit -q -m "state: ' + new Date().toISOString() + '" && git pull -q --rebase && git push -q))');
+};
 
 async function call(path, params, method = 'POST') {
   const body = new URLSearchParams({ access_token: IG_ACCESS_TOKEN, ...params });
@@ -60,21 +68,29 @@ async function publish(it) {
   return ['image', await publishContainer({ image_url: url(it.image), caption: it.caption })];
 }
 
-const key = `${date}/${next.n}`;
-try {
-  const [format, media_id] = await publish(next);
-  state.items[key] = { media_id, format, ts: new Date().toISOString(), headline: next.headline, tag: next.tag, company: next.company };
-  state.last_ts = state.items[key].ts;
-  event({ event: 'published', key, format, media_id });
-  console.log(`PUBLISHED ${key} as ${format} (${media_id}): ${next.headline}`);
-  if (next.story) {
-    try { const sid = await publishContainer({ media_type: 'STORIES', image_url: url(next.story) }); event({ event: 'story_published', key, media_id: sid }); console.log('story', sid); }
-    catch (e) { event({ event: 'story_failed', key, reason: String(e.message || e) }); }
+while (true) {
+  const next = queue.items.find(it => !state.items[`${date}/${it.n}`]);
+  if (!next) { console.log(`all ${queue.items.length} items for ${date} published`); break; }
+  if (!DRY && sfHour() >= LATEST_HOUR) { console.log('past the posting window in SF; leftovers stay unposted'); break; }
+  const wait = state.last_ts ? MIN_GAP_MIN * 60e3 - (Date.now() - new Date(state.last_ts).getTime()) : 0;
+  if (wait > 0) await sleep(wait);
+  const key = `${date}/${next.n}`;
+  try {
+    const [format, media_id] = await publish(next);
+    state.items[key] = { media_id, format, ts: new Date().toISOString(), headline: next.headline, tag: next.tag, company: next.company };
+    state.last_ts = state.items[key].ts;
+    event({ event: 'published', key, format, media_id });
+    console.log(`PUBLISHED ${key} as ${format} (${media_id}): ${next.headline}`);
+    if (next.story) {
+      try { const sid = await publishContainer({ media_type: 'STORIES', image_url: url(next.story) }); event({ event: 'story_published', key, media_id: sid }); console.log('story', sid); }
+      catch (e) { event({ event: 'story_failed', key, reason: String(e.message || e) }); }
+    }
+    save(); commit();
+  } catch (e) {
+    event({ event: 'publish_failed', key, reason: String(e.message || e).slice(0, 500) });
+    save(); commit();
+    console.error('PUBLISH FAILED', e.message || e);
+    process.exit(5);
   }
-  save();
-} catch (e) {
-  event({ event: 'publish_failed', key, reason: String(e.message || e).slice(0, 500) });
-  save();
-  console.error('PUBLISH FAILED', e.message || e);
-  process.exit(5);
+  if (queue.items.some(it => !state.items[`${date}/${it.n}`])) await sleep(GAP_MIN * 60e3);
 }
