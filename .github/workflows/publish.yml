@@ -36,6 +36,8 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           DRY_RUN: ${{ inputs.dry_run || '0' }}
           QUEUE_DATE: ${{ inputs.queue_date || '' }}
       - name: Save publish state

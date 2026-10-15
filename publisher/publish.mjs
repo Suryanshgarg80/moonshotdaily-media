@@ -62,17 +62,60 @@ const publishContainer = async params => {
   }
 };
 
+// collab invites: the featured company (and lead investor) can accept and the post shows on their profile too
+const collab = it => it.collaborators?.length ? { collaborators: JSON.stringify(it.collaborators.slice(0, 3)) } : {};
+async function withCollabFallback(it, build) {
+  try { return await build(collab(it)); }
+  catch (e) {
+    if (!it.collaborators?.length) throw e;
+    // an invalid/private collaborator must never cost us the post
+    event({ event: 'collab_failed_retry_without', key: `${date}/${it.n}`, collaborators: it.collaborators, reason: String(e.message || e).slice(0, 300) });
+    return await build({});
+  }
+}
+
 async function publish(it) {
   if (it.type === 'carousel') {
     const children = [];
     for (const f of it.images) { const c = await call(`/${IG_USER_ID}/media`, { image_url: url(f), is_carousel_item: 'true' }); await waitReady(c.id); children.push(c.id); }
-    return ['carousel', await publishContainer({ media_type: 'CAROUSEL', children: children.join(','), caption: it.caption })];
+    return ['carousel', await withCollabFallback(it, extra => publishContainer({ media_type: 'CAROUSEL', children: children.join(','), caption: it.caption, ...extra }))];
   }
   if (it.type === 'reel') {
-    try { return ['reel', await publishContainer({ media_type: 'REELS', video_url: url(it.video), cover_url: url(it.image), caption: it.caption, share_to_feed: 'true' })]; }
+    try { return ['reel', await withCollabFallback(it, extra => publishContainer({ media_type: 'REELS', video_url: url(it.video), cover_url: url(it.image), caption: it.caption, share_to_feed: 'true', ...extra }))]; }
     catch (e) { event({ event: 'reel_failed_fallback_image', key: `${date}/${it.n}`, reason: String(e.message || e) }); }
   }
-  return ['image', await publishContainer({ image_url: url(it.image), caption: it.caption })];
+  return ['image', await withCollabFallback(it, extra => publishContainer({ image_url: url(it.image), caption: it.caption, ...extra }))];
+}
+
+// Threads: same story as an image carousel with a short text. Optional — runs only when THREADS_* secrets exist,
+// and a Threads failure never affects the Instagram post.
+const { THREADS_USER_ID, THREADS_ACCESS_TOKEN } = process.env;
+async function tcall(path, params, method = 'POST') {
+  const body = new URLSearchParams({ access_token: THREADS_ACCESS_TOKEN, ...params });
+  const r = await fetch(method === 'GET' ? `https://graph.threads.net/v1.0${path}?${body}` : `https://graph.threads.net/v1.0${path}`, method === 'GET' ? {} : { method, body });
+  const j = await r.json();
+  if (!r.ok || j.error) throw new Error(JSON.stringify(j.error || j));
+  return j;
+}
+async function treadyThenPublish(id) {
+  for (let i = 0; i < 40; i++) {
+    const s = await tcall(`/${id}`, { fields: 'status,error_message' }, 'GET');
+    if (s.status === 'FINISHED') break;
+    if (s.status === 'ERROR' || s.status === 'EXPIRED') throw new Error(`threads container ${id}: ${s.status} ${s.error_message || ''}`);
+    await new Promise(r => setTimeout(r, 4000));
+  }
+  return (await tcall(`/${THREADS_USER_ID}/threads_publish`, { creation_id: id })).id;
+}
+async function postToThreads(it) {
+  const images = (it.images?.length ? it.images : [it.image]).slice(0, 20);
+  if (images.length === 1) {
+    const c = await tcall(`/${THREADS_USER_ID}/threads`, { media_type: 'IMAGE', image_url: url(images[0]), text: it.threads_text || it.headline });
+    return treadyThenPublish(c.id);
+  }
+  const children = [];
+  for (const f of images) children.push((await tcall(`/${THREADS_USER_ID}/threads`, { media_type: 'IMAGE', image_url: url(f), is_carousel_item: 'true' })).id);
+  const c = await tcall(`/${THREADS_USER_ID}/threads`, { media_type: 'CAROUSEL', children: children.join(','), text: it.threads_text || it.headline });
+  return treadyThenPublish(c.id);
 }
 
 const pending = queue.items.filter(it => !state.items[`${date}/${it.n}`]);
@@ -96,6 +139,10 @@ try {
   if (next.story) {
     try { const sid = await publishContainer({ media_type: 'STORIES', image_url: url(next.story) }); event({ event: 'story_published', key, media_id: sid }); console.log('story', sid); }
     catch (e) { event({ event: 'story_failed', key, reason: String(e.message || e) }); }
+  }
+  if (THREADS_USER_ID && THREADS_ACCESS_TOKEN) {
+    try { const tid = await postToThreads(next); state.items[key].threads_id = tid; event({ event: 'threads_published', key, media_id: tid }); console.log('threads', tid); }
+    catch (e) { event({ event: 'threads_failed', key, reason: String(e.message || e).slice(0, 300) }); console.error('threads failed (instagram post is fine):', e.message || e); }
   }
   save(); commit();
 } catch (e) {
