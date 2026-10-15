@@ -1,11 +1,36 @@
 name: publish
 
 # Hourly through SF's workday (14:07–01:07 UTC = 7 AM–6 PM PDT). Each run posts at most one queued item,
-# spacing the day's posts ~2.5h apart; runs that are early, late or extra simply do nothing.
+# spacing the day's posts ~2h apart; runs that are early, late or extra simply do nothing.
 on:
   schedule:
     - cron: '7 14-23 * * *'
     - cron: '7 0,1 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Build the container but do not publish'
+        default: '0'
+      queue_date:
+        description: 'Queue folder to use (default: today in LA)'
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
       - name: Publish next queued post
         run: node publisher/publish.mjs
         env:
