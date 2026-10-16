@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-16",
+  "queued_at": "2026-10-16T10:54:05.750Z",
+  "items": [
+    {
+      "n": "01",
+      "type": "carousel",
+      "images": [
+        "post-01-s1.png",
+        "post-01-s2.png",
+        "post-01-s3.png",
+        "post-01-s4.png"
+      ],
+      "image": "post-01-s1.png",
+      "caption": "Swipe to see why one of the biggest names in venture just cut its recruiters.\n\nAndreessen Horowitz has laid off most of its 34-person portfolio recruiting team, the group that helped startups it backs find and hire talent.\n\nReports say the firm is shifting its talent strategy toward its crypto and growth teams.\n\nSome observers see it as a sign of how AI and slower hiring are changing what startups need from their investors.\n\nSources: NewsBytes, The Economic Times, Benzinga.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #a16z #AI #Hiring",
+      "headline": "a16z just cut most of the team that helps its startups hire people",
+      "tag": "A16Z",
+      "company": "Andreessen Horowitz",
+      "collaborators": [],
+      "threads_text": "a16z just cut most of the team that helps its startups hire people\n\nAndreessen Horowitz laid off most of its 34-person portfolio recruiting team\n\nSource: NewsBytes",
+      "story": "story-01.png"
+    },
+    {
+      "n": "02",
+      "type": "carousel",
+      "images": [
+        "post-02-s1.png",
+        "post-02-s2.png",
+        "post-02-s3.png",
+        "post-02-s4.png"
+      ],
+      "image": "post-02-s1.png",
+      "caption": "Swipe to see the YC startup that says every company will soon put an AI agent on every customer.\n\nOutlit connects the tools a company already uses, like Stripe, Slack, Gmail and its CRM, into one profile per customer that AI agents can query. The goal: catch customers about to leave and find upsell opportunities.\n\nCo-founder Josh Earle told Futurism that continuous monitoring is inevitable and that nothing the company does is illegal. He also said Outlit sees no obligation to notify the people being monitored or offer an opt-out.\n\nThat has made it one of the most debated YC companies this week.\n\nSources: Futurism, Gadget Review.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#YCombinator #Startup #AI #Privacy #SaaS",
+      "headline": "This YC startup wants an AI agent watching every customer — critics call it surveillance",
+      "tag": "YC",
+      "company": "Outlit",
+      "collaborators": [],
+      "threads_text": "This YC startup wants an AI agent watching every customer — critics call it surveillance\n\nOutlit turns a company's tools into one AI-ready profile for every customer\n\nSource: Futurism"
+    },
+    {
+      "n": "03",
+      "type": "carousel",
+      "images": [
+        "post-03-s1.png",
+        "post-03-s2.png",
+        "post-03-s3.png",
+        "post-03-s4.png",
+        "post-03-s5.png"
+      ],
+      "image": "post-03-s1.png",
+      "caption": "Swipe to see the startup putting AI agents in charge of clinic paperwork.\n\nConfido Health began with AI voice agents that answer patient calls, and is now building CareOS, a system that runs the administrative work across a medical practice.\n\nThe US-based company raised a $12.5 million Series A extension led by Z47 (formerly Matrix Partners India), bringing its total Series A to $22.5 million. Together Fund and Blume Ventures also participated.\n\nThe money goes toward rolling CareOS out across multi-location medical groups.\n\nSources: Digital Health News, Fierce Healthcare, Runtimewire.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #HealthTech #AI #Funding",
+      "headline": "This startup wants AI to run the boring back office of medical clinics — and just raised $12.5M",
+      "tag": "FUNDING",
+      "company": "Confido Health",
+      "collaborators": [],
+      "threads_text": "This startup wants AI to run the boring back office of medical clinics — and just raised $12.5M\n\nConfido Health builds AI agents that handle admin work across medical practices\n\nSource: Digital Health News"
+    },
+    {
+      "n": "04",
+      "type": "carousel",
+      "images": [
+        "post-04-s1.png",
+        "post-04-s2.png",
+        "post-04-s3.png",
+        "post-04-s4.png",
+        "post-04-s5.png"
+      ],
+      "image": "post-04-s1.png",
+      "caption": "Swipe to see the Techstars startup going after healthcare's admin burden.\n\nTechNovaTime builds AI that maps and automates the operational work inside health systems, the scheduling, billing and back-office tasks that eat into staff time.\n\nThe Baltimore-based company raised a $3.4 million pre-seed round, announced by Techstars.\n\nThe bet: every hour of admin that AI takes off a hospital team is an hour back for patients.\n\nSources: Techstars, Dealroom.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Techstars #Startup #VentureCapital #HealthTech #AI",
+      "headline": "This Techstars startup just raised $3.4M to take on healthcare's paperwork problem",
+      "tag": "ACCELERATOR",
+      "company": "TechNovaTime",
+      "collaborators": [],
+      "threads_text": "This Techstars startup just raised $3.4M to take on healthcare's paperwork problem\n\nTechNovaTime uses AI to map and automate how health systems run\n\nSource: Techstars"
+    }
+  ]
+}
