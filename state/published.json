@@ -15,9 +15,17 @@
       "headline": "This a16z speedrun startup gives factories an AI sales rep — and just raised $9.8M",
       "tag": "A16Z",
       "company": "Forgepoint"
+    },
+    "2026-10-16/01": {
+      "media_id": "17935664418403623",
+      "format": "carousel",
+      "ts": "2026-10-16T17:07:01.637Z",
+      "headline": "a16z just cut most of the team that helps its startups hire people",
+      "tag": "A16Z",
+      "company": "Andreessen Horowitz"
     }
   },
-  "last_ts": "2026-10-15T22:11:45.345Z",
+  "last_ts": "2026-10-16T17:07:01.637Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -44,6 +52,19 @@
       "key": "2026-10-15/02",
       "format": "reel",
       "media_id": "18129928723752308"
+    },
+    {
+      "ts": "2026-10-16T17:07:01.638Z",
+      "event": "published",
+      "key": "2026-10-16/01",
+      "format": "carousel",
+      "media_id": "17935664418403623"
+    },
+    {
+      "ts": "2026-10-16T17:07:12.446Z",
+      "event": "story_published",
+      "key": "2026-10-16/01",
+      "media_id": "18135959773632523"
     }
   ]
 }
