@@ -31,9 +31,17 @@
       "headline": "This YC startup wants an AI agent watching every customer — critics call it surveillance",
       "tag": "YC",
       "company": "Outlit"
+    },
+    "2026-10-16/03": {
+      "media_id": "18124161604930803",
+      "format": "carousel",
+      "ts": "2026-10-16T18:04:55.829Z",
+      "headline": "This startup wants AI to run the boring back office of medical clinics — and just raised $12.5M",
+      "tag": "FUNDING",
+      "company": "Confido Health"
     }
   },
-  "last_ts": "2026-10-16T17:12:01.722Z",
+  "last_ts": "2026-10-16T18:04:55.829Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -80,6 +88,13 @@
       "key": "2026-10-16/02",
       "format": "carousel",
       "media_id": "18180876013442214"
+    },
+    {
+      "ts": "2026-10-16T18:04:55.829Z",
+      "event": "published",
+      "key": "2026-10-16/03",
+      "format": "carousel",
+      "media_id": "18124161604930803"
     }
   ]
 }
