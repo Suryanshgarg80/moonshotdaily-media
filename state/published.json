@@ -47,9 +47,17 @@
       "headline": "This Techstars startup just raised $3.4M to take on healthcare's paperwork problem",
       "tag": "ACCELERATOR",
       "company": "TechNovaTime"
+    },
+    "2026-10-15/03": {
+      "media_id": "17947812591343067",
+      "format": "carousel",
+      "ts": "2026-10-16T22:18:10.175Z",
+      "headline": "Stanford told them the market was too small. Their Techstars startup just raised $7M",
+      "tag": "ACCELERATOR",
+      "company": "Allswell"
     }
   },
-  "last_ts": "2026-10-16T20:36:38.702Z",
+  "last_ts": "2026-10-16T22:18:10.175Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -110,6 +118,13 @@
       "key": "2026-10-16/04",
       "format": "carousel",
       "media_id": "17871182223647060"
+    },
+    {
+      "ts": "2026-10-16T22:18:10.175Z",
+      "event": "published",
+      "key": "2026-10-15/03",
+      "format": "carousel",
+      "media_id": "17947812591343067"
     }
   ]
 }
