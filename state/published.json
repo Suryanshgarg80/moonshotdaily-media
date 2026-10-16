@@ -23,9 +23,17 @@
       "headline": "a16z just cut most of the team that helps its startups hire people",
       "tag": "A16Z",
       "company": "Andreessen Horowitz"
+    },
+    "2026-10-16/02": {
+      "media_id": "18180876013442214",
+      "format": "carousel",
+      "ts": "2026-10-16T17:12:01.722Z",
+      "headline": "This YC startup wants an AI agent watching every customer — critics call it surveillance",
+      "tag": "YC",
+      "company": "Outlit"
     }
   },
-  "last_ts": "2026-10-16T17:07:01.637Z",
+  "last_ts": "2026-10-16T17:12:01.722Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -65,6 +73,13 @@
       "event": "story_published",
       "key": "2026-10-16/01",
       "media_id": "18135959773632523"
+    },
+    {
+      "ts": "2026-10-16T17:12:01.722Z",
+      "event": "published",
+      "key": "2026-10-16/02",
+      "format": "carousel",
+      "media_id": "18180876013442214"
     }
   ]
 }
