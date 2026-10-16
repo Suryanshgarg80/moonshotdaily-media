@@ -1,9 +1,9 @@
 // Runs on GitHub Actions on a schedule, so @moonshotdaily posts even when the Mac is asleep.
 // The Mac queues each day's finished posts under queue/<date>/ (queue.json + images/videos);
-// Runs hourly through SF's workday. Each run publishes at most ONE item — the next unpublished one —
-// once enough time has passed since the last post, so the day's posts spread from EARLIEST_HOUR to LATEST_HOUR.
-// The gap adapts: if runs were delayed and time is short, posts move closer together. State is committed
-// after every post so nothing is ever posted twice.
+// Runs (hourly, in theory) through SF's workday. GitHub's scheduler often skips hours, so instead of "one post
+// per run" each run posts every item whose time SLOT has already passed (max MAX_PER_RUN per run, a few minutes
+// apart). Yesterday's unposted items carry over after today's, within MAX_PER_DAY. State is committed after every
+// post so nothing is ever posted twice.
 import fs from 'node:fs';
 import { execSync } from 'node:child_process';
 
@@ -25,7 +25,6 @@ const event = e => { state.events = [...(state.events || []), { ts: new Date().t
 
 // kill switch: a PAUSED file in the repo root stops all posting (used when Instagram blocks the app)
 if (fs.existsSync('PAUSED')) { console.log(`paused: ${fs.readFileSync('PAUSED', 'utf8').trim()}`); process.exit(0); }
-if (!queue?.items?.length) { console.log(`nothing queued for ${date}`); process.exit(0); }
 if (!IG_USER_ID || !IG_ACCESS_TOKEN) { console.error('missing IG secrets'); process.exit(4); }
 const sfHour = () => Number(new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', hour: 'numeric', hourCycle: 'h23' }).format(new Date()));
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -51,7 +50,8 @@ async function waitReady(id, tries = 60) {
   }
   throw new Error(`container ${id} timed out`);
 }
-const url = f => `${RAW}/queue/${date}/${f}`;
+let itemDate = date; // queue folder of the item being published (yesterday's leftovers live in their own folder)
+const url = f => `${RAW}/queue/${itemDate}/${f}`;
 const publishContainer = async params => {
   const c = await call(`/${IG_USER_ID}/media`, params); await waitReady(c.id);
   if (DRY) { console.log(`DRY RUN: container ${c.id} ready (${params.media_type || 'IMAGE'}), not published`); process.exit(0); }
@@ -118,36 +118,51 @@ async function postToThreads(it) {
   return treadyThenPublish(c.id);
 }
 
-const pending = queue.items.filter(it => !state.items[`${date}/${it.n}`]);
-const next = pending[0];
-if (!next) { console.log(`all ${queue.items.length} items for ${date} published`); process.exit(0); }
+const SLOTS = [7, 9, 11, 13, 15, 17];          // SF hours; post N may go out once SLOTS[N] has passed
+const MAX_PER_DAY = 6, MAX_PER_RUN = 2, IN_RUN_GAP_MIN = 4;
+const laDate = d => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(d));
+const yday = laDate(new Date(`${date}T12:00:00Z`).getTime() - 86400e3);
+const leftovers = readJson(`queue/${yday}/queue.json`, { items: [] }).items.map(it => ({ ...it, _date: yday }));
+const items = [...(queue?.items || []).map(it => ({ ...it, _date: date })), ...(DRY ? [] : leftovers)];
+const pending = items.filter(it => !state.items[`${it._date}/${it.n}`]);
+if (!pending.length) { console.log(`nothing left to post for ${date}`); process.exit(0); }
 const now = new Date(), hour = sfHour();
-if (!DRY && (hour < EARLIEST_HOUR || hour >= LATEST_HOUR)) { console.log(`outside the SF posting window (hour ${hour})`); process.exit(0); }
-// minutes left in today's window, shared across what's still unposted
+if (!DRY && (hour < EARLIEST_HOUR || hour >= LATEST_HOUR)) { console.log(`outside the SF posting window (hour ${hour}); ${pending.length} waiting`); process.exit(0); }
 const sfMinutes = Number(new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', minute: 'numeric' }).format(now));
-const minutesLeft = (LATEST_HOUR - hour) * 60 - sfMinutes;
-const gap = Math.max(MIN_GAP_MIN, Math.min(GAP_MIN, minutesLeft / pending.length));
+const postedToday = Object.values(state.items).filter(v => laDate(v.ts) === date).length;
+const due = SLOTS.filter(h => h <= hour + sfMinutes / 60).length;
 const sinceLast = state.last_ts ? (now - new Date(state.last_ts)) / 60e3 : Infinity;
-if (!DRY && sinceLast < gap - 10) { console.log(`last post ${Math.round(sinceLast)} min ago; next due after ~${Math.round(gap)} min`); process.exit(0); }
-const key = `${date}/${next.n}`;
-try {
-  const [format, media_id] = await publish(next);
-  state.items[key] = { media_id, format, ts: new Date().toISOString(), headline: next.headline, tag: next.tag, company: next.company };
-  state.last_ts = state.items[key].ts;
-  event({ event: 'published', key, format, media_id });
-  console.log(`PUBLISHED ${key} as ${format} (${media_id}): ${next.headline}`);
-  if (next.story) {
-    try { const sid = await publishContainer({ media_type: 'STORIES', image_url: url(next.story) }); event({ event: 'story_published', key, media_id: sid }); console.log('story', sid); }
-    catch (e) { event({ event: 'story_failed', key, reason: String(e.message || e) }); }
+let toPost = DRY ? 1 : Math.min(due - postedToday, MAX_PER_DAY - postedToday, pending.length, MAX_PER_RUN);
+if (!DRY && sinceLast < MIN_GAP_MIN) toPost = 0;
+if (toPost <= 0) { console.log(`${postedToday} posted today, ${due} slots due so far, last post ${Math.round(sinceLast)} min ago — nothing due yet`); process.exit(0); }
+
+async function postOne(next) {
+  itemDate = next._date;
+  const key = `${next._date}/${next.n}`;
+  try {
+    const [format, media_id] = await publish(next);
+    state.items[key] = { media_id, format, ts: new Date().toISOString(), headline: next.headline, tag: next.tag, company: next.company };
+    state.last_ts = state.items[key].ts;
+    event({ event: 'published', key, format, media_id });
+    console.log(`PUBLISHED ${key} as ${format} (${media_id}): ${next.headline}`);
+    if (next.story) {
+      try { const sid = await publishContainer({ media_type: 'STORIES', image_url: url(next.story) }); event({ event: 'story_published', key, media_id: sid }); console.log('story', sid); }
+      catch (e) { event({ event: 'story_failed', key, reason: String(e.message || e) }); }
+    }
+    if (THREADS_USER_ID && THREADS_ACCESS_TOKEN) {
+      try { const tid = await postToThreads(next); state.items[key].threads_id = tid; event({ event: 'threads_published', key, media_id: tid }); console.log('threads', tid); }
+      catch (e) { event({ event: 'threads_failed', key, reason: String(e.message || e).slice(0, 300) }); console.error('threads failed (instagram post is fine):', e.message || e); }
+    }
+    save(); commit();
+  } catch (e) {
+    event({ event: 'publish_failed', key, reason: String(e.message || e).slice(0, 500) });
+    save(); commit();
+    console.error('PUBLISH FAILED', e.message || e);
+    process.exit(5);
   }
-  if (THREADS_USER_ID && THREADS_ACCESS_TOKEN) {
-    try { const tid = await postToThreads(next); state.items[key].threads_id = tid; event({ event: 'threads_published', key, media_id: tid }); console.log('threads', tid); }
-    catch (e) { event({ event: 'threads_failed', key, reason: String(e.message || e).slice(0, 300) }); console.error('threads failed (instagram post is fine):', e.message || e); }
-  }
-  save(); commit();
-} catch (e) {
-  event({ event: 'publish_failed', key, reason: String(e.message || e).slice(0, 500) });
-  save(); commit();
-  console.error('PUBLISH FAILED', e.message || e);
-  process.exit(5);
+}
+
+for (let i = 0; i < toPost; i++) {
+  if (i > 0) await new Promise(r => setTimeout(r, IN_RUN_GAP_MIN * 60e3));
+  await postOne(pending[i]);
 }
