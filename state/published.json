@@ -71,9 +71,17 @@
       "headline": "This a16z-backed startup automates billing for businesses — and Intuit is buying it",
       "tag": "A16Z",
       "company": "Sequence"
+    },
+    "2026-10-17/02": {
+      "media_id": "18145587964583803",
+      "format": "carousel",
+      "ts": "2026-10-17T16:20:42.737Z",
+      "headline": "A teenager built a calorie app to $30M+ in revenue — by paying an army of influencers",
+      "tag": "AI",
+      "company": "Cal AI"
     }
   },
-  "last_ts": "2026-10-17T14:39:10.910Z",
+  "last_ts": "2026-10-17T16:20:42.737Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -161,6 +169,13 @@
       "event": "story_published",
       "key": "2026-10-17/01",
       "media_id": "18076487294732486"
+    },
+    {
+      "ts": "2026-10-17T16:20:42.737Z",
+      "event": "published",
+      "key": "2026-10-17/02",
+      "format": "carousel",
+      "media_id": "18145587964583803"
     }
   ]
 }
