@@ -87,9 +87,17 @@
       "headline": "This startup grows mini human intestines to test drugs — and just won $100,000",
       "tag": "LAUNCH",
       "company": "Intero Biosystems"
+    },
+    "2026-10-17/04": {
+      "media_id": "18024471542722653",
+      "format": "carousel",
+      "ts": "2026-10-17T20:33:42.707Z",
+      "headline": "Mark Wahlberg is opening a gym with cold plunges and blood tests — without the luxury price",
+      "tag": "LAUNCH",
+      "company": "Municipal Gym"
     }
   },
-  "last_ts": "2026-10-17T18:02:13.092Z",
+  "last_ts": "2026-10-17T20:33:42.707Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -191,6 +199,13 @@
       "key": "2026-10-17/03",
       "format": "carousel",
       "media_id": "18108925673238343"
+    },
+    {
+      "ts": "2026-10-17T20:33:42.707Z",
+      "event": "published",
+      "key": "2026-10-17/04",
+      "format": "carousel",
+      "media_id": "18024471542722653"
     }
   ]
 }
