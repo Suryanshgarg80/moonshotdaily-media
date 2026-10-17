@@ -63,9 +63,17 @@
       "headline": "Koch just backed this a16z startup whose AI agents help sell industrial materials",
       "tag": "A16Z",
       "company": "Emanate"
+    },
+    "2026-10-17/01": {
+      "media_id": "18116698499103471",
+      "format": "carousel",
+      "ts": "2026-10-17T14:39:10.910Z",
+      "headline": "This a16z-backed startup automates billing for businesses — and Intuit is buying it",
+      "tag": "A16Z",
+      "company": "Sequence"
     }
   },
-  "last_ts": "2026-10-17T00:49:35.186Z",
+  "last_ts": "2026-10-17T14:39:10.910Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -140,6 +148,19 @@
       "key": "2026-10-15/04",
       "format": "reel",
       "media_id": "18024026435869403"
+    },
+    {
+      "ts": "2026-10-17T14:39:10.910Z",
+      "event": "published",
+      "key": "2026-10-17/01",
+      "format": "carousel",
+      "media_id": "18116698499103471"
+    },
+    {
+      "ts": "2026-10-17T14:39:20.982Z",
+      "event": "story_published",
+      "key": "2026-10-17/01",
+      "media_id": "18076487294732486"
     }
   ]
 }
