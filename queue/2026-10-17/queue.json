@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-17",
+  "queued_at": "2026-10-17T11:19:10.265Z",
+  "items": [
+    {
+      "n": "01",
+      "type": "carousel",
+      "images": [
+        "post-01-s1.png",
+        "post-01-s2.png",
+        "post-01-s3.png",
+        "post-01-s4.png"
+      ],
+      "image": "post-01-s1.png",
+      "caption": "Swipe to see the a16z-backed billing startup that Intuit just bought.\n\nSequence helps B2B companies handle everything from quotes to invoices to revenue reporting, using AI agents instead of spreadsheets and manual billing work. Finance teams pay for the software to get paid faster with less busywork.\n\nIntuit, the company behind TurboTax and QuickBooks, announced this week it has agreed to acquire Sequence. Official terms were not disclosed; Tech.eu reports the deal at around $200M.\n\nSequence was founded in 2021 by Riya Grover and Eamon Jubbawy, and Andreessen Horowitz led its first big round in 2022. For Intuit, it is a push from small-business accounting into software for larger B2B companies.\n\nSources: Tech.eu, CFO Dive, FinTech Futures.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #a16z #Fintech #Acquisition",
+      "headline": "This a16z-backed startup automates billing for businesses — and Intuit is buying it",
+      "tag": "A16Z",
+      "company": "Sequence",
+      "collaborators": [],
+      "threads_text": "This a16z-backed startup automates billing for businesses — and Intuit is buying it\n\nSequence uses AI agents to run quotes, invoices and revenue for B2B companies\n\nSource: Tech.eu",
+      "story": "story-01.png"
+    },
+    {
+      "n": "02",
+      "type": "carousel",
+      "images": [
+        "post-02-s1.png",
+        "post-02-s2.png",
+        "post-02-s3.png",
+        "post-02-s4.png"
+      ],
+      "image": "post-02-s1.png",
+      "caption": "Swipe to see how a teenager turned a calorie app into a $30M+ business.\n\nCal AI lets you snap a photo of your meal and get an estimate of calories, protein, carbs and fat. It makes money through app subscriptions.\n\nCongrats @calai.app\n\nThe company generated over $30 million in revenue in two years and was acquired by MyFitnessPal in March for an undisclosed amount.\n\nThe growth engine was influencers. Founder Zach Yadegari, 19, told TechCrunch an early paid post brought in about 1,000 new users over two days, so the team started paying as many creators as possible, focusing on ones with tight communities. He has since started a new AI agent startup, Persona, which has raised $10 million.\n\nSources: TechCrunch.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #AI #CalAI #Creators #Apps",
+      "headline": "A teenager built a calorie app to $30M+ in revenue — by paying an army of influencers",
+      "tag": "AI",
+      "company": "Cal AI",
+      "collaborators": [
+        "calai.app"
+      ],
+      "threads_text": "A teenager built a calorie app to $30M+ in revenue — by paying an army of influencers\n\nCal AI counts your calories from a photo of your food\n\nSource: TechCrunch"
+    },
+    {
+      "n": "03",
+      "type": "carousel",
+      "images": [
+        "post-03-s1.png",
+        "post-03-s2.png",
+        "post-03-s3.png",
+        "post-03-s4.png",
+        "post-03-s5.png"
+      ],
+      "image": "post-03-s1.png",
+      "caption": "Swipe to see the startup that grows tiny human intestines in a lab.\n\nIntero Biosystems makes miniature intestinal organoids, lab-grown tissue about 1 millimeter across that behaves like a human gut. Pharma, biotech, food and chemical companies buy them to test how drugs and other compounds affect the body before human trials.\n\nThis week Intero beat 199 other companies to win Startup Battlefield at TechCrunch Disrupt 2026, taking home the $100,000 grand prize. The runner-up was Apate, which uses AI agents that pose as victims to waste scammers' time.\n\nIntero spun out of the University of Michigan and is based in Denver. It is led by co-founders Charlie Childs and Madeline Eiken.\n\nSources: TechCrunch.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #Biotech #TechCrunchDisrupt #DrugDiscovery #Founders",
+      "headline": "This startup grows mini human intestines to test drugs — and just won $100,000",
+      "tag": "LAUNCH",
+      "company": "Intero Biosystems",
+      "collaborators": [],
+      "threads_text": "This startup grows mini human intestines to test drugs — and just won $100,000\n\nIntero sells lab-grown gut tissue so companies can test drugs before trying them on people\n\nSource: TechCrunch"
+    },
+    {
+      "n": "04",
+      "type": "carousel",
+      "images": [
+        "post-04-s1.png",
+        "post-04-s2.png",
+        "post-04-s3.png",
+        "post-04-s4.png"
+      ],
+      "image": "post-04-s1.png",
+      "caption": "Swipe to see the gym Mark Wahlberg is building to take on luxury longevity clubs.\n\nMunicipal Gym is a 32,000-square-foot club in Summerlin, outside Las Vegas, that bundles a normal gym with blood work, recovery services, cold plunges and a cafe. It makes money from monthly memberships.\n\nCongrats @municipalgym\n\nThe gym says founding memberships go on sale November 2 at $99 a month, with the regular rate at $129. Wahlberg told TechCrunch the first club opens in December.\n\nThe pitch is price. Longevity clubs like Fountain Life and The Estate charge tens of thousands of dollars a year. Wahlberg, who once invested in the gym chain F45, wants the same perks without needing a trust fund.\n\nSources: TechCrunch, municipalgym.com.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #Fitness #Longevity #MarkWahlberg #Founders",
+      "headline": "Mark Wahlberg is opening a gym with cold plunges and blood tests — without the luxury price",
+      "tag": "LAUNCH",
+      "company": "Municipal Gym",
+      "collaborators": [
+        "municipalgym"
+      ],
+      "threads_text": "Mark Wahlberg is opening a gym with cold plunges and blood tests — without the luxury price\n\nMunicipal Gym brings longevity perks to a regular gym membership\n\nSource: TechCrunch"
+    },
+    {
+      "n": "05",
+      "type": "carousel",
+      "images": [
+        "post-05-s1.png",
+        "post-05-s2.png",
+        "post-05-s3.png",
+        "post-05-s4.png"
+      ],
+      "image": "post-05-s1.png",
+      "caption": "Swipe to see the startup trying to take the slowest part out of braiding.\n\nTressfecta builds products for textured hair. Its first device, Plait Pilot, separates braiding hair from packs into sections and dispenses them so the stylist can braid without stopping to prep.\n\nCongrats @tressfecta\n\nFounder Aisata Diallo, 24, has braided hair her whole life and started braiding for others while studying at Northeastern University. The company is bootstrapped so far, backed by grants and accelerator programs, and Diallo is preparing to raise.\n\nTressfecta is still prelaunch and refining its prototype, and was one of the Startup Battlefield 200 companies at TechCrunch Disrupt this week. You can join the waitlist on its site.\n\nSources: TechCrunch.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #Founders #HairStylist #Braids #BeautyTech",
+      "headline": "A 24-year-old braider is building a machine that cuts hours of braiding prep",
+      "tag": "LAUNCH",
+      "company": "Tressfecta",
+      "collaborators": [
+        "tressfecta"
+      ],
+      "threads_text": "A 24-year-old braider is building a machine that cuts hours of braiding prep\n\nTressfecta builds tools for textured hair — starting with stylists\n\nSource: TechCrunch"
+    }
+  ]
+}
