@@ -95,9 +95,17 @@
       "headline": "Mark Wahlberg is opening a gym with cold plunges and blood tests — without the luxury price",
       "tag": "LAUNCH",
       "company": "Municipal Gym"
+    },
+    "2026-10-17/05": {
+      "media_id": "18182458207426539",
+      "format": "carousel",
+      "ts": "2026-10-17T22:15:07.387Z",
+      "headline": "A 24-year-old braider is building a machine that cuts hours of braiding prep",
+      "tag": "LAUNCH",
+      "company": "Tressfecta"
     }
   },
-  "last_ts": "2026-10-17T20:33:42.707Z",
+  "last_ts": "2026-10-17T22:15:07.387Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -206,6 +214,13 @@
       "key": "2026-10-17/04",
       "format": "carousel",
       "media_id": "18024471542722653"
+    },
+    {
+      "ts": "2026-10-17T22:15:07.387Z",
+      "event": "published",
+      "key": "2026-10-17/05",
+      "format": "carousel",
+      "media_id": "18182458207426539"
     }
   ]
 }
