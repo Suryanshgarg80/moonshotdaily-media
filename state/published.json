@@ -55,9 +55,17 @@
       "headline": "Stanford told them the market was too small. Their Techstars startup just raised $7M",
       "tag": "ACCELERATOR",
       "company": "Allswell"
+    },
+    "2026-10-15/04": {
+      "media_id": "18024026435869403",
+      "format": "reel",
+      "ts": "2026-10-17T00:49:35.186Z",
+      "headline": "Koch just backed this a16z startup whose AI agents help sell industrial materials",
+      "tag": "A16Z",
+      "company": "Emanate"
     }
   },
-  "last_ts": "2026-10-16T22:18:10.175Z",
+  "last_ts": "2026-10-17T00:49:35.186Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -125,6 +133,13 @@
       "key": "2026-10-15/03",
       "format": "carousel",
       "media_id": "17947812591343067"
+    },
+    {
+      "ts": "2026-10-17T00:49:35.186Z",
+      "event": "published",
+      "key": "2026-10-15/04",
+      "format": "reel",
+      "media_id": "18024026435869403"
     }
   ]
 }
