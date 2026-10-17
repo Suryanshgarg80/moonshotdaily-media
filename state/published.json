@@ -79,9 +79,17 @@
       "headline": "A teenager built a calorie app to $30M+ in revenue — by paying an army of influencers",
       "tag": "AI",
       "company": "Cal AI"
+    },
+    "2026-10-17/03": {
+      "media_id": "18108925673238343",
+      "format": "carousel",
+      "ts": "2026-10-17T18:02:13.092Z",
+      "headline": "This startup grows mini human intestines to test drugs — and just won $100,000",
+      "tag": "LAUNCH",
+      "company": "Intero Biosystems"
     }
   },
-  "last_ts": "2026-10-17T16:20:42.737Z",
+  "last_ts": "2026-10-17T18:02:13.092Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -176,6 +184,13 @@
       "key": "2026-10-17/02",
       "format": "carousel",
       "media_id": "18145587964583803"
+    },
+    {
+      "ts": "2026-10-17T18:02:13.092Z",
+      "event": "published",
+      "key": "2026-10-17/03",
+      "format": "carousel",
+      "media_id": "18108925673238343"
     }
   ]
 }
