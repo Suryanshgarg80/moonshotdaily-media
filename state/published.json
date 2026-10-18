@@ -103,9 +103,17 @@
       "headline": "A 24-year-old braider is building a machine that cuts hours of braiding prep",
       "tag": "LAUNCH",
       "company": "Tressfecta"
+    },
+    "2026-10-18/01": {
+      "media_id": "18164572561489911",
+      "format": "carousel",
+      "ts": "2026-10-18T14:03:03.823Z",
+      "headline": "This SF startup hides a chip inside luxury goods to kill off superfakes",
+      "tag": "SF",
+      "company": "Veritas"
     }
   },
-  "last_ts": "2026-10-17T22:15:07.387Z",
+  "last_ts": "2026-10-18T14:03:03.823Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -221,6 +229,28 @@
       "key": "2026-10-17/05",
       "format": "carousel",
       "media_id": "18182458207426539"
+    },
+    {
+      "ts": "2026-10-18T14:02:50.091Z",
+      "event": "collab_failed_retry_without",
+      "key": "2026-10-18/01",
+      "collaborators": [
+        "veritas"
+      ],
+      "reason": "{\"message\":\"User not visible\",\"type\":\"OAuthException\",\"code\":210,\"error_subcode\":2207066,\"is_transient\":false,\"error_user_title\":\"Cannot Tag User on Media\",\"error_user_msg\":\"The user veritas cannot be tagged on this media.\",\"fbtrace_id\":\"ALaQ37ECVkF3O4uwBbwlS8h\"}"
+    },
+    {
+      "ts": "2026-10-18T14:03:03.823Z",
+      "event": "published",
+      "key": "2026-10-18/01",
+      "format": "carousel",
+      "media_id": "18164572561489911"
+    },
+    {
+      "ts": "2026-10-18T14:03:15.686Z",
+      "event": "story_published",
+      "key": "2026-10-18/01",
+      "media_id": "17990620545063723"
     }
   ]
 }
