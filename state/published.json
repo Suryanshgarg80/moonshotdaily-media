@@ -111,9 +111,17 @@
       "headline": "This SF startup hides a chip inside luxury goods to kill off superfakes",
       "tag": "SF",
       "company": "Veritas"
+    },
+    "2026-10-18/02": {
+      "media_id": "18115841987120775",
+      "format": "carousel",
+      "ts": "2026-10-18T16:35:09.930Z",
+      "headline": "Ex-DeepMind researchers raised $55M before launch. Their AI says it beats GPT-6 Astra on charts",
+      "tag": "AI",
+      "company": "Elorian"
     }
   },
-  "last_ts": "2026-10-18T14:03:03.823Z",
+  "last_ts": "2026-10-18T16:35:09.930Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -251,6 +259,13 @@
       "event": "story_published",
       "key": "2026-10-18/01",
       "media_id": "17990620545063723"
+    },
+    {
+      "ts": "2026-10-18T16:35:09.930Z",
+      "event": "published",
+      "key": "2026-10-18/02",
+      "format": "carousel",
+      "media_id": "18115841987120775"
     }
   ]
 }
