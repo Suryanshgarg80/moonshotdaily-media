@@ -1,6 +1,99 @@
 {
   "date": "2026-10-18",
+  "queued_at": "2026-10-18T07:57:27.977Z",
   "items": [
+    {
+      "n": "01",
+      "type": "carousel",
+      "images": [
+        "post-01-s1.png",
+        "post-01-s2.png",
+        "post-01-s3.png",
+        "post-01-s4.png"
+      ],
+      "image": "post-01-s1.png",
+      "caption": "Swipe to see the startup fighting \"superfakes\" with a chip you can tap.\n\nVeritas, founded by former Tesla product manager Luci Holland, puts a tamper-resistant NFC chip inside products. Brands use it to prove an item is genuine, and owners can tap it with their phone to check.\n\nCongrats @veritas\n\nIts second-generation chip now works on metal and can be read through glass, opening up jewelry, trophies and fragrance bottles. It already sits inside LeBron James's first Nike shoes and the 18 championship crowns at the ATHLOS track meet.\n\nThe San Francisco startup raised a $1.75M pre-seed round led by Alexis Ohanian's Seven Seven Six.\n\nSources: TechCrunch.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #SanFrancisco #Luxury #Tech",
+      "headline": "This SF startup hides a chip inside luxury goods to kill off superfakes",
+      "tag": "SF",
+      "company": "Veritas",
+      "collaborators": [
+        "veritas"
+      ],
+      "threads_text": "This SF startup hides a chip inside luxury goods to kill off superfakes\n\nVeritas embeds a tiny NFC chip in products. Tap it with your phone to prove the item is real.\n\nSource: TechCrunch",
+      "story": "story-01.png"
+    },
+    {
+      "n": "02",
+      "type": "carousel",
+      "images": [
+        "post-02-s1.png",
+        "post-02-s2.png",
+        "post-02-s3.png",
+        "post-02-s4.png",
+        "post-02-s5.png"
+      ],
+      "image": "post-02-s1.png",
+      "caption": "Swipe to see the AI lab that raised $55M before shipping a single product.\n\nElorian, based in Palo Alto, just released its first model, Glimpse. Most multimodal models look at an image once, convert it into tokens and reason in text. Glimpse keeps going back to the image while it thinks.\n\nThe company says Glimpse outperforms GPT-6 Astra on scientific chart reasoning and short video captioning. Those are its own evaluations, not independent results.\n\nCEO Andrew Dai spent 14 years at Google DeepMind. Elorian raised a $55M seed round at a $300M valuation, co-led by Striker Venture Partners, Menlo Ventures and Altimeter, with Nvidia and Jeff Dean joining.\n\nSources: TechCrunch, Wowtale.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#AI #Startup #VentureCapital #SiliconValley #DeepMind",
+      "headline": "Ex-DeepMind researchers raised $55M before launch. Their AI says it beats GPT-6 Astra on charts",
+      "tag": "AI",
+      "company": "Elorian",
+      "collaborators": [],
+      "threads_text": "Ex-DeepMind researchers raised $55M before launch. Their AI says it beats GPT-6 Astra on charts\n\nElorian's first model, Glimpse, keeps looking back at an image while it reasons\n\nSource: TechCrunch"
+    },
+    {
+      "n": "03",
+      "type": "carousel",
+      "images": [
+        "post-03-s1.png",
+        "post-03-s2.png",
+        "post-03-s3.png",
+        "post-03-s4.png",
+        "post-03-s5.png"
+      ],
+      "image": "post-03-s1.png",
+      "caption": "Swipe to see the startup taking paperwork off doctors' plates.\n\nSuki's AI listens during patient visits and writes up the clinical notes, so doctors spend less time typing after hours. Now it wants AI agents to handle post-visit tasks like referrals and scheduling too.\n\nSuki raised a $90M Series E with new investors Healthier Capital, Crosslink Capital and Hercules Capital, plus existing backers including Venrock, Flare Capital, Philips Ventures and Zoom Ventures. It has raised more than $250M to date.\n\nAxios reports, citing a source, that Suki projects $60-80M in revenue in 2026 across roughly 450 customers.\n\nSources: Axios, Fierce Healthcare, Healthcare Dive.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#HealthTech #AI #Startup #VentureCapital #Healthcare",
+      "headline": "Doctors lose hours to paperwork. Suki's AI writes their notes, and it just raised $90M",
+      "tag": "FUNDING",
+      "company": "Suki",
+      "collaborators": [],
+      "threads_text": "Doctors lose hours to paperwork. Suki's AI writes their notes, and it just raised $90M\n\nSuki listens to doctor-patient visits and drafts the clinical notes automatically\n\nSource: Axios"
+    },
+    {
+      "n": "04",
+      "type": "carousel",
+      "images": [
+        "post-04-s1.png",
+        "post-04-s2.png",
+        "post-04-s3.png",
+        "post-04-s4.png",
+        "post-04-s5.png"
+      ],
+      "image": "post-04-s1.png",
+      "caption": "Swipe to see the startup using AI agents to build AI for big companies.\n\nRapidCanvas builds and runs custom AI applications for enterprises, using its own agents to automate a large part of the engineering work.\n\nThe Austin-based company raised a $29M Series B led by Vertex Ventures SEA & India, with Hitachi Ventures joining and existing backers Accel and Peak XV Partners returning. Total funding is now $52.5M.\n\nIt says recurring revenue grew 8x over the last six quarters, and it is hiring field AI engineers across India, the US and Brazil.\n\nSources: TNGlobal, SiliconAngle, TheNextWeb.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#AI #Startup #VentureCapital #Enterprise #Funding",
+      "headline": "This Austin startup lets AI agents build AI apps for big companies, and just raised $29M",
+      "tag": "FUNDING",
+      "company": "RapidCanvas",
+      "collaborators": [],
+      "threads_text": "This Austin startup lets AI agents build AI apps for big companies, and just raised $29M\n\nRapidCanvas builds and runs custom AI apps for enterprises, with agents doing much of the work\n\nSource: TNGlobal"
+    },
+    {
+      "n": "05",
+      "type": "carousel",
+      "images": [
+        "post-05-s1.png",
+        "post-05-s2.png",
+        "post-05-s3.png",
+        "post-05-s4.png",
+        "post-05-s5.png"
+      ],
+      "image": "post-05-s1.png",
+      "caption": "Swipe to see the startup bringing hospital radiology into the cloud.\n\nSirona Medical replaces the patchwork of old software radiologists use with one cloud-native platform for reading and reporting scans.\n\nIt raised a $40M Series D led by Avidity Partners, with 8VC, GreatPoint Ventures and KLT Holdings joining, bringing total funding to about $150M.\n\nThe company says revenue grew 2.5x year over year and it now has more than 12 million imaging exams a year under contract. Next is Sirona Cortex, an AI layer that coordinates radiology work.\n\nSources: Modern Healthcare, Fierce Healthcare, AuntMinnie.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#HealthTech #Startup #VentureCapital #AI #Radiology",
+      "headline": "This startup is moving hospital radiology to the cloud, and just raised $40M",
+      "tag": "FUNDING",
+      "company": "Sirona Medical",
+      "collaborators": [],
+      "threads_text": "This startup is moving hospital radiology to the cloud, and just raised $40M\n\nSirona Medical builds a cloud-native operating system for radiology teams\n\nSource: Modern Healthcare"
+    },
     {
       "n": "R1",
       "type": "carousel",
