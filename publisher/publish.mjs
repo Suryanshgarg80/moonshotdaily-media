@@ -26,6 +26,8 @@ const event = e => { state.events = [...(state.events || []), { ts: new Date().t
 // kill switch: a PAUSED file in the repo root stops all posting (used when Instagram blocks the app)
 if (fs.existsSync('PAUSED')) { console.log(`paused: ${fs.readFileSync('PAUSED', 'utf8').trim()}`); process.exit(0); }
 if (!IG_USER_ID || !IG_ACCESS_TOKEN) { console.error('missing IG secrets'); process.exit(4); }
+// Instagram "action is blocked" (code 4 / 2207051) sets a 24h cooldown: hammering a block makes it longer
+if (!DRY && state.blocked_until && new Date(state.blocked_until) > new Date()) { console.log(`cooling down after an Instagram action block until ${state.blocked_until}`); process.exit(0); }
 const sfHour = () => Number(new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', hour: 'numeric', hourCycle: 'h23' }).format(new Date()));
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const commit = () => {
@@ -67,7 +69,8 @@ const collab = it => it.collaborators?.length ? { collaborators: JSON.stringify(
 async function withCollabFallback(it, build) {
   try { return await build(collab(it)); }
   catch (e) {
-    if (!it.collaborators?.length) throw e;
+    // only a collaborator problem justifies a retry; anything else (e.g. an action block) may already have posted
+    if (!it.collaborators?.length || !/"code":210|collaborat|Tag User/i.test(String(e.message))) throw e;
     // an invalid/private collaborator must never cost us the post
     event({ event: 'collab_failed_retry_without', key: `${date}/${it.n}`, collaborators: it.collaborators, reason: String(e.message || e).slice(0, 300) });
     return await build({});
@@ -136,9 +139,20 @@ let toPost = DRY ? 1 : Math.min(due - postedToday, MAX_PER_DAY - postedToday, pe
 if (!DRY && sinceLast < MIN_GAP_MIN) toPost = 0;
 if (toPost <= 0) { console.log(`${postedToday} posted today, ${due} slots due so far, last post ${Math.round(sinceLast)} min ago — nothing due yet`); process.exit(0); }
 
+// Instagram has returned errors for posts that still went live (3 duplicate Suki posts on 2026-10-18), so a
+// failure is only a failure once the account's latest media shows no post with this caption since the attempt began
+async function findLive(caption, sinceMs) {
+  try {
+    const r = await call(`/${IG_USER_ID}/media`, { fields: 'id,caption,timestamp', limit: '6' }, 'GET');
+    const head = s => String(s || '').slice(0, 200);
+    return r.data.find(m => head(m.caption) === head(caption) && new Date(m.timestamp).getTime() >= sinceMs - 120e3)?.id || null;
+  } catch { return null; }
+}
+
 async function postOne(next) {
   itemDate = next._date;
   const key = `${next._date}/${next.n}`;
+  const started = Date.now();
   try {
     const [format, media_id] = await publish(next);
     state.items[key] = { media_id, format, ts: new Date().toISOString(), headline: next.headline, tag: next.tag, company: next.company };
@@ -155,6 +169,16 @@ async function postOne(next) {
     }
     save(); commit();
   } catch (e) {
+    if (/"code":4,|2207051|action is blocked/i.test(String(e.message))) state.blocked_until = new Date(Date.now() + 24 * 3600e3).toISOString();
+    const live = await findLive(next.caption, started);
+    if (live) {
+      state.items[key] = { media_id: live, format: next.type, ts: new Date().toISOString(), headline: next.headline, tag: next.tag, company: next.company, note: 'went live despite an error' };
+      state.last_ts = state.items[key].ts;
+      event({ event: 'published_despite_error', key, media_id: live, reason: String(e.message || e).slice(0, 300) });
+      save(); commit();
+      console.log(`went live despite an error: ${key} (${live})`);
+      process.exit(0);
+    }
     event({ event: 'publish_failed', key, reason: String(e.message || e).slice(0, 500) });
     save(); commit();
     console.error('PUBLISH FAILED', e.message || e);

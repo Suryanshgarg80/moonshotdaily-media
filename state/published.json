@@ -119,9 +119,19 @@
       "headline": "Ex-DeepMind researchers raised $55M before launch. Their AI says it beats GPT-6 Astra on charts",
       "tag": "AI",
       "company": "Elorian"
+    },
+    "2026-10-18/03": {
+      "media_id": "18066481646789075",
+      "format": "carousel",
+      "ts": "2026-10-18T18:16:33.000Z",
+      "headline": "Suki",
+      "tag": "FUNDING",
+      "company": "Suki",
+      "note": "went live despite action-block errors; duplicates 17917084896462731 and 17892183435618132"
     }
   },
-  "last_ts": "2026-10-18T16:35:09.930Z",
+  "last_ts": "2026-10-18T23:04:02.000Z",
+  "blocked_until": "2026-10-19T23:05:00.000Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
