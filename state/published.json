@@ -145,10 +145,19 @@
       "headline": "Jensen Huang: People with very high expectations have very low resilience — and unfortunately,",
       "tag": "QUOTE",
       "company": "Jensen Huang"
+    },
+    "2026-10-18/04": {
+      "media_id": "18076581068568111",
+      "format": "carousel",
+      "ts": "2026-10-19T23:35:00.315Z",
+      "headline": "This Austin startup lets AI agents build AI apps for big companies, and just raised $29M",
+      "tag": "FUNDING",
+      "company": "RapidCanvas",
+      "note": "went live despite an error"
     }
   },
-  "last_ts": "2026-10-19T23:10:10.392Z",
-  "blocked_until": "2026-10-19T23:05:00.000Z",
+  "last_ts": "2026-10-19T23:35:00.315Z",
+  "blocked_until": "2026-10-20T23:35:00.194Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -324,6 +333,13 @@
       "event": "story_published",
       "key": "2026-10-19/01",
       "media_id": "17866358616677280"
+    },
+    {
+      "ts": "2026-10-19T23:35:00.315Z",
+      "event": "published_despite_error",
+      "key": "2026-10-18/04",
+      "media_id": "18076581068568111",
+      "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AHGHhS91"
     }
   ]
 }
