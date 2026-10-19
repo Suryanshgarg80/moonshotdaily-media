@@ -128,6 +128,15 @@
       "tag": "FUNDING",
       "company": "Suki",
       "note": "went live despite action-block errors; duplicates 17917084896462731 and 17892183435618132"
+    },
+    "2026-10-18/R1": {
+      "media_id": null,
+      "format": "skipped",
+      "ts": "2026-10-18T23:59:00.000Z",
+      "headline": "Sunday roundup",
+      "tag": "ROUNDUP",
+      "company": null,
+      "note": "skipped: keeping 10-19 light after the Instagram action block"
     }
   },
   "last_ts": "2026-10-18T23:04:02.000Z",
