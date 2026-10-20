@@ -9,7 +9,7 @@ import { execSync } from 'node:child_process';
 
 const API = 'https://graph.instagram.com/v23.0';
 const { IG_USER_ID, IG_ACCESS_TOKEN, GITHUB_REPOSITORY } = process.env;
-const MIN_GAP_MIN = 20;
+const MIN_GAP_MIN = 90; // Instagram action-blocked the second of two posts made minutes apart (10-18, 10-19)
 const GAP_MIN = Number(process.env.GAP_MIN || 120); // hourly runs + 120 min ≈ 7, 9, 11 AM, 1, 3 PM in SF
 const EARLIEST_HOUR = 7, LATEST_HOUR = 18; // SF local time window for posting
 const RAW = `https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main`;
@@ -30,10 +30,29 @@ if (!IG_USER_ID || !IG_ACCESS_TOKEN) { console.error('missing IG secrets'); proc
 if (!DRY && state.blocked_until && new Date(state.blocked_until) > new Date()) { console.log(`cooling down after an Instagram action block until ${state.blocked_until}`); process.exit(0); }
 const sfHour = () => Number(new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', hour: 'numeric', hourCycle: 'h23' }).format(new Date()));
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+// Saving state must never fail a run that already posted (a rejected push on 2026-10-19 lost the record of a live
+// post and the next run posted it again). So: merge with whatever is on main now, commit on top of it, retry.
+function mergeRemote() {
+  try {
+    const r = JSON.parse(execSync('git show origin/main:state/published.json', { stdio: 'pipe' }).toString());
+    state.items = { ...(r.items || {}), ...state.items };
+    const id = e => `${e.ts}|${e.event}|${e.key || ''}`, seen = new Set();
+    state.events = [...(r.events || []), ...(state.events || [])].filter(e => !seen.has(id(e)) && seen.add(id(e))).sort((a, b) => (a.ts < b.ts ? -1 : 1)).slice(-300);
+    for (const k of ['last_ts', 'blocked_until']) if (r[k] && (!state[k] || r[k] > state[k])) state[k] = r[k];
+  } catch {}
+}
 const commit = () => {
   if (DRY || !process.env.GITHUB_ACTIONS) return;
   execSync('git config user.name "moonshot-publisher" && git config user.email "41898282+github-actions[bot]@users.noreply.github.com"');
-  execSync('git add state && (git diff --cached --quiet || (git commit -q -m "state: ' + new Date().toISOString() + '" && git pull -q --rebase && git push -q))');
+  for (let i = 0; i < 5; i++) {
+    try {
+      execSync('git fetch -q origin main', { stdio: 'pipe' });
+      mergeRemote(); save();
+      execSync(`git reset -q --mixed origin/main && git add state && (git diff --cached --quiet || git commit -q -m "state: ${new Date().toISOString()}") && git push -q origin HEAD:main && git checkout -q -- .`, { stdio: 'pipe' });
+      return;
+    } catch (e) { console.error(`state push attempt ${i + 1} failed: ${String(e.message).slice(0, 200)}`); execSync('sleep 6'); }
+  }
+  console.error('could not push state; the "Save publish state" step will retry');
 };
 
 async function call(path, params, method = 'POST') {
@@ -122,7 +141,7 @@ async function postToThreads(it) {
 }
 
 const SLOTS = [7, 9, 11, 13, 15, 17];          // SF hours; post N may go out once SLOTS[N] has passed
-const MAX_PER_DAY = 6, MAX_PER_RUN = 2, IN_RUN_GAP_MIN = 4;
+const MAX_PER_DAY = 6, MAX_PER_RUN = 1, IN_RUN_GAP_MIN = 4;
 const laDate = d => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(d));
 const yday = laDate(new Date(`${date}T12:00:00Z`).getTime() - 86400e3);
 const leftovers = readJson(`queue/${yday}/queue.json`, { items: [] }).items.map(it => ({ ...it, _date: yday }));
@@ -143,7 +162,7 @@ if (toPost <= 0) { console.log(`${postedToday} posted today, ${due} slots due so
 // failure is only a failure once the account's latest media shows no post with this caption since the attempt began
 async function findLive(caption, sinceMs) {
   try {
-    const r = await call(`/${IG_USER_ID}/media`, { fields: 'id,caption,timestamp', limit: '6' }, 'GET');
+    const r = await call(`/${IG_USER_ID}/media`, { fields: 'id,caption,timestamp', limit: '12' }, 'GET');
     const head = s => String(s || '').slice(0, 200);
     return r.data.find(m => head(m.caption) === head(caption) && new Date(m.timestamp).getTime() >= sinceMs - 120e3)?.id || null;
   } catch { return null; }
@@ -153,6 +172,15 @@ async function postOne(next) {
   itemDate = next._date;
   const key = `${next._date}/${next.n}`;
   const started = Date.now();
+  // already on the page (e.g. a run posted it but its record was lost)? record it and never post it twice
+  const already = DRY ? null : await findLive(next.caption, started - 72 * 3600e3);
+  if (already) {
+    state.items[key] = { media_id: already, format: next.type, ts: new Date().toISOString(), headline: next.headline, tag: next.tag, company: next.company, note: 'already live, not reposted' };
+    event({ event: 'already_live', key, media_id: already });
+    save(); commit();
+    console.log(`already live, skipped: ${key} (${already})`);
+    return;
+  }
   try {
     const [format, media_id] = await publish(next);
     state.items[key] = { media_id, format, ts: new Date().toISOString(), headline: next.headline, tag: next.tag, company: next.company };
