@@ -1,11 +1,11 @@
 name: publish
 
-# Hourly through SF's workday (14:07–01:07 UTC = 7 AM–6 PM PDT). Each run posts at most one queued item,
+# Hourly through SF's day (14:07–03:07 UTC = 7 AM–8 PM PDT). Each run posts at most one queued item,
 # spacing the day's posts ~2h apart; runs that are early, late or extra simply do nothing.
 on:
   schedule:
     - cron: '7 14-23 * * *'
-    - cron: '7 0,1 * * *'
+    - cron: '7 0-3 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

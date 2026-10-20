@@ -11,7 +11,7 @@ const API = 'https://graph.instagram.com/v23.0';
 const { IG_USER_ID, IG_ACCESS_TOKEN, GITHUB_REPOSITORY } = process.env;
 const MIN_GAP_MIN = 90; // Instagram action-blocked the second of two posts made minutes apart (10-18, 10-19)
 const GAP_MIN = Number(process.env.GAP_MIN || 120); // hourly runs + 120 min ≈ 7, 9, 11 AM, 1, 3 PM in SF
-const EARLIEST_HOUR = 7, LATEST_HOUR = 18; // SF local time window for posting
+const EARLIEST_HOUR = 7, LATEST_HOUR = 20; // SF local time window for posting
 const RAW = `https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main`;
 
 // DRY_RUN=1 QUEUE_DATE=<folder>: builds the Instagram container (proves URLs + token work) but never publishes or records state
@@ -140,7 +140,7 @@ async function postToThreads(it) {
   return treadyThenPublish(c.id);
 }
 
-const SLOTS = [7, 9, 11, 13, 15, 17];          // SF hours; post N may go out once SLOTS[N] has passed
+const SLOTS = [7, 9, 11, 13, 15, 17, 19];          // SF hours; post N may go out once SLOTS[N] has passed
 const MAX_PER_DAY = 6, MAX_PER_RUN = 1, IN_RUN_GAP_MIN = 4;
 const laDate = d => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(d));
 const yday = laDate(new Date(`${date}T12:00:00Z`).getTime() - 86400e3);

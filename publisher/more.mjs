@@ -11,6 +11,6 @@ const items = [...readJson(`queue/${date}/queue.json`, { items: [] }).items.map(
                ...readJson(`queue/${yday}/queue.json`, { items: [] }).items.map(i => `${yday}/${i.n}`)];
 const pending = items.filter(k => !state.items[k]).length;
 const postedToday = Object.values(state.items).filter(v => laDate(v.ts) === date).length;
-const more = !fs.existsSync('PAUSED') && hour < 18 && pending > 0 && postedToday < 6;
+const more = !fs.existsSync('PAUSED') && hour < 20 && pending > 0 && postedToday < 6;
 console.log(`SF hour ${hour}, pending ${pending}, posted today ${postedToday} -> continue: ${more}`);
 if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `more=${more}\n`);
