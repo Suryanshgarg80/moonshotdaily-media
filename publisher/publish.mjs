@@ -9,7 +9,7 @@ import { execSync } from 'node:child_process';
 
 const API = 'https://graph.instagram.com/v23.0';
 const { IG_USER_ID, IG_ACCESS_TOKEN, GITHUB_REPOSITORY } = process.env;
-const MIN_GAP_MIN = 90; // Instagram action-blocked the second of two posts made minutes apart (10-18, 10-19)
+const MIN_GAP_FLOOR = 35; // never closer than this; the real gap spreads today's posts evenly (Instagram blocked posts made minutes apart on 10-18/19)
 const GAP_MIN = Number(process.env.GAP_MIN || 120); // hourly runs + 120 min ≈ 7, 9, 11 AM, 1, 3 PM in SF
 const EARLIEST_HOUR = 7, LATEST_HOUR = 20; // SF local time window for posting
 const RAW = `https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main`;
@@ -140,8 +140,12 @@ async function postToThreads(it) {
   return treadyThenPublish(c.id);
 }
 
-const SLOTS = [7, 8.5, 10, 11.5, 13, 14.5, 16, 17.5, 19, 20];          // SF hours; post N may go out once SLOTS[N] has passed
-const MAX_PER_DAY = 10, MAX_PER_RUN = 1, IN_RUN_GAP_MIN = 4;
+// today's posts are spread evenly from 7 AM to 7:30 PM SF time; post N may go out once SLOTS[N] has passed
+const planned = Math.max(1, (queue?.items || []).length);
+const SPACING_H = planned > 1 ? 12.5 / (planned - 1) : 12.5;
+const SLOTS = Array.from({ length: planned + 3 }, (_, k) => 7 + k * SPACING_H); // + room for yesterday's leftovers
+const MIN_GAP_MIN = Math.max(MIN_GAP_FLOOR, Math.min(90, Math.floor(SPACING_H * 60) - 10));
+const MAX_PER_DAY = 20, MAX_PER_RUN = 1, IN_RUN_GAP_MIN = 4;
 const laDate = d => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(d));
 const yday = laDate(new Date(`${date}T12:00:00Z`).getTime() - 86400e3);
 const leftovers = readJson(`queue/${yday}/queue.json`, { items: [] }).items.map(it => ({ ...it, _date: yday }));
