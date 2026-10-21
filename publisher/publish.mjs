@@ -140,8 +140,8 @@ async function postToThreads(it) {
   return treadyThenPublish(c.id);
 }
 
-const SLOTS = [7, 9, 11, 13, 15, 17, 19];          // SF hours; post N may go out once SLOTS[N] has passed
-const MAX_PER_DAY = 6, MAX_PER_RUN = 1, IN_RUN_GAP_MIN = 4;
+const SLOTS = [7, 8.5, 10, 11.5, 13, 14.5, 16, 17.5, 19, 20];          // SF hours; post N may go out once SLOTS[N] has passed
+const MAX_PER_DAY = 10, MAX_PER_RUN = 1, IN_RUN_GAP_MIN = 4;
 const laDate = d => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(d));
 const yday = laDate(new Date(`${date}T12:00:00Z`).getTime() - 86400e3);
 const leftovers = readJson(`queue/${yday}/queue.json`, { items: [] }).items.map(it => ({ ...it, _date: yday }));

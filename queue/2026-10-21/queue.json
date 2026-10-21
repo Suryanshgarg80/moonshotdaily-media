@@ -22,6 +22,18 @@
       "story": "story-01.png"
     },
     {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip1-4m-a-month.mp4",
+      "image": "clip1-4m-a-month-cover.jpg",
+      "caption": "Higgsfield's CEO says the company spends over $4 million a month on AI models, more than $10,000 per person.\n\nAlex Mashrabov told Harry Stebbings the team of close to 400 people is split across the US and Asia, and internal model usage tops $4M a month.\n\nFull conversation: 20VC with Harry Stebbings and Alex Mashrabov, founder of Higgsfield.\n@higgsfield.ai @20vchq\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#ad #AI #Startup #20VC #Higgsfield",
+      "headline": "Higgsfield spends $4M a month on AI models",
+      "tag": "CLIP",
+      "company": "Higgsfield (20VC clip)",
+      "collaborators": [],
+      "threads_text": "Higgsfield spends $4M a month on AI models"
+    },
+    {
       "n": "02",
       "type": "carousel",
       "images": [
@@ -40,6 +52,18 @@
       "threads_text": "This a16z speedrun startup is a recruiting firm that’s 8x cheaper per hire — and just raised $4M\n\nAn AI recruiting firm that messages candidates under your name and sends top talent to your Slack.\n\nSource: Tech Funding News"
     },
     {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip2-30k-a-week.mp4",
+      "image": "clip2-30k-a-week-cover.jpg",
+      "caption": "One Higgsfield employee spent over $30,000 in a single week on an AI model.\n\nCEO Alex Mashrabov says a member of the creative team, frustrated with an asset-organization workflow, built his own tool over five straight nights. It worked and the team learned a lot, though Alex says it was not production ready. Many people on the team spend over $10,000 a week.\n\nFull conversation: 20VC with Harry Stebbings and Alex Mashrabov, founder of Higgsfield.\n@higgsfield.ai @20vchq\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#ad #AI #Startup #20VC #Higgsfield",
+      "headline": "One Higgsfield employee spent $30,000 in a week on AI",
+      "tag": "CLIP",
+      "company": "Higgsfield (20VC clip)",
+      "collaborators": [],
+      "threads_text": "One Higgsfield employee spent $30,000 in a week on AI"
+    },
+    {
       "n": "03",
       "type": "reel",
       "video": "post-03.mp4",
@@ -50,6 +74,18 @@
       "company": "Paul Graham",
       "collaborators": [],
       "threads_text": "\"The way to get startup ideas is not to try to think of startup ideas.\"\n\nPaul Graham, Co-founder, Y Combinator"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip3-20-dollar-plans.mp4",
+      "image": "clip3-20-dollar-plans-cover.jpg",
+      "caption": "Higgsfield's CEO thinks Google and OpenAI will wipe out the $20-a-month prosumer subscription market.\n\nAlex Mashrabov told 20VC the big labs will \"completely demolish\" those subscriptions, which is why Higgsfield says it will never try to win at $20 a month. He calls it a contrarian bet.\n\nFull conversation: 20VC with Harry Stebbings and Alex Mashrabov, founder of Higgsfield.\n@higgsfield.ai @20vchq\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#ad #AI #Startup #20VC #Higgsfield",
+      "headline": "Higgsfield CEO: Google and OpenAI will demolish $20 AI subscriptions",
+      "tag": "CLIP",
+      "company": "Higgsfield (20VC clip)",
+      "collaborators": [],
+      "threads_text": "Higgsfield CEO: Google and OpenAI will demolish $20 AI subscriptions"
     },
     {
       "n": "04",
@@ -67,6 +103,18 @@
       "company": "Orchestra Bio",
       "collaborators": [],
       "threads_text": "OpenAI just bought an a16z-backed startup that runs drug development with AI agents\n\nSoftware and AI agents that help biotech and pharma teams manage their drug development programs.\n\nSource: TechCrunch"
+    },
+    {
+      "n": "C4",
+      "type": "reel",
+      "video": "clip4-i-was-wrong.mp4",
+      "image": "clip4-i-was-wrong-cover.jpg",
+      "caption": "Higgsfield's CEO expected AI to mostly replace legal and customer support. He calls it one of the company's main mistakes.\n\nToday Higgsfield's legal team is over 10 people and customer success is over 40, all using AI heavily. AI can handle over 60% of first-line support requests, Alex Mashrabov says, but when it comes to B2B, \"AI just doesn't work.\"\n\nFull conversation: 20VC with Harry Stebbings and Alex Mashrabov, founder of Higgsfield.\n@higgsfield.ai @20vchq\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#ad #AI #Startup #20VC #Higgsfield",
+      "headline": "Higgsfield CEO: I was wrong about AI replacing support teams",
+      "tag": "CLIP",
+      "company": "Higgsfield (20VC clip)",
+      "collaborators": [],
+      "threads_text": "Higgsfield CEO: I was wrong about AI replacing support teams"
     },
     {
       "n": "05",
