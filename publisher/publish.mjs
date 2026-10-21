@@ -141,7 +141,7 @@ async function postToThreads(it) {
 }
 
 // today's posts are spread evenly from 7 AM to 7:30 PM SF time; post N may go out once SLOTS[N] has passed
-const planned = Math.max(1, (queue?.items || []).length);
+const planned = Math.max(1, Math.min((queue?.items || []).length, readJson('limits.json', {}).max_per_day ?? 20));
 const SPACING_H = planned > 1 ? 12.5 / (planned - 1) : 12.5;
 const SLOTS = Array.from({ length: planned + 3 }, (_, k) => 7 + k * SPACING_H); // + room for yesterday's leftovers
 const MIN_GAP_MIN = Math.max(MIN_GAP_FLOOR, Math.min(90, Math.floor(SPACING_H * 60) - 10));
