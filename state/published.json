@@ -165,13 +165,14 @@
       "note": "went live despite an error"
     },
     "2026-10-21/C1": {
-      "media_id": null,
-      "format": "manual",
-      "ts": "2026-10-21T14:30:00.000Z",
+      "media_id": "posted-manually",
+      "format": "reel",
+      "ts": "2026-10-21T18:43:42.000Z",
       "headline": "Higgsfield spends $4M a month on AI models",
       "tag": "CLIP",
       "company": "Higgsfield (20VC clip)",
-      "note": "owner posting manually from the Instagram app (test whether the block is API-only)"
+      "note": "owner posting manually from the Instagram app (test whether the block is API-only)",
+      "permalink": "https://www.instagram.com/reel/DexFBzsO7Hc/"
     },
     "2026-10-21/C2": {
       "media_id": null,
