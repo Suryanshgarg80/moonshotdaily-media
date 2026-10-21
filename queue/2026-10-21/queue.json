@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-21",
+  "queued_at": "2026-10-21T07:23:10.812Z",
+  "items": [
+    {
+      "n": "01",
+      "type": "carousel",
+      "images": [
+        "post-01-s1.png",
+        "post-01-s2.png",
+        "post-01-s3.png",
+        "post-01-s4.png",
+        "post-01-s5.png"
+      ],
+      "image": "post-01-s1.png",
+      "caption": "Swipe to see the robot hands that learn by practicing millions of times in simulation.\n\nEka Robotics builds a Vision-Force-Action model: AI that combines what a robot sees with the force it feels in its hands, so it can correct a slipping grip or feel its way through a tight insertion instead of failing.\n\nThe company raised $150M at a $1.45B valuation, in a round led by a16z and F-Prime. a16z announced it is leading Eka’s Series A.\n\nThe founders: Pulkit Agrawal, who runs the Improbable AI Lab at MIT CSAIL, and Tuomas Haarnoja, co-creator of the Soft Actor-Critic algorithm and formerly at Google DeepMind. Eka reports up to 1,500 picks per hour in lab bin-picking tasks, about 2.5x faster than humans.\n\nSources: Tech Funding News, a16z.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #Robotics #a16z #AI",
+      "headline": "An MIT professor’s robot-hand startup just raised $150M at a $1.45B valuation",
+      "tag": "A16Z",
+      "company": "Eka Robotics",
+      "collaborators": [],
+      "threads_text": "An MIT professor’s robot-hand startup just raised $150M at a $1.45B valuation\n\nBuilds AI that lets robot hands feel force and adapt, so they can handle messy real-world work.\n\nSource: Tech Funding News",
+      "story": "story-01.png"
+    },
+    {
+      "n": "02",
+      "type": "carousel",
+      "images": [
+        "post-02-s1.png",
+        "post-02-s2.png",
+        "post-02-s3.png",
+        "post-02-s4.png",
+        "post-02-s5.png"
+      ],
+      "image": "post-02-s1.png",
+      "caption": "Swipe to see the recruiting firm that runs on AI agents.\n\nJooba replaces the traditional recruiting agency: it finds candidates, reaches out to them under the hiring company’s name, and sends the best ones straight to the team’s Slack.\n\nThe startup raised a $4M seed round from a16z speedrun, Scribble Ventures and Genius Ventures. Mark Benliyan is the founder and CEO.\n\nOn its website, Jooba says hiring through it is 8x cheaper per hire and 52% faster, with the first candidate intro in about 22 hours.\n\nSources: Tech Funding News, Jooba.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #Recruiting #a16z #AI",
+      "headline": "This a16z speedrun startup is a recruiting firm that’s 8x cheaper per hire — and just raised $4M",
+      "tag": "A16Z",
+      "company": "Jooba",
+      "collaborators": [],
+      "threads_text": "This a16z speedrun startup is a recruiting firm that’s 8x cheaper per hire — and just raised $4M\n\nAn AI recruiting firm that messages candidates under your name and sends top talent to your Slack.\n\nSource: Tech Funding News"
+    },
+    {
+      "n": "03",
+      "type": "reel",
+      "video": "post-03.mp4",
+      "image": "post-03-cover.jpg",
+      "caption": "\"The way to get startup ideas is not to try to think of startup ideas.\"\n— Paul Graham, Co-founder, Y Combinator\n\nIt is the opening line of his essay How to Get Startup Ideas. His argument: the best ideas come from noticing problems in your own life, not from brainstorming. He writes that the very best startup ideas tend to be something the founders themselves want, that they themselves can build, and that few others realize are worth doing.\n\nSource: How to Get Startup Ideas, paulgraham.com.\n\nFollow @moonshotdaily for daily founder wisdom and YC, a16z & SF startup news.\n\n#FounderQuotes #Startup #Entrepreneurship #YCombinator #StartupAdvice",
+      "headline": "Paul Graham: The way to get startup ideas is not to try to think of startup ideas.",
+      "tag": "QUOTE",
+      "company": "Paul Graham",
+      "collaborators": [],
+      "threads_text": "\"The way to get startup ideas is not to try to think of startup ideas.\"\n\nPaul Graham, Co-founder, Y Combinator"
+    },
+    {
+      "n": "04",
+      "type": "carousel",
+      "images": [
+        "post-04-s1.png",
+        "post-04-s2.png",
+        "post-04-s3.png",
+        "post-04-s4.png"
+      ],
+      "image": "post-04-s1.png",
+      "caption": "Swipe to see why OpenAI is buying a drug-development startup.\n\nOrchestra Bio builds software and AI agents that help biotech and pharma companies run drug development: planning, tracking and coordinating work across discovery, manufacturing and clinical trials.\n\nOpenAI announced the acquisition on Tuesday. Terms were not disclosed. Orchestra reportedly raised around $20M as of 2025 from backers including Andreessen Horowitz, Atria and 8VC.\n\nThe team is joining Rosalind, OpenAI’s AI model for life-sciences research, and its Rosalind Workbench tool. TechCrunch reports Moderna and Novo Nordisk are among Rosalind’s customers.\n\nSources: TechCrunch, Orchestra Bio.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #OpenAI #a16z #Biotech",
+      "headline": "OpenAI just bought an a16z-backed startup that runs drug development with AI agents",
+      "tag": "ACQUISITION",
+      "company": "Orchestra Bio",
+      "collaborators": [],
+      "threads_text": "OpenAI just bought an a16z-backed startup that runs drug development with AI agents\n\nSoftware and AI agents that help biotech and pharma teams manage their drug development programs.\n\nSource: TechCrunch"
+    },
+    {
+      "n": "05",
+      "type": "carousel",
+      "images": [
+        "post-05-s1.png",
+        "post-05-s2.png",
+        "post-05-s3.png",
+        "post-05-s4.png",
+        "post-05-s5.png"
+      ],
+      "image": "post-05-s1.png",
+      "caption": "Swipe to see the one-person startup that just joined Y Combinator.\n\nDatabuddy makes cookieless product analytics for startups, plus an AI analyst that watches your data and flags problems like conversion drops and churn as they happen, without anyone digging through dashboards.\n\nThe company raised a $560,000 pre-seed round and is part of YC’s Fall 2026 batch. YC’s directory lists founder Issa Nassar as its only team member, based in San Francisco.\n\nThe open-source project has 1,210 stars on GitHub.\n\nSources: Zawya, Y Combinator.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #YCombinator #Analytics #AI",
+      "headline": "A solo founder just got into Y Combinator with an AI data analyst for startups",
+      "tag": "YC",
+      "company": "Databuddy",
+      "collaborators": [],
+      "threads_text": "A solo founder just got into Y Combinator with an AI data analyst for startups\n\nCookieless product analytics with an AI analyst that flags conversion drops and churn in real time.\n\nSource: Zawya"
+    }
+  ]
+}
