@@ -145,7 +145,10 @@ const planned = Math.max(1, (queue?.items || []).length);
 const SPACING_H = planned > 1 ? 12.5 / (planned - 1) : 12.5;
 const SLOTS = Array.from({ length: planned + 3 }, (_, k) => 7 + k * SPACING_H); // + room for yesterday's leftovers
 const MIN_GAP_MIN = Math.max(MIN_GAP_FLOOR, Math.min(90, Math.floor(SPACING_H * 60) - 10));
-const MAX_PER_DAY = 20, MAX_PER_RUN = 1, IN_RUN_GAP_MIN = 4;
+// limits.json lets us throttle without code changes (Instagram limits API posting on new accounts; 10-21 test:
+// manual app posts went through while API posts were "action blocked")
+const LIMITS = readJson('limits.json', {});
+const MAX_PER_DAY = Math.min(20, LIMITS.max_per_day ?? 20), MAX_PER_RUN = 1, IN_RUN_GAP_MIN = 4;
 const laDate = d => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(d));
 const yday = laDate(new Date(`${date}T12:00:00Z`).getTime() - 86400e3);
 const leftovers = readJson(`queue/${yday}/queue.json`, { items: [] }).items.map(it => ({ ...it, _date: yday }));

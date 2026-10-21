@@ -172,6 +172,33 @@
       "tag": "CLIP",
       "company": "Higgsfield (20VC clip)",
       "note": "owner posting manually from the Instagram app (test whether the block is API-only)"
+    },
+    "2026-10-21/C2": {
+      "media_id": null,
+      "format": "skipped",
+      "ts": "2026-10-21T23:59:00.000Z",
+      "headline": "20VC clip C2",
+      "tag": "CLIP",
+      "company": "Higgsfield (20VC clip)",
+      "note": "pulled back to the clip catalog after API action block; re-queue later"
+    },
+    "2026-10-21/C3": {
+      "media_id": null,
+      "format": "skipped",
+      "ts": "2026-10-21T23:59:00.000Z",
+      "headline": "20VC clip C3",
+      "tag": "CLIP",
+      "company": "Higgsfield (20VC clip)",
+      "note": "pulled back to the clip catalog after API action block; re-queue later"
+    },
+    "2026-10-21/C4": {
+      "media_id": null,
+      "format": "skipped",
+      "ts": "2026-10-21T23:59:00.000Z",
+      "headline": "20VC clip C4",
+      "tag": "CLIP",
+      "company": "Higgsfield (20VC clip)",
+      "note": "pulled back to the clip catalog after API action block; re-queue later"
     }
   },
   "last_ts": "2026-10-21T14:28:50.495Z",
