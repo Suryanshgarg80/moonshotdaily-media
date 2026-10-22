@@ -200,10 +200,19 @@
       "tag": "CLIP",
       "company": "Higgsfield (20VC clip)",
       "note": "pulled back to the clip catalog after API action block; re-queue later"
+    },
+    "2026-10-21/02": {
+      "media_id": "18052513310806845",
+      "format": "carousel",
+      "ts": "2026-10-22T18:29:43.228Z",
+      "headline": "This a16z speedrun startup is a recruiting firm that’s 8x cheaper per hire — and just raised $4M",
+      "tag": "A16Z",
+      "company": "Jooba",
+      "note": "went live despite an error"
     }
   },
-  "last_ts": "2026-10-21T14:28:50.495Z",
-  "blocked_until": "2026-10-22T14:28:50.257Z",
+  "last_ts": "2026-10-22T18:29:43.228Z",
+  "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
       "ts": "2026-10-15T16:50:36.113Z",
@@ -398,6 +407,13 @@
       "ts": "2026-10-21T18:38:44.840Z",
       "event": "manual_post_reserved",
       "key": "2026-10-21/C1"
+    },
+    {
+      "ts": "2026-10-22T18:29:43.228Z",
+      "event": "published_despite_error",
+      "key": "2026-10-21/02",
+      "media_id": "18052513310806845",
+      "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AXFWfeHL"
     }
   ]
 }
