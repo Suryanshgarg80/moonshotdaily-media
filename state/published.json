@@ -230,9 +230,18 @@
       "ts": "2026-10-21T23:59:00.000Z",
       "headline": "stale 10-21 item",
       "note": "stale after build outage"
+    },
+    "2026-10-25/01": {
+      "media_id": "17919898053453275",
+      "format": "carousel",
+      "ts": "2026-10-25T14:30:51.814Z",
+      "headline": "a16z just took crypto out of its crypto fund’s name. Meet a16z Frontier",
+      "tag": "A16Z",
+      "company": "a16z Frontier",
+      "note": "went live despite an error"
     }
   },
-  "last_ts": "2026-10-22T18:29:43.228Z",
+  "last_ts": "2026-10-25T14:30:51.814Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -435,6 +444,13 @@
       "key": "2026-10-21/02",
       "media_id": "18052513310806845",
       "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AXFWfeHL"
+    },
+    {
+      "ts": "2026-10-25T14:30:51.814Z",
+      "event": "published_despite_error",
+      "key": "2026-10-25/01",
+      "media_id": "17919898053453275",
+      "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AhOzOgvf"
     }
   ]
 }
