@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-25",
+  "items": [
+    {
+      "n": "R1",
+      "type": "carousel",
+      "images": [
+        "roundup-01.png",
+        "roundup-02.png",
+        "roundup-03.png"
+      ],
+      "caption": "Every startup we covered this week 👇\n\n• An MIT professor’s robot-hand startup just raised $150M at a $1.45B valuation\n• This a16z speedrun startup is a recruiting firm that’s 8x cheaper per hire — and just raised $4M\n• This SF startup hides a chip inside luxury goods to kill off superfakes\n• Suki\n• This Austin startup lets AI agents build AI apps for big companies, and just raised $29M\n• Ex-DeepMind researchers raised $55M before launch. Their AI says it beats GPT-6 Astra on charts\n• Jensen Huang: People with very high expectations have very low resilience — and unfortunately,\n• Higgsfield spends $4M a month on AI models\n• 20VC clip C2\n\nSave this, and follow @moonshotdaily for YC, a16z and SF startup news every day.\n\n#ycombinator #yc #a16z #startups #startupnews #siliconvalley #sanfrancisco #venturecapital #founders",
+      "headline": "Weekly roundup (9 companies)",
+      "tag": "ROUNDUP"
+    }
+  ]
+}
