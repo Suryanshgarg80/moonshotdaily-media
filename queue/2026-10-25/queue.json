@@ -1,6 +1,91 @@
 {
   "date": "2026-10-25",
+  "queued_at": "2026-10-25T12:47:32.550Z",
   "items": [
+    {
+      "n": "01",
+      "type": "carousel",
+      "images": [
+        "post-01-s1.png",
+        "post-01-s2.png",
+        "post-01-s3.png",
+        "post-01-s4.png"
+      ],
+      "image": "post-01-s1.png",
+      "caption": "Swipe to see why a16z just renamed its crypto arm.\n\nAndreessen Horowitz is renaming a16z Crypto to a16z Frontier and widening the scope of its new fund beyond crypto, to frontier startups building new technologies and markets, including AI and robotics.\n\nThe fund is $2.2B. In the announcement, Chris Dixon says a16z will keep investing in crypto, but the label matters less now: companies should be defined by what they do, not the technology they use.\n\nSources: a16z, BigGo Finance.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #a16z #AI #Crypto",
+      "headline": "a16z just took crypto out of its crypto fund’s name. Meet a16z Frontier",
+      "tag": "A16Z",
+      "company": "a16z Frontier",
+      "collaborators": [],
+      "threads_text": "a16z just took crypto out of its crypto fund’s name. Meet a16z Frontier\n\na16z’s crypto arm is widening its new fund to AI, robotics and other frontier startups.\n\nSource: BigGo Finance",
+      "story": "story-01.png"
+    },
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-20vc-02.mp4",
+      "image": "clip-20vc-02-cover.jpg",
+      "caption": "One Higgsfield employee spent over $30,000 in a single week on an AI model.\n\nCEO Alex Mashrabov says a member of the creative team, frustrated with an asset-organization workflow, built his own tool over five straight nights. It worked and the team learned a lot, though Alex says it was not production ready. Many people on the team spend over $10,000 a week.\n\nFull conversation: 20VC with Harry Stebbings and Alex Mashrabov, founder of Higgsfield.\n@higgsfield.ai @20vchq\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#ad #AI #Startup #20VC #Higgsfield",
+      "headline": "One employee spent $30,000 in a week on AI",
+      "tag": "CLIP",
+      "company": "20vc-higgsfield",
+      "clip_id": "20vc-02",
+      "collaborators": [],
+      "threads_text": "One employee spent $30,000 in a week on AI"
+    },
+    {
+      "n": "02",
+      "type": "carousel",
+      "images": [
+        "post-02-s1.png",
+        "post-02-s2.png",
+        "post-02-s3.png",
+        "post-02-s4.png",
+        "post-02-s5.png"
+      ],
+      "image": "post-02-s1.png",
+      "caption": "Swipe to see the YC startup fixing the week before a new hire’s first day.\n\nFirstwork builds AI agents for companies with large frontline workforces in healthcare, logistics and delivery. The agents handle the gap between a job offer and the first shift: collecting documents, coordinating onboarding and tracking credential expiry dates. Customers include Deel, Job&Talent and Wonolo.\n\nThe New York-based startup raised a $15M Series A led by Earlybird Venture Capital, with Legion VC, Deel Ventures and existing backers Gradient and Y Combinator. Total funding is now $20M.\n\nFounded in 2024 by Vardhan Kapoor, formerly Deliveroo’s head of strategy, with CTO Shubham Choudhary.\n\nSources: Indian Startup News, Tech Funding News.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #YCombinator #HRTech #AI",
+      "headline": "This YC startup gets new hires to their first shift with AI agents, and just raised $15M",
+      "tag": "YC",
+      "company": "Firstwork",
+      "collaborators": [],
+      "threads_text": "This YC startup gets new hires to their first shift with AI agents, and just raised $15M\n\nAI agents that handle the paperwork between a frontline worker’s job offer and first shift.\n\nSource: Indian Startup News"
+    },
+    {
+      "n": "03",
+      "type": "carousel",
+      "images": [
+        "post-03-s1.png",
+        "post-03-s2.png",
+        "post-03-s3.png",
+        "post-03-s4.png",
+        "post-03-s5.png"
+      ],
+      "image": "post-03-s1.png",
+      "caption": "Swipe to see the startup building computers for AI agents.\n\nDaytona builds a cloud for long-running AI agents, giving each agent sandboxed access to Linux, Windows, macOS and GPUs on one platform. CEO Ivan Burazin calls it “like giving every agent its own computer.”\n\nThe New York-based startup raised a $60M Series B led by FirstMark Growth at a $1B valuation, with Qualcomm Ventures, Samsung Next and Okta Ventures. It has raised $91M in total.\n\nAngel investors include Patrick Collison (Stripe), Tobi Lütke (Shopify), Aravind Srinivas (Perplexity), Eric Yuan (Zoom) and Olivier Pomel (Datadog).\n\nSource: TechCrunch.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #AIAgents #Unicorn #AI",
+      "headline": "The founders of Stripe and Shopify backed this startup giving every AI agent its own computer. Now worth $1B",
+      "tag": "FUNDING",
+      "company": "Daytona",
+      "collaborators": [],
+      "threads_text": "The founders of Stripe and Shopify backed this startup giving every AI agent its own computer. Now worth $1B\n\nA cloud built for AI agents: each one gets its own sandboxed computer, from Linux to GPUs.\n\nSource: TechCrunch"
+    },
+    {
+      "n": "04",
+      "type": "carousel",
+      "images": [
+        "post-04-s1.png",
+        "post-04-s2.png",
+        "post-04-s3.png",
+        "post-04-s4.png"
+      ],
+      "image": "post-04-s1.png",
+      "caption": "Swipe to see the AI video startup Nvidia just backed.\n\nHiggsfield makes AI image and video tools for creators, brand marketers and agencies.\n\nOn October 23 it extended its Series B with new investment from TCV and NVIDIA. That round was led by DST Global in August, when Higgsfield raised $400M at a $5.4B valuation.\n\nThe company says it has more than 40 million users across 238 countries and crossed $1B in annualized revenue run rate in September, 18 months after launch.\n\nSources: Higgsfield, Indian Television.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #AI #Nvidia #GenerativeAI",
+      "headline": "Nvidia just invested in the AI video startup that hit $1B in revenue run rate in 18 months",
+      "tag": "AI",
+      "company": "Higgsfield",
+      "collaborators": [],
+      "threads_text": "Nvidia just invested in the AI video startup that hit $1B in revenue run rate in 18 months\n\nAI image and video tools that creators, brands and agencies use to make visual content.\n\nSource: Indian Television"
+    },
     {
       "n": "R1",
       "type": "carousel",
