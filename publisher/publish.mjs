@@ -204,8 +204,11 @@ async function postOne(next) {
     }
     save(); commit();
   } catch (e) {
-    if (/"code":4,|2207051|action is blocked/i.test(String(e.message))) state.blocked_until = new Date(Date.now() + 24 * 3600e3).toISOString();
+    const blocked = /"code":4,|2207051|action is blocked/i.test(String(e.message));
     const live = await findLive(next.caption, started);
+    // Instagram answers "action is blocked" on API posts that still go live (every case 10-18..10-22); only a block
+    // that really stopped the post pauses publishing for 24h — otherwise keep the normal spacing
+    if (blocked && !live) state.blocked_until = new Date(Date.now() + 24 * 3600e3).toISOString();
     if (live) {
       state.items[key] = { media_id: live, format: next.type, ts: new Date().toISOString(), headline: next.headline, tag: next.tag, company: next.company, note: 'went live despite an error' };
       state.last_ts = state.items[key].ts;

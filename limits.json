@@ -1,1 +1,1 @@
-{ "max_per_day": 3, "why": "2026-10-22: API publishing action-blocked on a new account while manual posts work; rebuild trust slowly, raise via the weekly ramp" }
+{ "max_per_day": 5, "why": "2026-10-25: owner asked to continue posting like before (5/day). Blocked-but-live posts no longer pause publishing." }
