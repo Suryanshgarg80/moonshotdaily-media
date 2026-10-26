@@ -283,9 +283,18 @@
       "tag": "CLIP",
       "company": "20vc-higgsfield",
       "permalink": "https://www.instagram.com/reel/De97cn1gicu/"
+    },
+    "2026-10-26/02": {
+      "media_id": "18124669807915804",
+      "format": "carousel",
+      "ts": "2026-10-26T22:50:07.387Z",
+      "headline": "This a16z-backed SF startup helps investigators search evidence with AI, and just raised $20M",
+      "tag": "A16Z",
+      "company": "Longeye",
+      "note": "went live despite an error"
     }
   },
-  "last_ts": "2026-10-26T18:30:20.107Z",
+  "last_ts": "2026-10-26T22:50:07.387Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -535,6 +544,13 @@
       "ts": "2026-10-26T18:30:20.412Z",
       "event": "clip_alert_sent",
       "key": "2026-10-26/C1"
+    },
+    {
+      "ts": "2026-10-26T22:50:07.387Z",
+      "event": "published_despite_error",
+      "key": "2026-10-26/02",
+      "media_id": "18124669807915804",
+      "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"A0iS9nWS"
     }
   ]
 }
