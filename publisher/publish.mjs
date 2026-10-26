@@ -198,6 +198,18 @@ async function postOne(next) {
       try { const sid = await publishContainer({ media_type: 'STORIES', image_url: url(next.story) }); event({ event: 'story_published', key, media_id: sid }); console.log('story', sid); }
       catch (e) { event({ event: 'story_failed', key, reason: String(e.message || e) }); }
     }
+    // licensed clips must be submitted on Whop within 30 minutes and Whop has no submission API, so ping the
+    // owner's phone (ntfy app, private topic in the NTFY_TOPIC secret) with the post link + the campaign page
+    if (next.tag === 'CLIP' && process.env.NTFY_TOPIC) {
+      try {
+        const link = (await call(`/${media_id}`, { fields: 'permalink' }, 'GET')).permalink;
+        state.items[key].permalink = link;
+        await fetch(`https://ntfy.sh/${process.env.NTFY_TOPIC}`, { method: 'POST', body: `Clip live: ${link}\nSubmit on Whop within 30 min.`,
+          headers: { Title: `Submit clip: ${String(next.headline).slice(0, 60)}`, Priority: 'high', Tags: 'moneybag',
+            ...(next.whop ? { Click: next.whop } : {}), Actions: `view, Open post, ${link}${next.whop ? `; view, Submit on Whop, ${next.whop}` : ''}` } });
+        event({ event: 'clip_alert_sent', key });
+      } catch (e) { event({ event: 'clip_alert_failed', key, reason: String(e.message || e).slice(0, 200) }); }
+    }
     if (THREADS_USER_ID && THREADS_ACCESS_TOKEN) {
       try { const tid = await postToThreads(next); state.items[key].threads_id = tid; event({ event: 'threads_published', key, media_id: tid }); console.log('threads', tid); }
       catch (e) { event({ event: 'threads_failed', key, reason: String(e.message || e).slice(0, 300) }); console.error('threads failed (instagram post is fine):', e.message || e); }
