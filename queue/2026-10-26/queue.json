@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-26",
+  "queued_at": "2026-10-26T08:31:55.806Z",
+  "items": [
+    {
+      "n": "01",
+      "type": "carousel",
+      "images": [
+        "post-01-s1.png",
+        "post-01-s2.png",
+        "post-01-s3.png",
+        "post-01-s4.png",
+        "post-01-s5.png"
+      ],
+      "image": "post-01-s1.png",
+      "caption": "Swipe to see the YC startup that listens to machines before they break.\n\nTractian makes sensors and AI software that monitor industrial equipment, from pumps to motors, and flag problems before a breakdown stops a factory line. Companies pay for the platform to keep machines running.\n\nCongrats @get.tractian\n\nThe company raised a $130M Series D at a $1.4B valuation. Sapphire Ventures led, with M&G's Catalyst as co-lead, and N47, General Catalyst, Bosch Ventures, Monashees and Y Combinator joined.\n\nIts tech is used in more than 2,000 facilities, with customers including Coca-Cola, Whirlpool, Eli Lilly, McKesson and Embraer. CEO Igor Marinelli says the money will help it scale the platform even further.\n\nSources: AI Insider, Tractian, Verdict.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #YCombinator #AI #Manufacturing",
+      "headline": "This YC startup predicts factory breakdowns. Now worth $1.4B",
+      "tag": "YC",
+      "company": "Tractian",
+      "collaborators": [
+        "get.tractian"
+      ],
+      "threads_text": "This YC startup predicts factory breakdowns. Now worth $1.4B\n\nSensors plus AI that watch industrial machines and warn teams before something fails.\n\nSource: AI Insider",
+      "story": "story-01.png"
+    },
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-20vc-03.mp4",
+      "image": "clip-20vc-03-cover.jpg",
+      "caption": "Higgsfield's CEO Alex Mashrabov says Google and OpenAI are going to demolish the $20-a-month prosumer AI subscription market.\n\nHis reasoning: as their broad, horizontal products get very good, people will stop paying $20 or $30 a month for many specialized tools. He calls it a contrarian bet, but says some of that is already visible, and that he does not expect to win in a market of $20 subscriptions.\n\nFull conversation: 20VC with Harry Stebbings and Alex Mashrabov, founder of Higgsfield.\n@higgsfield.ai @20vchq\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#ad #AI #Startup #20VC #Higgsfield",
+      "headline": "Higgsfield's CEO: Google and OpenAI will kill $20 AI subscriptions",
+      "tag": "CLIP",
+      "company": "20vc-higgsfield",
+      "clip_id": "20vc-03",
+      "collaborators": [],
+      "threads_text": "Higgsfield's CEO: Google and OpenAI will kill $20 AI subscriptions"
+    },
+    {
+      "n": "02",
+      "type": "carousel",
+      "images": [
+        "post-02-s1.png",
+        "post-02-s2.png",
+        "post-02-s3.png",
+        "post-02-s4.png",
+        "post-02-s5.png"
+      ],
+      "image": "post-02-s1.png",
+      "caption": "Swipe to see the startup giving investigators an AI evidence search.\n\nLongeye builds AI software that helps justice agencies sift through jail calls, phone extractions, video, financial records and huge document sets. Every finding links back to the original message, document or recording so investigators can check it.\n\nThe San Francisco startup raised a $20M Series A led by N47, with Andreessen Horowitz's American Dynamism practice participating. That brings total funding to $25M since its 2025 launch.\n\nMore than 50 agencies use it, including about 30 public defenders' offices, plus police, sheriff and district attorneys' offices. It has been used on over 2,300 investigations.\n\nSources: InfotechLead, Longeye, Inc.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #a16z #AI #GovTech",
+      "headline": "This a16z-backed SF startup helps investigators search evidence with AI, and just raised $20M",
+      "tag": "A16Z",
+      "company": "Longeye",
+      "collaborators": [],
+      "threads_text": "This a16z-backed SF startup helps investigators search evidence with AI, and just raised $20M\n\nAI that searches jail calls, phone data, video and records, and cites the source of every finding.\n\nSource: InfotechLead"
+    },
+    {
+      "n": "03",
+      "type": "carousel",
+      "images": [
+        "post-03-s1.png",
+        "post-03-s2.png",
+        "post-03-s3.png",
+        "post-03-s4.png",
+        "post-03-s5.png"
+      ],
+      "image": "post-03-s1.png",
+      "caption": "Swipe to see the AI lab worth $6B before selling a single product.\n\nFlapping Airplanes is a San Francisco AI lab, founded in late 2025 by brothers Asher and Ben Spector with Aidan Smith. It is researching how to train AI models with less data and computing power, and plans to eventually sell that technology so AI gets cheaper for other companies.\n\nThe lab raised $1B in a Series A at a $6B valuation, about four times its value after a $180M seed in January. Index Ventures and Lux Capital led, with Sequoia, GV and Kleiner Perkins joining. Nvidia is also an investor.\n\nIts bet: demand for AI will outpace the supply of chips and data. Getting even 10% more out of each chip would be hugely valuable, Asher Spector said.\n\nSources: The Daily Star, The Next Web, Bloomberg.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #AI #SanFrancisco #AIResearch",
+      "headline": "This year-old AI lab has no product yet, and just raised $1 billion",
+      "tag": "AI",
+      "company": "Flapping Airplanes",
+      "collaborators": [],
+      "threads_text": "This year-old AI lab has no product yet, and just raised $1 billion\n\nAn SF lab working on ways to train AI with far less data and computing power.\n\nSource: The Daily Star"
+    },
+    {
+      "n": "04",
+      "type": "carousel",
+      "images": [
+        "post-04-s1.png",
+        "post-04-s2.png",
+        "post-04-s3.png",
+        "post-04-s4.png",
+        "post-04-s5.png"
+      ],
+      "image": "post-04-s1.png",
+      "caption": "Swipe to see the AI finance employee small businesses can text.\n\nBOB is a Miami startup that acts like a finance hire for Main Street businesses such as roofers, restaurants and local service firms. It does bookkeeping, sends invoices, takes payments and shows cash flow, all through apps owners already use: WhatsApp, text, Slack, Teams or email.\n\nIt raised a $5.5M seed round led by Mischief, the firm co-founded by Plaid's Zach Perret. Peter Thiel, Codie Sanchez, Mark Pincus and Karman Ventures also invested.\n\nBOB is free while in private beta and about 500 businesses have signed up. The team of around 10 is led by CEO Adam Wininger, CTO Jason Brill and CPO Kody Greenbaum.\n\nSources: Dealroom, Refresh Miami.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #Fintech #SmallBusiness #AI",
+      "headline": "Peter Thiel just backed an AI 'finance employee' you text on WhatsApp. It raised $5.5M",
+      "tag": "FUNDING",
+      "company": "BOB",
+      "collaborators": [],
+      "threads_text": "Peter Thiel just backed an AI 'finance employee' you text on WhatsApp. It raised $5.5M\n\nAn AI finance hire for small businesses: bookkeeping, invoices, payments and cash flow by text.\n\nSource: Dealroom"
+    }
+  ]
+}
