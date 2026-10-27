@@ -301,9 +301,18 @@
       "tag": "AI",
       "company": "Flapping Airplanes",
       "note": "went live despite an error"
+    },
+    "2026-10-27/C1": {
+      "media_id": "18015441791983640",
+      "format": "reel",
+      "ts": "2026-10-27T18:23:51.223Z",
+      "headline": "Higgsfield's CEO: I was wrong about AI replacing support teams",
+      "tag": "CLIP",
+      "company": "20vc-higgsfield",
+      "permalink": "https://www.instagram.com/reel/DfAfeHBiioD/"
     }
   },
-  "last_ts": "2026-10-27T14:10:09.452Z",
+  "last_ts": "2026-10-27T18:23:51.223Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -567,6 +576,18 @@
       "key": "2026-10-26/03",
       "media_id": "18342728068257777",
       "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AUTFbR_3"
+    },
+    {
+      "ts": "2026-10-27T18:23:51.223Z",
+      "event": "published",
+      "key": "2026-10-27/C1",
+      "format": "reel",
+      "media_id": "18015441791983640"
+    },
+    {
+      "ts": "2026-10-27T18:23:51.478Z",
+      "event": "clip_alert_sent",
+      "key": "2026-10-27/C1"
     }
   ]
 }
