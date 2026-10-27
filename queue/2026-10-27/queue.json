@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-27",
+  "queued_at": "2026-10-27T18:06:49.651Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-20vc-04.mp4",
+      "image": "clip-20vc-04-cover.jpg",
+      "caption": "Higgsfield's CEO Alex Mashrabov says he was wrong to expect AI to mostly replace legal and customer support teams, and that not hiring for them quickly enough was one of the company's main mistakes.\n\nToday Higgsfield has more than 10 people in legal and over 40 in customer success, and all of them use AI heavily. He says AI can probably handle over 60% of first-line support requests, but in B2B it just doesn't work on its own.\n\nFull conversation: 20VC with Harry Stebbings and Alex Mashrabov, founder of Higgsfield.\n@higgsfield.ai @20vchq\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#ad #AI #Startup #20VC #Higgsfield",
+      "headline": "Higgsfield's CEO: I was wrong about AI replacing support teams",
+      "tag": "CLIP",
+      "company": "20vc-higgsfield",
+      "clip_id": "20vc-04",
+      "whop": "https://contentrewards.com/c/campaigns/1ccf8238-ca36-4ff3-a6d1-76956d865ada",
+      "collaborators": [],
+      "threads_text": "Higgsfield's CEO: I was wrong about AI replacing support teams"
+    },
+    {
+      "n": "01",
+      "type": "carousel",
+      "images": [
+        "post-01-s1.png",
+        "post-01-s2.png",
+        "post-01-s3.png",
+        "post-01-s4.png"
+      ],
+      "image": "post-01-s1.png",
+      "caption": "Swipe to see the numbers inside Anthropic's IPO filing.\n\nAnthropic, the San Francisco AI company behind Claude, has publicly filed to list on the Nasdaq under the ticker ANT. It makes money by selling access to its AI models to businesses, developers and consumers.\n\nThe filing shows $16.29B in revenue for the first half of 2026, up from $1.16B a year earlier, including $11.56B in the second quarter alone. It reported an $80.75B net loss, mostly from a non-cash accounting charge rather than cash spending.\n\nThe price range, number of shares and valuation are still blank, so the listing date is not set yet. Axios reports the IPO could create a wave of new wealth in San Francisco.\n\nSources: Axios, CNBC.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #IPO #AI #Anthropic",
+      "headline": "Anthropic just filed to go public on Nasdaq as ANT",
+      "tag": "IPO",
+      "company": "Anthropic",
+      "collaborators": [],
+      "threads_text": "Anthropic just filed to go public on Nasdaq as ANT\n\nThe San Francisco company behind Claude, selling AI models to businesses, developers and consumers.\n\nSource: Axios",
+      "story": "story-01.png"
+    },
+    {
+      "n": "02",
+      "type": "carousel",
+      "images": [
+        "post-02-s1.png",
+        "post-02-s2.png",
+        "post-02-s3.png",
+        "post-02-s4.png",
+        "post-02-s5.png"
+      ],
+      "image": "post-02-s1.png",
+      "caption": "Swipe to see the YC startup cleaning up hospital data for medical AI.\n\nBioStack connects scattered clinical information, like doctor notes, lab results, scans, medications and outcomes, into complete patient records. AI and biotech companies use that de-identified data to train their models.\n\nThe company raised a $9.5M seed round from Peak XV, Afore Capital, DCVC, Emerson Collective, SV Angel, Verdict Capital, Streamlined Ventures and Y Combinator.\n\nIts network already covers more than 100 million de-identified patient records across the US, India, Brazil and Argentina. The money goes to US and international expansion, hospital partnerships and growing the engineering team.\n\nSources: The Economic Times, Digital Health News.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #YCombinator #HealthTech #AI",
+      "headline": "This YC startup turns messy hospital records into AI training data. Just raised $9.5M",
+      "tag": "YC",
+      "company": "BioStack",
+      "collaborators": [],
+      "threads_text": "This YC startup turns messy hospital records into AI training data. Just raised $9.5M\n\nConnects scattered patient data (notes, labs, scans, outcomes) for AI and biotech teams.\n\nSource: The Economic Times"
+    },
+    {
+      "n": "03",
+      "type": "carousel",
+      "images": [
+        "post-03-s1.png",
+        "post-03-s2.png",
+        "post-03-s3.png",
+        "post-03-s4.png",
+        "post-03-s5.png"
+      ],
+      "image": "post-03-s1.png",
+      "caption": "Swipe to see the startup putting self-driving tech into excavators.\n\nBedrock Robotics, based in San Francisco, makes an autonomy kit that is installed on excavators and other machines contractors already own, so they can work on construction sites by themselves. It was founded by former Waymo engineers.\n\nThe company raised a $600M Series C at a $4.1B valuation, co-led by CapitalG and Emergence Capital, with Bessemer, Temasek, NVIDIA, 8VC and Eclipse also investing. In February it raised $270M at a $1.75B valuation.\n\nIts machines started paid work in August, at sites in Nevada and Texas and on a 1.2 million cubic yard earthworks project with Zachry Construction.\n\nSources: TechCrunch, Bedrock Robotics.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #Robotics #Construction #AI",
+      "headline": "SF startup behind self-driving excavators is now worth $4.1B",
+      "tag": "SF",
+      "company": "Bedrock Robotics",
+      "collaborators": [],
+      "threads_text": "SF startup behind self-driving excavators is now worth $4.1B\n\nA kit that retrofits excavators contractors already own, so the machines can dig on their own.\n\nSource: TechCrunch"
+    }
+  ]
+}
