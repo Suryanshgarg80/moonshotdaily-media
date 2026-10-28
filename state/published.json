@@ -337,9 +337,18 @@
       "tag": "CLIP",
       "company": "20vc-higgsfield",
       "permalink": "https://www.instagram.com/reel/DfCrg72CMtY/"
+    },
+    "2026-10-28/01": {
+      "media_id": "18131429992740450",
+      "format": "carousel",
+      "ts": "2026-10-28T19:01:45.521Z",
+      "headline": "This SF startup will pay you $20 an hour to walk its robot dogs",
+      "tag": "SF",
+      "company": "Dimensional",
+      "note": "went live despite an error"
     }
   },
-  "last_ts": "2026-10-28T14:47:31.792Z",
+  "last_ts": "2026-10-28T19:01:45.521Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -641,6 +650,13 @@
       "ts": "2026-10-28T14:47:32.347Z",
       "event": "clip_alert_sent",
       "key": "2026-10-28/C1"
+    },
+    {
+      "ts": "2026-10-28T19:01:45.522Z",
+      "event": "published_despite_error",
+      "key": "2026-10-28/01",
+      "media_id": "18131429992740450",
+      "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AKrXf4cN"
     }
   ]
 }
