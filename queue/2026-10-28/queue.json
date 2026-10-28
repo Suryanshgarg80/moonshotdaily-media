@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-28",
+  "queued_at": "2026-10-28T07:50:37.938Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-20vc-05.mp4",
+      "image": "clip-20vc-05-cover.jpg",
+      "caption": "Higgsfield's CEO Alex Mashrabov says the very best engineers and creatives could soon each spend close to $50K to $100K a month on AI.\n\nHarry Stebbings asks him where Higgsfield's internal AI spend, about $4 million or roughly $10,000 per head, will be in 12 months. Alex's guess: it keeps growing for top performers, and he expects those people to ask for comparable salary raises too.\n\nFull conversation: 20VC with Harry Stebbings and Alex Mashrabov, founder of Higgsfield.\n@higgsfield.ai @20vchq\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#ad #AI #Startup #20VC #Higgsfield",
+      "headline": "Top creatives could soon spend $100,000 a month on AI",
+      "tag": "CLIP",
+      "company": "20vc-higgsfield",
+      "clip_id": "20vc-05",
+      "whop": "https://contentrewards.com/c/campaigns/1ccf8238-ca36-4ff3-a6d1-76956d865ada",
+      "collaborators": [],
+      "threads_text": "Top creatives could soon spend $100,000 a month on AI"
+    },
+    {
+      "n": "01",
+      "type": "carousel",
+      "images": [
+        "post-01-s1.png",
+        "post-01-s2.png",
+        "post-01-s3.png",
+        "post-01-s4.png"
+      ],
+      "image": "post-01-s1.png",
+      "caption": "Swipe to see the SF startup hiring humans to walk its robot dogs.\n\nDimensional, a robotics startup based in San Francisco, is building dimOS, open-source software that lets AI agents control robots using plain-language instructions.\n\nThe company posted a job paying $20 an hour for a robot-dog handler: walk alongside a four-legged robot on an outdoor route in downtown San Francisco for four to six hours. No robotics experience needed. The listing has since been taken down.\n\nThe point is data. Walkers steer the robots while onboard cameras and sensors record each trip, giving Dimensional real examples of how people navigate city streets so its robots can learn to do it on their own. Founder Stash Pomichter told The New York Times that AI agents are still bad at controlling hardware. One catch from the ad: if a robot overheats, the walker may have to carry it back to the office.\n\nSources: San Francisco Examiner, Digital Trends.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #Robotics #SanFrancisco #AI",
+      "headline": "This SF startup will pay you $20 an hour to walk its robot dogs",
+      "tag": "SF",
+      "company": "Dimensional",
+      "collaborators": [],
+      "threads_text": "This SF startup will pay you $20 an hour to walk its robot dogs\n\nBuilds dimOS, open-source software that lets AI agents control robots with plain-language commands.\n\nSource: San Francisco Examiner",
+      "story": "story-01.png"
+    },
+    {
+      "n": "02",
+      "type": "carousel",
+      "images": [
+        "post-02-s1.png",
+        "post-02-s2.png",
+        "post-02-s3.png",
+        "post-02-s4.png",
+        "post-02-s5.png"
+      ],
+      "image": "post-02-s1.png",
+      "caption": "Swipe to see the YC startup bringing US stock trading to India.\n\nMochatrade lets traders in India put money in through UPI, in rupees, and trade perpetual futures on US stocks. Perpetuals let a trader bet on a stock going up or down without owning the shares, and they have no expiry date.\n\nCongrats @mochatrade\n\nThe company raised a $5.5M seed round led by CoinFund, with Coinbase Ventures and Zero Knowledge Ventures joining. Y Combinator and Pioneer Fund backed it earlier.\n\nMochatrade was founded in April 2026 by Utkarsh Sinha, Chetan Manda and Parth Maheshwari, and went through the YC Spring 2026 batch. It plans to spend the money on its trading engine and risk systems, and to add contracts tied to pre-IPO companies. Leveraged derivatives are high risk; this is news, not advice.\n\nSources: The Block, Inc42.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #Fintech #YCombinator #India",
+      "headline": "This YC startup lets Indian traders bet on US stocks in rupees — and just raised $5.5M",
+      "tag": "YC",
+      "company": "Mochatrade",
+      "collaborators": [
+        "mochatrade"
+      ],
+      "threads_text": "This YC startup lets Indian traders bet on US stocks in rupees — and just raised $5.5M\n\nAn app where traders in India pay in with UPI and trade perpetual futures on US stocks.\n\nSource: The Block"
+    },
+    {
+      "n": "03",
+      "type": "carousel",
+      "images": [
+        "post-03-s1.png",
+        "post-03-s2.png",
+        "post-03-s3.png",
+        "post-03-s4.png"
+      ],
+      "image": "post-03-s1.png",
+      "caption": "Swipe to see the robotics startup investors want at $20B.\n\nPhysical Intelligence builds AI models meant to work as a general-purpose brain for robots, so the same model can control many kinds of machines.\n\nBloomberg reports the company is in early talks to raise at least $1B at a valuation of about $20B, with existing backers Avenir and Lux Capital reportedly leading. Nothing is final and terms could change.\n\nThat would nearly double the roughly $11.5B valuation it reportedly reached earlier this year, and the company is still pre-revenue. Founded in 2024 by former Google DeepMind researchers and academics from Stanford and UC Berkeley, it opened beta access to its latest robot models for outside developers earlier this month.\n\nSources: Bloomberg, Quartz.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #Robotics #AI #SiliconValley",
+      "headline": "This robot-brain startup has no revenue — and is reportedly in talks at a $20B valuation",
+      "tag": "AI",
+      "company": "Physical Intelligence",
+      "collaborators": [],
+      "threads_text": "This robot-brain startup has no revenue — and is reportedly in talks at a $20B valuation\n\nBuilds AI models that act as a general-purpose brain for robots, so one model can run many machines.\n\nSource: Bloomberg"
+    }
+  ]
+}
