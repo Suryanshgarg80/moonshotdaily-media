@@ -355,9 +355,18 @@
       "tag": "YC",
       "company": "Mochatrade",
       "note": "went live despite an error"
+    },
+    "2026-10-28/03": {
+      "media_id": "17990727489098286",
+      "format": "carousel",
+      "ts": "2026-10-29T02:36:58.015Z",
+      "headline": "This robot-brain startup has no revenue — and is reportedly in talks at a $20B valuation",
+      "tag": "AI",
+      "company": "Physical Intelligence",
+      "note": "went live despite an error"
     }
   },
-  "last_ts": "2026-10-28T22:24:17.585Z",
+  "last_ts": "2026-10-29T02:36:58.015Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -673,6 +682,13 @@
       "key": "2026-10-28/02",
       "media_id": "18057382400583434",
       "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"Akdpu9P0"
+    },
+    {
+      "ts": "2026-10-29T02:36:58.015Z",
+      "event": "published_despite_error",
+      "key": "2026-10-28/03",
+      "media_id": "17990727489098286",
+      "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AWvIzDtW"
     }
   ]
 }
