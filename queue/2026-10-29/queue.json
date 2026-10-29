@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-29",
+  "queued_at": "2026-10-29T08:42:33.976Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-20vc-06.mp4",
+      "image": "clip-20vc-06-cover.jpg",
+      "caption": "Higgsfield's CEO Alex Mashrabov says that for every 90 minutes of TV-quality content they made, they generated over 100 hours of AI footage.\n\nHe shares it while explaining that Higgsfield has an in-house team of more than 150 creative professionals, almost half the company, who make product launch videos, tutorials and even an AI-generated movie that they open sourced. His takeaway: creative decision-making, like picking the right shot, still matters a lot.\n\nFull conversation: 20VC with Harry Stebbings and Alex Mashrabov, founder of Higgsfield.\n@higgsfield.ai @20vchq\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#ad #AI #Startup #20VC #Higgsfield",
+      "headline": "90 minutes of film took 100+ hours of AI footage",
+      "tag": "CLIP",
+      "company": "20vc-higgsfield",
+      "clip_id": "20vc-06",
+      "whop": "https://contentrewards.com/c/campaigns/1ccf8238-ca36-4ff3-a6d1-76956d865ada",
+      "collaborators": [],
+      "threads_text": "90 minutes of film took 100+ hours of AI footage"
+    },
+    {
+      "n": "01",
+      "type": "carousel",
+      "images": [
+        "post-01-s1.png",
+        "post-01-s2.png",
+        "post-01-s3.png",
+        "post-01-s4.png",
+        "post-01-s5.png"
+      ],
+      "image": "post-01-s1.png",
+      "caption": "Swipe to see the SF startup that turned down Datadog and raised at the same price instead.\n\nUpwind is a San Francisco cloud security company. Its software watches the services a company is actually running and uses AI to spot and fix attacks and weak points in real time.\n\nCongrats @upwindsecurity\n\nUpwind raised a $400M Series C at a $3.8B valuation, led by Bessemer Venture Partners with existing backers Greylock and Craft Ventures. According to TechCrunch, Datadog tried to buy the company but did not offer more than that $3.8B price, so Upwind chose to stay independent.\n\nThe growth explains why. Nine months ago Upwind raised $250M at a $1.5B valuation. It now adds $20M to $30M in annual recurring revenue every quarter and expects to finish the year around $90M. Founder Amiram Shachar has done this before: he sold his last startup, Spot.io, to NetApp for $450M.\n\nSources: TechCrunch, SiliconANGLE.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #Cybersecurity #SanFrancisco #CloudSecurity",
+      "headline": "This SF startup said no to Datadog — then raised $400M at a $3.8B valuation",
+      "tag": "SF",
+      "company": "Upwind",
+      "collaborators": [
+        "upwindsecurity"
+      ],
+      "threads_text": "This SF startup said no to Datadog — then raised $400M at a $3.8B valuation\n\nUses AI to protect companies' cloud systems, catching attacks on live services in real time.\n\nSource: TechCrunch",
+      "story": "story-01.png"
+    },
+    {
+      "n": "02",
+      "type": "carousel",
+      "images": [
+        "post-02-s1.png",
+        "post-02-s2.png",
+        "post-02-s3.png",
+        "post-02-s4.png"
+      ],
+      "image": "post-02-s1.png",
+      "caption": "Swipe to see the YC startup getting AI chatbots to recommend your product.\n\nManicule calls what it does \"agent relations\". When developers ask ChatGPT, Claude or Gemini which tool to use, Manicule wants its clients to be the answer. Its team writes the docs, content and benchmarks, and its software tracks how each AI describes a brand.\n\nThe San Francisco startup, part of Y Combinator's Spring 2026 batch, has raised $1.3M from Y Combinator, according to citybiz.\n\nThe founders started young. CEO Naman Bansal has done developer relations work since he was 13, and CTO Shreyans Jain, 19, was previously a founding engineer at Supermemory. Customers already include Greptile, Supermemory, Rootly and PromptLayer, and the company says one client saw 90% more traffic in three months. The team is 8 people.\n\nSources: citybiz, Y Combinator.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #YCombinator #AI #DeveloperTools",
+      "headline": "This YC startup gets AI chatbots to recommend your product — and just raised $1.3M",
+      "tag": "YC",
+      "company": "Manicule",
+      "collaborators": [],
+      "threads_text": "This YC startup gets AI chatbots to recommend your product — and just raised $1.3M\n\nServices and software that help developer tools get found and used by AI like ChatGPT and Claude.\n\nSource: citybiz"
+    },
+    {
+      "n": "03",
+      "type": "carousel",
+      "images": [
+        "post-03-s1.png",
+        "post-03-s2.png",
+        "post-03-s3.png",
+        "post-03-s4.png"
+      ],
+      "image": "post-03-s1.png",
+      "caption": "Swipe to see how fast the AI coding startup behind Devin is climbing.\n\nCognition makes Devin, an AI agent that can plan, write and fix code on its own, the way a software engineer would. Companies pay to put it to work on their codebases.\n\nAccording to Business Insider, Cognition is weighing a new funding round at a valuation of $70 billion to $80 billion. Nothing has been announced, and the numbers could still change.\n\nThe pace is the story. In May, Cognition was valued at $26B. In September it raised more than $2B at a $48B valuation in a round led by a16z and Accel, with Founders Fund, General Catalyst and Avenir also investing. A deal at $70B or more would mean the company's value nearly tripled in about half a year.\n\nSources: Business Insider, Latham & Watkins.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #AI #a16z #SoftwareEngineering",
+      "headline": "The a16z-backed maker of AI coder Devin is reportedly weighing a $70B–$80B valuation",
+      "tag": "A16Z",
+      "company": "Cognition",
+      "collaborators": [],
+      "threads_text": "The a16z-backed maker of AI coder Devin is reportedly weighing a $70B–$80B valuation\n\nCognition builds Devin, an AI that writes and fixes code on its own like a software engineer.\n\nSource: Business Insider"
+    }
+  ]
+}
