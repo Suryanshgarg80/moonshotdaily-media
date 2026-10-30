@@ -200,7 +200,7 @@ async function postOne(next) {
     }
     // licensed clips must be submitted on Whop within 30 minutes and Whop has no submission API, so ping the
     // owner's phone (ntfy app, private topic in the NTFY_TOPIC secret) with the post link + the campaign page
-    if (next.tag === 'CLIP' && process.env.NTFY_TOPIC) {
+    if (next.tag === 'CLIP' && next.whop && process.env.NTFY_TOPIC) { // paid Whop clips only; FREE_CLIP needs no submission
       try {
         const link = (await call(`/${media_id}`, { fields: 'permalink' }, 'GET')).permalink;
         state.items[key].permalink = link;
