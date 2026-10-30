@@ -400,9 +400,18 @@
       "tag": "A16Z",
       "company": "Cognition",
       "note": "went live despite an error"
+    },
+    "2026-10-30/C1": {
+      "media_id": "18183899455429646",
+      "format": "reel",
+      "ts": "2026-10-30T14:14:55.397Z",
+      "headline": "Their AI film prompts are 3,000 words long",
+      "tag": "CLIP",
+      "company": "20vc-higgsfield",
+      "permalink": "https://www.instagram.com/reel/DfHxYPkHIVV/"
     }
   },
-  "last_ts": "2026-10-30T02:48:54.470Z",
+  "last_ts": "2026-10-30T14:14:55.397Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -758,6 +767,18 @@
       "key": "2026-10-29/03",
       "media_id": "18149633077487790",
       "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"ALoZGAiK"
+    },
+    {
+      "ts": "2026-10-30T14:14:55.397Z",
+      "event": "published",
+      "key": "2026-10-30/C1",
+      "format": "reel",
+      "media_id": "18183899455429646"
+    },
+    {
+      "ts": "2026-10-30T14:14:55.632Z",
+      "event": "clip_alert_sent",
+      "key": "2026-10-30/C1"
     }
   ]
 }
