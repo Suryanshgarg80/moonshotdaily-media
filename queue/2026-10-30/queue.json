@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-30",
+  "queued_at": "2026-10-30T09:32:14.495Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-20vc-07.mp4",
+      "image": "clip-20vc-07-cover.jpg",
+      "caption": "Higgsfield founder Alex Mashrabov says the average prompt behind their open-source AI movie is over 3,000 words long.\n\nHe adds that each scene also uses at least 10 image references, to pin down how characters look, the background and where everyone stands. His point: real AI filmmaking workflows are far more complex than what today's benchmarks measure.\n\nFull conversation: 20VC with Harry Stebbings and Alex Mashrabov, founder of Higgsfield.\n@higgsfield.ai @20vchq\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#ad #AI #Startup #20VC #Higgsfield",
+      "headline": "Their AI film prompts are 3,000 words long",
+      "tag": "CLIP",
+      "company": "20vc-higgsfield",
+      "clip_id": "20vc-07",
+      "whop": "https://contentrewards.com/c/campaigns/1ccf8238-ca36-4ff3-a6d1-76956d865ada",
+      "collaborators": [],
+      "threads_text": "Their AI film prompts are 3,000 words long"
+    },
+    {
+      "n": "01",
+      "type": "carousel",
+      "images": [
+        "post-01-s1.png",
+        "post-01-s2.png",
+        "post-01-s3.png",
+        "post-01-s4.png",
+        "post-01-s5.png"
+      ],
+      "image": "post-01-s1.png",
+      "caption": "Swipe to see the startup using AI to design entire buildings, not just pictures of them.\n\nDream builds what it calls built world models: AI that generates full building plans, including structure, plumbing and HVAC, and checks them against physics and building codes. Architects, engineers and developers use it to sketch out designs and estimate costs.\n\nThe company just came out of stealth with a $17M seed round led by Andreessen Horowitz, with SV Angel, XYZ and Zigg Capital also investing. a16z partner Kimberly Tan says the firm first backed Dream more than a year ago, when it was just an idea.\n\nFounders Andy Elder and Arjun Mathur were Stanford roommates who then spent a decade at Palantir. Their model was trained on more than 100 million square feet of building data from US permit archives, and it is already running on 10 active projects in Texas and California. The goal: replace tools like AutoCAD and Revit.\n\nSources: TechCrunch, Dream.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #a16z #ConstructionTech #ArtificialIntelligence",
+      "headline": "Two ex-Palantir roommates built an AI that designs whole buildings — and a16z just put in $17M",
+      "tag": "A16Z",
+      "company": "Dream",
+      "collaborators": [
+        "a16z"
+      ],
+      "threads_text": "Two ex-Palantir roommates built an AI that designs whole buildings — and a16z just put in $17M\n\nAI that drafts full building plans for architects, checked against real physics and building code.\n\nSource: TechCrunch",
+      "story": "story-01.png"
+    },
+    {
+      "n": "02",
+      "type": "carousel",
+      "images": [
+        "post-02-s1.png",
+        "post-02-s2.png",
+        "post-02-s3.png",
+        "post-02-s4.png"
+      ],
+      "image": "post-02-s1.png",
+      "caption": "Swipe to see the tiny YC startup that just got bought for making products easier for AI assistants to find.\n\nAnglera takes the messy product data stores get from suppliers, like spreadsheets, spec-sheet PDFs and images, and uses AI to fill in and fix it. When a shopper asks an AI assistant whether a part will fit, clean data is what lets the store's product show up.\n\nMontreal-based Coveo, whose search and AI tools are used by retailers, manufacturers and tech companies, has acquired the San Francisco startup for an undisclosed amount. It is Coveo's first acquisition in five years. Its CEO said Coveo had considered building something similar, but bought Anglera because its product was already showing results and is ready to sell today.\n\nFormer Uber product managers Ray Iyer and Amay Aggarwal started Anglera in 2024 and went through Y Combinator. All five employees are joining Coveo's 800-person team, and existing Anglera customers stay on its platform.\n\nSources: The Globe and Mail, Dealroom, Unite.AI.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #YCombinator #Acquisition #Ecommerce #ArtificialIntelligence",
+      "headline": "This 5-person YC startup fixes messy product listings for AI shopping bots — and just got acquired",
+      "tag": "YC",
+      "company": "Anglera",
+      "collaborators": [],
+      "threads_text": "This 5-person YC startup fixes messy product listings for AI shopping bots — and just got acquired\n\nAI that turns messy supplier spreadsheets, PDFs and photos into clean product data stores can use.\n\nSource: Dealroom"
+    },
+    {
+      "n": "03",
+      "type": "carousel",
+      "images": [
+        "post-03-s1.png",
+        "post-03-s2.png",
+        "post-03-s3.png",
+        "post-03-s4.png",
+        "post-03-s5.png"
+      ],
+      "image": "post-03-s1.png",
+      "caption": "Swipe to see the startup that doesn't sell robots. It runs the whole factory.\n\nFoundry Robotics builds complex electromechanical hardware, like drones, satellites, wire harnesses and underwater vehicles, for defense and commercial customers. It owns and runs the factory itself, using AI-powered robotic cells and technicians, and charges companies to manufacture for them.\n\nThe company raised an oversubscribed $100M Series A led by Marlinspike Partners. Khosla Ventures and Red Glass Ventures came back, and SE Ventures, Wing VC and Axiom Ventures joined.\n\nThe money goes into a new 130,000-square-foot factory in Emeryville, which grows its manufacturing footprint twentyfold. Founder and CEO Adarsh Kulkarni was employee number four at Ghost Robotics and later led robotics at Scale AI, and co-founder Emmanuel Lamacchia ran the Tesla Model Y program. Foundry says it can move a product from design to production in weeks.\n\nSources: San Francisco Business Times, Ventureburn.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #Robotics #Manufacturing #BayArea",
+      "headline": "This Bay Area startup runs a robot-powered factory for drones and satellites — and just raised $100M",
+      "tag": "SF",
+      "company": "Foundry Robotics",
+      "collaborators": [],
+      "threads_text": "This Bay Area startup runs a robot-powered factory for drones and satellites — and just raised $100M\n\nBuilds complex hardware for other companies in its own factory, run by AI robots and technicians.\n\nSource: San Francisco Business Times"
+    }
+  ]
+}
