@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "queued_at": "2026-10-30T09:32:14.495Z",
+  "queued_at": "2026-10-30T10:37:59.592Z",
   "items": [
     {
       "n": "C1",
@@ -36,6 +36,20 @@
       ],
       "threads_text": "Two ex-Palantir roommates built an AI that designs whole buildings — and a16z just put in $17M\n\nAI that drafts full building plans for architects, checked against real physics and building code.\n\nSource: TechCrunch",
       "story": "story-01.png"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-altman-01.mp4",
+      "image": "clip-free-altman-01-cover.jpg",
+      "caption": "Sam Altman says that in some narrow areas, certainly mathematical reasoning, \"as far as I am concerned, we have superintelligence now\", and that he did not think it would happen this fast.\n\nSpeaking at Stanford GSB, the OpenAI CEO says the last six months of progress have tested his convictions. If another year or two goes at this rate, he thinks we will have to change how we think about pacing AI progress.\n\nSource: Stanford GSB, View From The Top with Sam Altman (co-founder and CEO of OpenAI). Full video: youtube.com/watch?v=anAmTGcewX8\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#SamAltman #OpenAI #AI #Startup #Stanford #YCombinator",
+      "headline": "Sam Altman: in math, we have superintelligence now",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-gsb",
+      "clip_id": "free-altman-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Sam Altman: in math, we have superintelligence now"
     },
     {
       "n": "02",
