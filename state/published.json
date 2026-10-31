@@ -462,9 +462,17 @@
       "tag": "A16Z",
       "company": "Rune Technologies",
       "note": "went live despite an error"
+    },
+    "2026-10-31/C2": {
+      "media_id": "18647885659030829",
+      "format": "reel",
+      "ts": "2026-10-31T20:35:31.665Z",
+      "headline": "Sam Altman almost became an investment banker",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-gsb"
     }
   },
-  "last_ts": "2026-10-31T17:12:57.283Z",
+  "last_ts": "2026-10-31T20:35:31.665Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -879,6 +887,13 @@
       "key": "2026-10-31/01",
       "media_id": "17990514804088934",
       "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AFAvMXPC"
+    },
+    {
+      "ts": "2026-10-31T20:35:31.665Z",
+      "event": "published",
+      "key": "2026-10-31/C2",
+      "format": "reel",
+      "media_id": "18647885659030829"
     }
   ]
 }
