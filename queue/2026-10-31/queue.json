@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-31",
+  "queued_at": "2026-10-31T07:51:11.714Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-20vc-08.mp4",
+      "image": "clip-20vc-08-cover.jpg",
+      "caption": "Higgsfield founder Alex Mashrabov says the company launches new products pretty much every week, and that speed makes customer support with AI agents harder.\n\nThe agents are only as good as the context and rules they are given, so when those change about twice a week, a smart, coordinated team has to keep updating the agents and playbooks.\n\nFull conversation: 20VC with Harry Stebbings and Alex Mashrabov, founder of Higgsfield.\n@higgsfield.ai @20vchq\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#ad #AI #Startup #20VC #Higgsfield",
+      "headline": "The faster they ship, the harder AI support gets",
+      "tag": "CLIP",
+      "company": "20vc-higgsfield",
+      "clip_id": "20vc-08",
+      "whop": "https://contentrewards.com/c/campaigns/1ccf8238-ca36-4ff3-a6d1-76956d865ada",
+      "collaborators": [],
+      "threads_text": "The faster they ship, the harder AI support gets"
+    },
+    {
+      "n": "01",
+      "type": "carousel",
+      "images": [
+        "post-01-s1.png",
+        "post-01-s2.png",
+        "post-01-s3.png",
+        "post-01-s4.png"
+      ],
+      "image": "post-01-s1.png",
+      "caption": "Swipe to see the a16z-backed startup Salesforce reportedly just bought.\n\nRune Technologies builds AI software that helps the US military forecast what supplies troops will need and manage logistics out in the field.\n\nSalesforce has agreed to acquire Rune for $375 million in cash and stock, Resilience Media reported. Founded in 2024, Rune raised $30 million in total from investors including Andreessen Horowitz, Point72 Ventures and IQT, and was last valued at $127 million after a Series A led by Human Capital, according to PitchBook.\n\nThe deal plugs Rune into Missionforce, the Salesforce unit that sells to defense and national security agencies. Salesforce says Missionforce grew 80% year over year, helped by a new 10-year, $5.6 billion contract with the US Army. Rune's data would take it from back-office planning to battlefield operations. It is the latest in a busy year of Salesforce deals, after Fin ($3.6 billion) and Qualified ($1.2 billion).\n\nSources: TechCrunch, Resilience Media.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #a16z #DefenseTech #Acquisition",
+      "headline": "Salesforce is reportedly buying this a16z-backed military AI startup for $375M",
+      "tag": "A16Z",
+      "company": "Rune Technologies",
+      "collaborators": [],
+      "threads_text": "Salesforce is reportedly buying this a16z-backed military AI startup for $375M\n\nAI software that helps the US military predict supply needs and run logistics from the field.\n\nSource: TechCrunch",
+      "story": "story-01.png"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-altman-02.mp4",
+      "image": "clip-free-altman-02-cover.jpg",
+      "caption": "Sam Altman says that at Stanford, \"for no reason, other than peer pressure\", he went after an investment banking internship and got one, because that was what the smartest kids were chasing.\n\nThe New York interview and fancy dinner impressed him at 18 or 19, but a growing feeling of dread followed. Then Y Combinator offered money to live on for the summer to try a startup with the project he was building with friends, and he took it as a sign.\n\nSource: Stanford GSB, View From The Top with Sam Altman (co-founder and CEO of OpenAI). Full video: youtube.com/watch?v=anAmTGcewX8\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#SamAltman #OpenAI #AI #Startup #Stanford #YCombinator",
+      "headline": "Sam Altman almost became an investment banker",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-gsb",
+      "clip_id": "free-altman-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Sam Altman almost became an investment banker"
+    },
+    {
+      "n": "02",
+      "type": "reel",
+      "images": [
+        "post-02-s1.png",
+        "post-02-s2.png",
+        "post-02-s3.png",
+        "post-02-s4.png"
+      ],
+      "image": "post-02-s1.png",
+      "caption": "Swipe to see the AI startup trying to buy a famous law firm's name.\n\nCrosby is an AI-first law firm. Instead of selling legal AI software to other firms, it is a licensed firm itself and uses its own AI to deliver legal work faster.\n\nCongrats @crosbylegal\n\nThe two-year-old firm has put in a bid for some of Weil Gotshal's assets, including its trademark, its brand and some internal data, TechCrunch confirmed after The Information first reported it. Weil Gotshal, a once-prestigious Wall Street firm, told the New York Times it is preparing to vote on dissolving. Crosby is also working to hire some of its 1,200 lawyers. Terms weren't disclosed, and there's no guarantee Crosby wins.\n\nCrosby has raised about $85 million, including a $60 million Series B in March led by Lux and Index, with Sequoia, Elad Gil, 01 Advisors and Bain Capital Ventures also in. It came out of stealth in 2025 with a $5.8 million seed.\n\nSources: TechCrunch, The Information.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #LegalTech #ArtificialIntelligence #Sequoia",
+      "headline": "A 2-year-old AI law firm just bid to buy the brand of a famous Wall Street firm that's falling apart",
+      "tag": "AI",
+      "company": "Crosby",
+      "collaborators": [
+        "crosbylegal"
+      ],
+      "threads_text": "A 2-year-old AI law firm just bid to buy the brand of a famous Wall Street firm that's falling apart\n\nCrosby is a real law firm that uses its own AI to do legal work far faster than a normal firm.\n\nSource: TechCrunch",
+      "video": "post-02.mp4"
+    },
+    {
+      "n": "03",
+      "type": "carousel",
+      "images": [
+        "post-03-s1.png",
+        "post-03-s2.png",
+        "post-03-s3.png",
+        "post-03-s4.png"
+      ],
+      "image": "post-03-s1.png",
+      "caption": "Swipe to see the startup that picks your next restaurant from where you've actually eaten.\n\nZest connects to your credit card through Plaid, looks only at food and drink purchases, and uses them to learn your taste. Its new AI concierge works over plain text: ask for a cuisine, a neighborhood or an occasion, and it suggests spots and books the table through OpenTable, Resy or SevenRooms.\n\nCongrats @zestmaps\n\nDrop it into a group chat and it blends everyone's tastes, runs a vote in the thread, and books for the group. \"The agent is the product now,\" founder and CEO Mario Gomez-Hall told TechCrunch. Booking and ordering are its first ways to make money.\n\nZest was founded in November 2024 with $1.8 million in pre-seed funding from Alexis Ohanian's 776 and Steve Jang at Kindred Ventures, and wants to grow beyond its first few thousand users.\n\nSources: TechCrunch, Zest.\n\nFollow @moonshotdaily for daily YC, a16z and SF startup news.\n\n#Startup #VentureCapital #FoodTech #ArtificialIntelligence #Restaurants",
+      "headline": "This startup reads where you actually eat — and now books your table over text",
+      "tag": "LAUNCH",
+      "company": "Zest",
+      "collaborators": [
+        "zestmaps"
+      ],
+      "threads_text": "This startup reads where you actually eat — and now books your table over text\n\nAn AI you text for restaurant picks based on your real card history, then it books the table.\n\nSource: TechCrunch"
+    }
+  ]
+}
