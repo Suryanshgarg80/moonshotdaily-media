@@ -435,9 +435,18 @@
       "tag": "YC",
       "company": "Anglera",
       "note": "went live despite an error"
+    },
+    "2026-10-30/03": {
+      "media_id": "18090254756279553",
+      "format": "carousel",
+      "ts": "2026-10-31T02:56:37.438Z",
+      "headline": "This Bay Area startup runs a robot-powered factory for drones and satellites — and just raised $100M",
+      "tag": "SF",
+      "company": "Foundry Robotics",
+      "note": "went live despite an error"
     }
   },
-  "last_ts": "2026-10-30T23:34:02.844Z",
+  "last_ts": "2026-10-31T02:56:37.438Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -826,6 +835,13 @@
       "key": "2026-10-30/02",
       "media_id": "18137828113635627",
       "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AFInd8lR"
+    },
+    {
+      "ts": "2026-10-31T02:56:37.438Z",
+      "event": "published_despite_error",
+      "key": "2026-10-30/03",
+      "media_id": "18090254756279553",
+      "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"ASiYUzWq"
     }
   ]
 }
