@@ -487,9 +487,17 @@
       "headline": "Sam Altman: stop preparing, just do the thing",
       "tag": "FREE_CLIP",
       "company": "free-altman-gsb"
+    },
+    "2026-11-01/C2": {
+      "media_id": "17915341170516887",
+      "format": "reel",
+      "ts": "2026-11-01T18:23:02.849Z",
+      "headline": "Databricks board was secretly interviewing other CEOs",
+      "tag": "FREE_CLIP",
+      "company": "free-ghodsi-a"
     }
   },
-  "last_ts": "2026-11-01T15:50:50.829Z",
+  "last_ts": "2026-11-01T18:23:02.849Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -931,6 +939,13 @@
       "key": "2026-11-01/C1",
       "format": "reel",
       "media_id": "18121625069318842"
+    },
+    {
+      "ts": "2026-11-01T18:23:02.849Z",
+      "event": "published",
+      "key": "2026-11-01/C2",
+      "format": "reel",
+      "media_id": "17915341170516887"
     }
   ]
 }
