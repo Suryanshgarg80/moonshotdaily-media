@@ -495,9 +495,17 @@
       "headline": "Databricks board was secretly interviewing other CEOs",
       "tag": "FREE_CLIP",
       "company": "free-ghodsi-a"
+    },
+    "2026-11-01/C3": {
+      "media_id": "17994770964116964",
+      "format": "reel",
+      "ts": "2026-11-01T21:45:05.093Z",
+      "headline": "Databricks CEO: the worst trait a CEO can have is being conflict-averse",
+      "tag": "FREE_CLIP",
+      "company": "free-ghodsi-b"
     }
   },
-  "last_ts": "2026-11-01T18:23:02.849Z",
+  "last_ts": "2026-11-01T21:45:05.093Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -946,6 +954,13 @@
       "key": "2026-11-01/C2",
       "format": "reel",
       "media_id": "17915341170516887"
+    },
+    {
+      "ts": "2026-11-01T21:45:05.093Z",
+      "event": "published",
+      "key": "2026-11-01/C3",
+      "format": "reel",
+      "media_id": "17994770964116964"
     }
   ]
 }
