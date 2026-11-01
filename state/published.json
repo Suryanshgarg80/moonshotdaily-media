@@ -479,9 +479,17 @@
       "tag": "AI",
       "company": "Crosby",
       "note": "went live despite an error"
+    },
+    "2026-11-01/C1": {
+      "media_id": "18121625069318842",
+      "format": "reel",
+      "ts": "2026-11-01T15:50:50.829Z",
+      "headline": "Sam Altman: stop preparing, just do the thing",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-gsb"
     }
   },
-  "last_ts": "2026-10-31T23:58:29.744Z",
+  "last_ts": "2026-11-01T15:50:50.829Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -916,6 +924,13 @@
       "key": "2026-10-31/02",
       "media_id": "17874261627649504",
       "reason": "{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AGcKAB4L"
+    },
+    {
+      "ts": "2026-11-01T15:50:50.829Z",
+      "event": "published",
+      "key": "2026-11-01/C1",
+      "format": "reel",
+      "media_id": "18121625069318842"
     }
   ]
 }
