@@ -511,9 +511,17 @@
       "headline": "Mark Cuban had ChatGPT design a rival to a food giant’s #1 cookie",
       "tag": "FREE_CLIP",
       "company": "free-cuban-a16z"
+    },
+    "2026-11-01/C5": {
+      "media_id": "18100333745438043",
+      "format": "reel",
+      "ts": "2026-11-02T03:39:07.552Z",
+      "headline": "Mark Cuban: there will be a trillionaire in the basement",
+      "tag": "FREE_CLIP",
+      "company": "free-cuban-a16z"
     }
   },
-  "last_ts": "2026-11-02T01:06:55.291Z",
+  "last_ts": "2026-11-02T03:39:07.552Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -976,6 +984,13 @@
       "key": "2026-11-01/C4",
       "format": "reel",
       "media_id": "18143776762718157"
+    },
+    {
+      "ts": "2026-11-02T03:39:07.552Z",
+      "event": "published",
+      "key": "2026-11-01/C5",
+      "format": "reel",
+      "media_id": "18100333745438043"
     }
   ]
 }
