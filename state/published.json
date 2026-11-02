@@ -503,9 +503,17 @@
       "headline": "Databricks CEO: the worst trait a CEO can have is being conflict-averse",
       "tag": "FREE_CLIP",
       "company": "free-ghodsi-b"
+    },
+    "2026-11-01/C4": {
+      "media_id": "18143776762718157",
+      "format": "reel",
+      "ts": "2026-11-02T01:06:55.291Z",
+      "headline": "Mark Cuban had ChatGPT design a rival to a food giant’s #1 cookie",
+      "tag": "FREE_CLIP",
+      "company": "free-cuban-a16z"
     }
   },
-  "last_ts": "2026-11-01T21:45:05.093Z",
+  "last_ts": "2026-11-02T01:06:55.291Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -961,6 +969,13 @@
       "key": "2026-11-01/C3",
       "format": "reel",
       "media_id": "17994770964116964"
+    },
+    {
+      "ts": "2026-11-02T01:06:55.291Z",
+      "event": "published",
+      "key": "2026-11-01/C4",
+      "format": "reel",
+      "media_id": "18143776762718157"
     }
   ]
 }
