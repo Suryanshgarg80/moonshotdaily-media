@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-02",
+  "queued_at": "2026-11-02T14:39:01.924Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-jassy-01.mp4",
+      "image": "clip-free-jassy-01-cover.jpg",
+      "caption": "Amazon CEO Andy Jassy says AI will mean fewer humans doing what they do today.\n\nHe says there won't be no people, and that new jobs will arise, some we can't name yet. But he expects much smaller teams of people who work cross-functionally, because the models can get them 80% of the way on many functions.\n\nWould you rather work on a team of 5 or a team of 50?\n\nSource: a16z, Amazon CEO Andy Jassy on Reinventing Amazon for the AI Era. Full video: youtube.com/watch?v=-YMMRQ1qscI\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Amazon #AndyJassy #AI #Startup #a16z #Future",
+      "headline": "Amazon CEO: AI means fewer humans doing today’s jobs",
+      "tag": "FREE_CLIP",
+      "company": "free-jassy-a",
+      "clip_id": "free-jassy-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Amazon CEO: AI means fewer humans doing today’s jobs"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-jensen-01.mp4",
+      "image": "clip-free-jensen-01-cover.jpg",
+      "caption": "Jensen Huang says coding is going to get automated away.\n\nThe NVIDIA CEO compares it to long division: the simple stuff gets automated. But he says the hard problems, in physics, chemistry, biology, computer science and systems thinking, will never go away.\n\nIf you were 18 today, what would you study?\n\nSource: Y Combinator, Jensen Huang: The Mindset That Built NVIDIA. Full video: youtube.com/watch?v=I4B37S1dyQQ\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#JensenHuang #NVIDIA #AI #Startup #YCombinator #Founder",
+      "headline": "Jensen Huang: coding is going to get automated away",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-a",
+      "clip_id": "free-jensen-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Jensen Huang: coding is going to get automated away"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-jassy-02.mp4",
+      "image": "clip-free-jassy-02-cover.jpg",
+      "caption": "Andy Jassy's AI advice to young people, and to his own kids: you can't run away from it.\n\nThe Amazon CEO says to learn it, use it a lot and try things outside your comfort zone. Neither of his kids were developers, but they have used AI to build applications. He adds that it doesn't replace critical reasoning and thinking.\n\nWhat is the first thing you would build with AI?\n\nSource: a16z, Amazon CEO Andy Jassy on Reinventing Amazon for the AI Era. Full video: youtube.com/watch?v=-YMMRQ1qscI\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Amazon #AndyJassy #AI #Startup #a16z #Future",
+      "headline": "Amazon CEO’s AI advice to his kids: you can’t run away from it",
+      "tag": "FREE_CLIP",
+      "company": "free-jassy-b",
+      "clip_id": "free-jassy-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Amazon CEO’s AI advice to his kids: you can’t run away from it"
+    },
+    {
+      "n": "C4",
+      "type": "reel",
+      "video": "clip-free-jensen-02.mp4",
+      "image": "clip-free-jensen-02-cover.jpg",
+      "caption": "Jensen Huang says he was scared to go raise money when he started NVIDIA.\n\nHe bought a 500-page book on how to start a company and didn't read it, figuring he'd be out of business by the time he finished. He felt he couldn't answer investors' questions, and says he barely can today. His lesson: none of that matters, and this is the greatest time in the last 60 years to start a company.\n\nWhat is stopping you from starting?\n\nSource: Y Combinator, Jensen Huang: The Mindset That Built NVIDIA. Full video: youtube.com/watch?v=I4B37S1dyQQ\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#JensenHuang #NVIDIA #AI #Startup #YCombinator #Founder",
+      "headline": "Jensen Huang was too scared to raise money for NVIDIA",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-b",
+      "clip_id": "free-jensen-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Jensen Huang was too scared to raise money for NVIDIA"
+    },
+    {
+      "n": "C5",
+      "type": "reel",
+      "video": "clip-free-jassy-03.mp4",
+      "image": "clip-free-jassy-03-cover.jpg",
+      "caption": "Andy Jassy predicts big companies will have to rewrite almost all of their code for AI agents.\n\nThe Amazon CEO says most startups today begin agent native. Some larger companies will figure out how to build at that pace, but the ones that move slowly will be more vulnerable to startups, in his opinion.\n\nDo you think big companies can move fast enough?\n\nSource: a16z, Amazon CEO Andy Jassy on Reinventing Amazon for the AI Era. Full video: youtube.com/watch?v=-YMMRQ1qscI\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Amazon #AndyJassy #AI #Startup #a16z #Future",
+      "headline": "Amazon CEO: big companies will have to rewrite almost all their code",
+      "tag": "FREE_CLIP",
+      "company": "free-jassy-a",
+      "clip_id": "free-jassy-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Amazon CEO: big companies will have to rewrite almost all their code"
+    }
+  ]
+}
