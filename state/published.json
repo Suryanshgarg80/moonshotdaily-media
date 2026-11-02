@@ -991,6 +991,18 @@
       "key": "2026-11-01/C5",
       "format": "reel",
       "media_id": "18100333745438043"
+    },
+    {
+      "ts": "2026-11-02T16:26:49.211Z",
+      "event": "reel_failed_fallback_image",
+      "key": "2026-11-02/C1",
+      "reason": "{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AjCLf-M7e-hW98HLVrzvCJg\"}"
+    },
+    {
+      "ts": "2026-11-02T16:26:49.389Z",
+      "event": "publish_failed",
+      "key": "2026-11-02/C1",
+      "reason": "{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AH--7H1aD0xyXGMcY0Tdj5c\"}"
     }
   ]
 }
