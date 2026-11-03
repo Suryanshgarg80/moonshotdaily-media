@@ -1051,6 +1051,18 @@
       "event": "publish_failed",
       "key": "2026-11-02/C1",
       "reason": "{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"ADvt9m78OgPY0hm-b7hjuTW\"}"
+    },
+    {
+      "ts": "2026-11-03T03:54:40.212Z",
+      "event": "reel_failed_fallback_image",
+      "key": "2026-11-02/C1",
+      "reason": "{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AMdarLtwoxB3tYu1Nho5Amz\"}"
+    },
+    {
+      "ts": "2026-11-03T03:54:40.358Z",
+      "event": "publish_failed",
+      "key": "2026-11-02/C1",
+      "reason": "{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"A0nB8nVzBesKFfQ4iYHpTV2\"}"
     }
   ]
 }
