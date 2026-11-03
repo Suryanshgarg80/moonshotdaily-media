@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-03",
+  "queued_at": "2026-11-03T09:35:20.778Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-jensen-03.mp4",
+      "image": "clip-free-jensen-03-cover.jpg",
+      "caption": "Jensen Huang says the attitude of an entrepreneur comes down to one question: how hard can it be?\n\nHe admits the truth is that it's way harder than you think. But he says you shouldn't let your mind go there. Let the suffering come a little at a time, instead of imagining all of it and letting it turn into anxiety.\n\nHas not knowing how hard something would be ever helped you start it?\n\nSource: Y Combinator, Jensen Huang: The Mindset That Built NVIDIA. Full video: youtube.com/watch?v=I4B37S1dyQQ\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#JensenHuang #NVIDIA #AI #Startup #YCombinator #Founder",
+      "headline": "Jensen Huang’s founder mindset: how hard can it be?",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-b",
+      "clip_id": "free-jensen-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Jensen Huang’s founder mindset: how hard can it be?"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-musk-01.mp4",
+      "image": "clip-free-musk-01-cover.jpg",
+      "caption": "Elon Musk says Tesla would have bounced payroll two days after Christmas in 2008 if its funding round hadn't closed.\n\nThe round closed at 6 p.m. on December 24, the last hour of the last day possible. Around the same time, NASA called to award SpaceX a contract to resupply the space station. His reply on the call: \"I love you guys.\"\n\nWhat's the closest you've come to running out of money?\n\nSource: Y Combinator, Elon Musk: Digital Superintelligence, Multiplanetary Life, How to Be Useful. Full video: youtube.com/watch?v=cFIlta1GkiE\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#ElonMusk #SpaceX #Tesla #Startup #YCombinator #Founder",
+      "headline": "Elon Musk: Tesla was 2 days from bouncing payroll",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-a",
+      "clip_id": "free-musk-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Elon Musk: Tesla was 2 days from bouncing payroll"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-musk-02.mp4",
+      "image": "clip-free-musk-02-cover.jpg",
+      "caption": "Elon Musk says the press kept calling him \"internet guy\" when he started a rocket company.\n\nPeople asked why a software guy would work on hardware, and he says the company got ridiculed quite a lot. He didn't hold it against them. \"Internet guy starts rocket company\" sounded improbable to him too.\n\nHave you ever been told you were the wrong person to build something?\n\nSource: Y Combinator, Elon Musk: Digital Superintelligence, Multiplanetary Life, How to Be Useful. Full video: youtube.com/watch?v=cFIlta1GkiE\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#ElonMusk #SpaceX #Tesla #Startup #YCombinator #Founder",
+      "headline": "Elon Musk: the press called me “internet guy”",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-a",
+      "clip_id": "free-musk-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Elon Musk: the press called me “internet guy”"
+    },
+    {
+      "n": "C4",
+      "type": "reel",
+      "video": "clip-free-musk-04.mp4",
+      "image": "clip-free-musk-04-cover.jpg",
+      "caption": "Elon Musk's advice to people just starting their careers: try to be as useful as possible.\n\nHe admits it may sound trite, but says it's very hard to be useful, especially to a lot of people. His measure is how useful you've been times how many people. \"Don't aspire to glory, aspire to work.\"\n\nHow many people would miss what you're building if it disappeared?\n\nSource: Y Combinator, Elon Musk: Digital Superintelligence, Multiplanetary Life, How to Be Useful. Full video: youtube.com/watch?v=cFIlta1GkiE\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#ElonMusk #SpaceX #Tesla #Startup #YCombinator #Founder",
+      "headline": "Elon Musk’s advice to young people: be useful",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-b",
+      "clip_id": "free-musk-04",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Elon Musk’s advice to young people: be useful"
+    },
+    {
+      "n": "C5",
+      "type": "reel",
+      "video": "clip-free-musk-03.mp4",
+      "image": "clip-free-musk-03-cover.jpg",
+      "caption": "Elon Musk says a major failure mode is an ego-to-ability ratio far greater than one.\n\nIf it gets too high, he says, you break your feedback loop to reality. In AI terms, you break your RL loop. Keeping it strong means internalizing responsibility, minimizing ego, and doing the task whether it's grand or humble.\n\nWhere have you seen ego get in the way of a good team?\n\nSource: Y Combinator, Elon Musk: Digital Superintelligence, Multiplanetary Life, How to Be Useful. Full video: youtube.com/watch?v=cFIlta1GkiE\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#ElonMusk #SpaceX #Tesla #Startup #YCombinator #Founder",
+      "headline": "Elon Musk: too much ego breaks your feedback loop with reality",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-b",
+      "clip_id": "free-musk-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Elon Musk: too much ego breaks your feedback loop with reality"
+    }
+  ]
+}
