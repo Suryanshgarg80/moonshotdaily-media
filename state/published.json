@@ -527,9 +527,17 @@
       "headline": "Jensen Huang’s founder mindset: how hard can it be?",
       "tag": "FREE_CLIP",
       "company": "free-jensen-b"
+    },
+    "2026-11-03/C2": {
+      "media_id": "17905727676656591",
+      "format": "reel",
+      "ts": "2026-11-03T18:18:53.286Z",
+      "headline": "Elon Musk: Tesla was 2 days from bouncing payroll",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-a"
     }
   },
-  "last_ts": "2026-11-03T15:42:02.010Z",
+  "last_ts": "2026-11-03T18:18:53.286Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1078,6 +1086,13 @@
       "key": "2026-11-03/C1",
       "format": "reel",
       "media_id": "18466876969188750"
+    },
+    {
+      "ts": "2026-11-03T18:18:53.286Z",
+      "event": "published",
+      "key": "2026-11-03/C2",
+      "format": "reel",
+      "media_id": "17905727676656591"
     }
   ]
 }
