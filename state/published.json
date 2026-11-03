@@ -535,9 +535,17 @@
       "headline": "Elon Musk: Tesla was 2 days from bouncing payroll",
       "tag": "FREE_CLIP",
       "company": "free-musk-a"
+    },
+    "2026-11-03/C3": {
+      "media_id": "18168623980473347",
+      "format": "reel",
+      "ts": "2026-11-03T21:52:38.796Z",
+      "headline": "Elon Musk: the press called me “internet guy”",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-a"
     }
   },
-  "last_ts": "2026-11-03T18:18:53.286Z",
+  "last_ts": "2026-11-03T21:52:38.796Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1093,6 +1101,13 @@
       "key": "2026-11-03/C2",
       "format": "reel",
       "media_id": "17905727676656591"
+    },
+    {
+      "ts": "2026-11-03T21:52:38.796Z",
+      "event": "published",
+      "key": "2026-11-03/C3",
+      "format": "reel",
+      "media_id": "18168623980473347"
     }
   ]
 }
