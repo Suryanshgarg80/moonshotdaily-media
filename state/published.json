@@ -519,9 +519,17 @@
       "headline": "Mark Cuban: there will be a trillionaire in the basement",
       "tag": "FREE_CLIP",
       "company": "free-cuban-a16z"
+    },
+    "2026-11-03/C1": {
+      "media_id": "18466876969188750",
+      "format": "reel",
+      "ts": "2026-11-03T15:42:02.010Z",
+      "headline": "Jensen Huang’s founder mindset: how hard can it be?",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-b"
     }
   },
-  "last_ts": "2026-11-02T03:39:07.552Z",
+  "last_ts": "2026-11-03T15:42:02.010Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1063,6 +1071,13 @@
       "event": "publish_failed",
       "key": "2026-11-02/C1",
       "reason": "{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"A0nB8nVzBesKFfQ4iYHpTV2\"}"
+    },
+    {
+      "ts": "2026-11-03T15:42:02.010Z",
+      "event": "published",
+      "key": "2026-11-03/C1",
+      "format": "reel",
+      "media_id": "18466876969188750"
     }
   ]
 }
