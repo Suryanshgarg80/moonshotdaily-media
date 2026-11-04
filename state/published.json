@@ -567,9 +567,17 @@
       "headline": "Amazon CEO: AI means fewer humans doing today’s jobs",
       "tag": "FREE_CLIP",
       "company": "free-jassy-a"
+    },
+    "2026-11-04/C2": {
+      "media_id": "18115625498128674",
+      "format": "reel",
+      "ts": "2026-11-04T20:23:51.536Z",
+      "headline": "Amazon CEO’s AI advice to his kids: you can’t run away from it",
+      "tag": "FREE_CLIP",
+      "company": "free-jassy-b"
     }
   },
-  "last_ts": "2026-11-04T18:41:13.934Z",
+  "last_ts": "2026-11-04T20:23:51.536Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1153,6 +1161,13 @@
       "key": "2026-11-04/C1",
       "format": "reel",
       "media_id": "18185904451424675"
+    },
+    {
+      "ts": "2026-11-04T20:23:51.536Z",
+      "event": "published",
+      "key": "2026-11-04/C2",
+      "format": "reel",
+      "media_id": "18115625498128674"
     }
   ]
 }
