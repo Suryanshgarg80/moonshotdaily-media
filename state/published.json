@@ -575,9 +575,17 @@
       "headline": "Amazon CEO’s AI advice to his kids: you can’t run away from it",
       "tag": "FREE_CLIP",
       "company": "free-jassy-b"
+    },
+    "2026-11-04/C3": {
+      "media_id": "18114761729588500",
+      "format": "reel",
+      "ts": "2026-11-04T22:06:19.401Z",
+      "headline": "Amazon CEO: big companies will have to rewrite almost all their code",
+      "tag": "FREE_CLIP",
+      "company": "free-jassy-a"
     }
   },
-  "last_ts": "2026-11-04T20:23:51.536Z",
+  "last_ts": "2026-11-04T22:06:19.401Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1168,6 +1176,13 @@
       "key": "2026-11-04/C2",
       "format": "reel",
       "media_id": "18115625498128674"
+    },
+    {
+      "ts": "2026-11-04T22:06:19.401Z",
+      "event": "published",
+      "key": "2026-11-04/C3",
+      "format": "reel",
+      "media_id": "18114761729588500"
     }
   ]
 }
