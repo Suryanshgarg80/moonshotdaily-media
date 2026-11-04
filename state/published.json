@@ -559,9 +559,17 @@
       "headline": "Elon Musk: too much ego breaks your feedback loop with reality",
       "tag": "FREE_CLIP",
       "company": "free-musk-b"
+    },
+    "2026-11-04/C1": {
+      "media_id": "18185904451424675",
+      "format": "reel",
+      "ts": "2026-11-04T18:41:13.934Z",
+      "headline": "Amazon CEO: AI means fewer humans doing today’s jobs",
+      "tag": "FREE_CLIP",
+      "company": "free-jassy-a"
     }
   },
-  "last_ts": "2026-11-04T03:51:21.218Z",
+  "last_ts": "2026-11-04T18:41:13.934Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1138,6 +1146,13 @@
       "key": "2026-11-03/C5",
       "format": "reel",
       "media_id": "18146425900720955"
+    },
+    {
+      "ts": "2026-11-04T18:41:13.934Z",
+      "event": "published",
+      "key": "2026-11-04/C1",
+      "format": "reel",
+      "media_id": "18185904451424675"
     }
   ]
 }
