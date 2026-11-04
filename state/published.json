@@ -551,9 +551,17 @@
       "headline": "Elon Musk’s advice to young people: be useful",
       "tag": "FREE_CLIP",
       "company": "free-musk-b"
+    },
+    "2026-11-03/C5": {
+      "media_id": "18146425900720955",
+      "format": "reel",
+      "ts": "2026-11-04T03:51:21.218Z",
+      "headline": "Elon Musk: too much ego breaks your feedback loop with reality",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-b"
     }
   },
-  "last_ts": "2026-11-04T00:27:21.313Z",
+  "last_ts": "2026-11-04T03:51:21.218Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1123,6 +1131,13 @@
       "key": "2026-11-03/C4",
       "format": "reel",
       "media_id": "17936915172406555"
+    },
+    {
+      "ts": "2026-11-04T03:51:21.218Z",
+      "event": "published",
+      "key": "2026-11-03/C5",
+      "format": "reel",
+      "media_id": "18146425900720955"
     }
   ]
 }
