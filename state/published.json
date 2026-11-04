@@ -543,9 +543,17 @@
       "headline": "Elon Musk: the press called me “internet guy”",
       "tag": "FREE_CLIP",
       "company": "free-musk-a"
+    },
+    "2026-11-03/C4": {
+      "media_id": "17936915172406555",
+      "format": "reel",
+      "ts": "2026-11-04T00:27:21.313Z",
+      "headline": "Elon Musk’s advice to young people: be useful",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-b"
     }
   },
-  "last_ts": "2026-11-03T21:52:38.796Z",
+  "last_ts": "2026-11-04T00:27:21.313Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1108,6 +1116,13 @@
       "key": "2026-11-03/C3",
       "format": "reel",
       "media_id": "18168623980473347"
+    },
+    {
+      "ts": "2026-11-04T00:27:21.313Z",
+      "event": "published",
+      "key": "2026-11-03/C4",
+      "format": "reel",
+      "media_id": "17936915172406555"
     }
   ]
 }
