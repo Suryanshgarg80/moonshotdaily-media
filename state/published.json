@@ -583,9 +583,17 @@
       "headline": "Amazon CEO: big companies will have to rewrite almost all their code",
       "tag": "FREE_CLIP",
       "company": "free-jassy-a"
+    },
+    "2026-11-04/C4": {
+      "media_id": "18119574524006374",
+      "format": "reel",
+      "ts": "2026-11-05T00:39:23.326Z",
+      "headline": "Jensen Huang: coding is going to get automated away",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-a"
     }
   },
-  "last_ts": "2026-11-04T22:06:19.401Z",
+  "last_ts": "2026-11-05T00:39:23.326Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1183,6 +1191,13 @@
       "key": "2026-11-04/C3",
       "format": "reel",
       "media_id": "18114761729588500"
+    },
+    {
+      "ts": "2026-11-05T00:39:23.326Z",
+      "event": "published",
+      "key": "2026-11-04/C4",
+      "format": "reel",
+      "media_id": "18119574524006374"
     }
   ]
 }
