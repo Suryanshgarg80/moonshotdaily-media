@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-05",
+  "queued_at": "2026-11-05T08:53:23.045Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-dario-02.mp4",
+      "image": "clip-free-dario-02-cover.jpg",
+      "caption": "Anthropic CEO Dario Amodei says he gets made fun of almost every day because Claude's biology safeguards are too strong, and he would rather have that than learn someone used the model to kill people.\n\nHe says he feels both sides of it, and that this shouldn't be the responsibility of one company or even one government.\n\nWho should be responsible for AI safety: the companies or governments?\n\nSource: CBS Sunday Morning, Extended interview: Dario Amodei (CEO of Anthropic). Full video: youtube.com/watch?v=hQR_VJF6ukk\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Anthropic #DarioAmodei #AI #Claude #AISafety #Tech",
+      "headline": "Anthropic CEO: I’d rather they make fun of me",
+      "tag": "FREE_CLIP",
+      "company": "free-dario-b",
+      "clip_id": "free-dario-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Anthropic CEO: I’d rather they make fun of me"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-dario-03.mp4",
+      "image": "clip-free-dario-03-cover.jpg",
+      "caption": "Anthropic CEO Dario Amodei says that for too long, the AI industry lied to people about the risks.\n\nHe also says the upside is real: every week he gets an email from someone saying Claude diagnosed a disease their doctors had missed. His point is that it starts with telling the truth.\n\nDo you trust what AI companies tell you about the risks?\n\nSource: CBS Sunday Morning, Extended interview: Dario Amodei (CEO of Anthropic). Full video: youtube.com/watch?v=hQR_VJF6ukk\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Anthropic #DarioAmodei #AI #Claude #AISafety #Tech",
+      "headline": "Anthropic CEO: the AI industry lied to people about the risks",
+      "tag": "FREE_CLIP",
+      "company": "free-dario-c",
+      "clip_id": "free-dario-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Anthropic CEO: the AI industry lied to people about the risks"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-zuck-01.mp4",
+      "image": "clip-free-zuck-01-cover.jpg",
+      "caption": "Mark Zuckerberg says that when he told the team 10 years ago they were going to build these glasses, people weren't sure they could.\n\nHe says it all got miniaturized into a normal looking pair, and he expects them to get cheaper, higher quality, smaller and more stylish over time.\n\nWould you wear holographic glasses every day?\n\nSource: Cleo Abram, The Future Mark Zuckerberg Is Trying To Build. Full video: youtube.com/watch?v=oX7OduG1YmI\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#MarkZuckerberg #Meta #AI #Tech #Future #Founder",
+      "headline": "Zuckerberg: my team wasn’t sure we could build this",
+      "tag": "FREE_CLIP",
+      "company": "free-zuck-a",
+      "clip_id": "free-zuck-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Zuckerberg: my team wasn’t sure we could build this"
+    },
+    {
+      "n": "C4",
+      "type": "reel",
+      "video": "clip-free-zuck-02.mp4",
+      "image": "clip-free-zuck-02-cover.jpg",
+      "caption": "Mark Zuckerberg says the average person would like to have 10 friends and has two or three.\n\nHe says glasses that let you be present with people far away aren't replacing a better physical connection. His example: not less time with his wife, but more time with his sister who lives across the country.\n\nDoes tech bring you closer to people, or further away?\n\nSource: Cleo Abram, The Future Mark Zuckerberg Is Trying To Build. Full video: youtube.com/watch?v=oX7OduG1YmI\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#MarkZuckerberg #Meta #AI #Tech #Future #Founder",
+      "headline": "Zuckerberg: people want 10 friends but have 2",
+      "tag": "FREE_CLIP",
+      "company": "free-zuck-b",
+      "clip_id": "free-zuck-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Zuckerberg: people want 10 friends but have 2"
+    },
+    {
+      "n": "C5",
+      "type": "reel",
+      "video": "clip-free-dario-01.mp4",
+      "image": "clip-free-dario-01-cover.jpg",
+      "caption": "Anthropic CEO Dario Amodei says the pace of AI is a warning sign that we need to slow down.\n\nHe doesn't call it a reason to panic or to shut it all down. He says we're on the bend of the curve, where it starts to get steeper, and that safeguards have to keep up with the technology.\n\nShould AI labs slow down, or is speed the safer bet?\n\nSource: CBS Sunday Morning, Extended interview: Dario Amodei (CEO of Anthropic). Full video: youtube.com/watch?v=hQR_VJF6ukk\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Anthropic #DarioAmodei #AI #Claude #AISafety #Tech",
+      "headline": "Anthropic CEO: it’s a warning sign that we need to slow down",
+      "tag": "FREE_CLIP",
+      "company": "free-dario-a",
+      "clip_id": "free-dario-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Anthropic CEO: it’s a warning sign that we need to slow down"
+    }
+  ]
+}
