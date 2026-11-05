@@ -607,9 +607,17 @@
       "headline": "Anthropic CEO: the AI industry lied to people about the risks",
       "tag": "FREE_CLIP",
       "company": "free-dario-c"
+    },
+    "2026-11-05/C3": {
+      "media_id": "17957034618267010",
+      "format": "reel",
+      "ts": "2026-11-05T21:39:54.518Z",
+      "headline": "Zuckerberg: my team wasn’t sure we could build this",
+      "tag": "FREE_CLIP",
+      "company": "free-zuck-a"
     }
   },
-  "last_ts": "2026-11-05T18:14:22.640Z",
+  "last_ts": "2026-11-05T21:39:54.518Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1228,6 +1236,13 @@
       "key": "2026-11-05/C2",
       "format": "reel",
       "media_id": "18226611586343381"
+    },
+    {
+      "ts": "2026-11-05T21:39:54.518Z",
+      "event": "published",
+      "key": "2026-11-05/C3",
+      "format": "reel",
+      "media_id": "17957034618267010"
     }
   ]
 }
