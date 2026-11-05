@@ -599,9 +599,17 @@
       "headline": "Anthropic CEO: I’d rather they make fun of me",
       "tag": "FREE_CLIP",
       "company": "free-dario-b"
+    },
+    "2026-11-05/C2": {
+      "media_id": "18226611586343381",
+      "format": "reel",
+      "ts": "2026-11-05T18:14:22.640Z",
+      "headline": "Anthropic CEO: the AI industry lied to people about the risks",
+      "tag": "FREE_CLIP",
+      "company": "free-dario-c"
     }
   },
-  "last_ts": "2026-11-05T15:40:17.272Z",
+  "last_ts": "2026-11-05T18:14:22.640Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1213,6 +1221,13 @@
       "key": "2026-11-05/C1",
       "format": "reel",
       "media_id": "18118506308102243"
+    },
+    {
+      "ts": "2026-11-05T18:14:22.640Z",
+      "event": "published",
+      "key": "2026-11-05/C2",
+      "format": "reel",
+      "media_id": "18226611586343381"
     }
   ]
 }
