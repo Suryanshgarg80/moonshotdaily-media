@@ -615,9 +615,17 @@
       "headline": "Zuckerberg: my team wasn’t sure we could build this",
       "tag": "FREE_CLIP",
       "company": "free-zuck-a"
+    },
+    "2026-11-05/C4": {
+      "media_id": "18357895537169107",
+      "format": "reel",
+      "ts": "2026-11-06T01:04:35.712Z",
+      "headline": "Zuckerberg: people want 10 friends but have 2",
+      "tag": "FREE_CLIP",
+      "company": "free-zuck-b"
     }
   },
-  "last_ts": "2026-11-05T21:39:54.518Z",
+  "last_ts": "2026-11-06T01:04:35.712Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1243,6 +1251,13 @@
       "key": "2026-11-05/C3",
       "format": "reel",
       "media_id": "17957034618267010"
+    },
+    {
+      "ts": "2026-11-06T01:04:35.713Z",
+      "event": "published",
+      "key": "2026-11-05/C4",
+      "format": "reel",
+      "media_id": "18357895537169107"
     }
   ]
 }
