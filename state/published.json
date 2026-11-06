@@ -623,9 +623,17 @@
       "headline": "Zuckerberg: people want 10 friends but have 2",
       "tag": "FREE_CLIP",
       "company": "free-zuck-b"
+    },
+    "2026-11-05/C5": {
+      "media_id": "18473992597141955",
+      "format": "reel",
+      "ts": "2026-11-06T03:38:33.534Z",
+      "headline": "Anthropic CEO: it’s a warning sign that we need to slow down",
+      "tag": "FREE_CLIP",
+      "company": "free-dario-a"
     }
   },
-  "last_ts": "2026-11-06T01:04:35.712Z",
+  "last_ts": "2026-11-06T03:38:33.534Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1258,6 +1266,13 @@
       "key": "2026-11-05/C4",
       "format": "reel",
       "media_id": "18357895537169107"
+    },
+    {
+      "ts": "2026-11-06T03:38:33.535Z",
+      "event": "published",
+      "key": "2026-11-05/C5",
+      "format": "reel",
+      "media_id": "18473992597141955"
     }
   ]
 }
