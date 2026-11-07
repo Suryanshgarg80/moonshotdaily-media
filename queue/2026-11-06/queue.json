@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-06",
+  "queued_at": "2026-11-07T03:01:25.808Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-chesky-01.mp4",
+      "image": "clip-free-chesky-01-cover.jpg",
+      "caption": "Airbnb CEO Brian Chesky says the pandemic wiped out 80% of Airbnb's business in eight weeks.\n\nHe calls it a near-death business experience that gave him clarity, and it is when he decided to get back into the details and run the company a different way.\n\nWhat would you change first if your business lost 80% overnight?\n\nSource: Lenny’s Podcast, Brian Chesky’s new playbook. Full video: youtube.com/watch?v=4ef0juAMqoE\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Airbnb #BrianChesky #FounderMode #Startup #Leadership #CEO",
+      "headline": "Airbnb lost 80% of its business in 8 weeks",
+      "tag": "FREE_CLIP",
+      "company": "free-chesky-b",
+      "clip_id": "free-chesky-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Airbnb lost 80% of its business in 8 weeks"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-chesky-02.mp4",
+      "image": "clip-free-chesky-02-cover.jpg",
+      "caption": "Brian Chesky says the CEO of a tech company should basically be its chief product officer.\n\nAirbnb has no CPO title. If it did, he says, it would be him. He credits a Ben Horowitz post: founders get told to delegate away the thing they are best at and hardest to replace.\n\nShould a founder CEO ever hand off product?\n\nSource: Lenny’s Podcast, Brian Chesky’s new playbook. Full video: youtube.com/watch?v=4ef0juAMqoE\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Airbnb #BrianChesky #FounderMode #ProductManagement #Startup #CEO",
+      "headline": "Airbnb CEO: the CEO should be the chief product officer",
+      "tag": "FREE_CLIP",
+      "company": "free-chesky-a",
+      "clip_id": "free-chesky-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Airbnb CEO: the CEO should be the chief product officer"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-chesky-03.mp4",
+      "image": "clip-free-chesky-03-cover.jpg",
+      "caption": "Brian Chesky told Airbnb's leaders that leaders are in the details.\n\nHe says that is different from micromanagement, which is telling people exactly what to do. His point: if you are not in the details, how do you know people are doing a good job?\n\nWhere do you draw the line between being in the details and micromanaging?\n\nSource: Lenny’s Podcast, Brian Chesky’s new playbook. Full video: youtube.com/watch?v=4ef0juAMqoE\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Airbnb #BrianChesky #FounderMode #Leadership #Management #Startup",
+      "headline": "Airbnb CEO: leaders are in the details",
+      "tag": "FREE_CLIP",
+      "company": "free-chesky-c",
+      "clip_id": "free-chesky-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Airbnb CEO: leaders are in the details"
+    },
+    {
+      "n": "C4",
+      "type": "reel",
+      "video": "clip-free-chesky-04.mp4",
+      "image": "clip-free-chesky-04-cover.jpg",
+      "caption": "Brian Chesky says going very hands-on at Airbnb was a lot more work for one to two years, then it paid off.\n\nOnce they turned the corner, everyone rowed in the same direction and he didn't have to be in meetings anymore. Culture, he says, is what happens when you're not in the room.\n\nWould you take two hard years for a team that runs without you?\n\nSource: Lenny’s Podcast, Brian Chesky’s new playbook. Full video: youtube.com/watch?v=4ef0juAMqoE\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Airbnb #BrianChesky #FounderMode #CompanyCulture #Leadership #Startup",
+      "headline": "Airbnb CEO: going hands-on meant fewer meetings",
+      "tag": "FREE_CLIP",
+      "company": "free-chesky-d",
+      "clip_id": "free-chesky-04",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Airbnb CEO: going hands-on meant fewer meetings"
+    },
+    {
+      "n": "C5",
+      "type": "reel",
+      "video": "clip-free-collison-01.mp4",
+      "image": "clip-free-collison-01-cover.jpg",
+      "caption": "Patrick Collison says he and John decided to start Stripe because it probably wouldn't be that hard.\n\nIt was 2009. After YC's Startup School in Berkeley they got sushi, and on the walk back they decided to build the payments idea they had been kicking around. He still remembers exactly where they were on the road.\n\nHas underestimating a problem ever helped you start something?\n\nSource: Y Combinator, Patrick Collison: Is AI Breaking the Lean Startup Playbook? Full video: youtube.com/watch?v=5d6y3poKwK4\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Stripe #PatrickCollison #YCombinator #Startup #Founder #StartupStory",
+      "headline": "Stripe started because they thought it won’t be that hard",
+      "tag": "FREE_CLIP",
+      "company": "free-collison-a",
+      "clip_id": "free-collison-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Stripe started because they thought it won’t be that hard"
+    }
+  ]
+}
