@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-08",
+  "queued_at": "2026-11-08T19:26:06.848Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-collison-02.mp4",
+      "image": "clip-free-collison-02-cover.jpg",
+      "caption": "Stripe CEO Patrick Collison says new businesses starting on Stripe are up around 2x year over year.\n\nHe calls it the largest relative jump Stripe has seen. And it's not just more lightweight \"vibe coded\" projects: the median business is doing better than a year ago, and the time to revenue for new Atlas companies is falling.\n\nWould you start a business right now? Why or why not?\n\nSource: Y Combinator, Patrick Collison: Is AI Breaking the Lean Startup Playbook? Full video: youtube.com/watch?v=5d6y3poKwK4\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Stripe #PatrickCollison #Startup #YCombinator #Founder #AI #Entrepreneurship",
+      "headline": "Stripe CEO: new businesses on Stripe are up about 2x",
+      "tag": "FREE_CLIP",
+      "company": "free-collison-b",
+      "clip_id": "free-collison-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Stripe CEO: new businesses on Stripe are up about 2x"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-collison-03.mp4",
+      "image": "clip-free-collison-03-cover.jpg",
+      "caption": "Patrick Collison says many of the most successful companies of the last 10 years are \"very anti-lean startup.\"\n\nHe points to the AI labs and Anduril. His view: 20 years ago lean was almost the only option because of the capital available. With AI making it easier to spin up an organization, founders can now start far more ambitious things up front.\n\nLean and scrappy, or big and ambitious from day one: which would you pick?\n\nSource: Y Combinator, Patrick Collison: Is AI Breaking the Lean Startup Playbook? Full video: youtube.com/watch?v=5d6y3poKwK4\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#Stripe #PatrickCollison #LeanStartup #Startup #YCombinator #Founder #AI",
+      "headline": "Stripe CEO: the best new companies are anti-lean startup",
+      "tag": "FREE_CLIP",
+      "company": "free-collison-c",
+      "clip_id": "free-collison-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Stripe CEO: the best new companies are anti-lean startup"
+    }
+  ]
+}
