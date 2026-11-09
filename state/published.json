@@ -631,9 +631,17 @@
       "headline": "Anthropic CEO: it’s a warning sign that we need to slow down",
       "tag": "FREE_CLIP",
       "company": "free-dario-a"
+    },
+    "2026-11-09/C1": {
+      "media_id": "18064915439532702",
+      "format": "reel",
+      "ts": "2026-11-09T19:23:20.212Z",
+      "headline": "Paul Graham: early AI was an undergrad faking a paper",
+      "tag": "FREE_CLIP",
+      "company": "free-pg-c"
     }
   },
-  "last_ts": "2026-11-06T03:38:33.534Z",
+  "last_ts": "2026-11-09T19:23:20.212Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1273,6 +1281,13 @@
       "key": "2026-11-05/C5",
       "format": "reel",
       "media_id": "18473992597141955"
+    },
+    {
+      "ts": "2026-11-09T19:23:20.212Z",
+      "event": "published",
+      "key": "2026-11-09/C1",
+      "format": "reel",
+      "media_id": "18064915439532702"
     }
   ]
 }
