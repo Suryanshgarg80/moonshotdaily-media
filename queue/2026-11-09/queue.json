@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-09",
+  "queued_at": "2026-11-09T14:11:05.038Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-pg-03.mp4",
+      "image": "clip-free-pg-03-cover.jpg",
+      "caption": "Paul Graham says the first versions of ChatGPT were like an undergrad trying to bluff his way through a paper.\n\nEveryone expected AI to climb slowly from a perfect fly's brain to mice, cats and monkeys. Instead we got a full human, just a terrible one.\n\nDid AI surprise you the same way?\n\nSource: Y Combinator, Paul Graham On Startups, Ambition, and Great Founders. Full video: youtube.com/watch?v=5bxp78i96S8\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#PaulGraham #YCombinator #AI #ChatGPT #Startup #Founder #Entrepreneurship",
+      "headline": "Paul Graham: early AI was an undergrad faking a paper",
+      "tag": "FREE_CLIP",
+      "company": "free-pg-c",
+      "clip_id": "free-pg-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Paul Graham: early AI was an undergrad faking a paper"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-pg-04.mp4",
+      "image": "clip-free-pg-04-cover.jpg",
+      "caption": "Paul Graham says the next trillion-dollar company comes from the right founders, not some particular idea.\n\nAsked where the next giant company comes from, the Y Combinator co-founder says its founders will be formidable. Startup ideas are very mutable; the founders are the answer.\n\nFounder or idea: which matters more to you?\n\nSource: Y Combinator, Paul Graham On Startups, Ambition, and Great Founders. Full video: youtube.com/watch?v=5bxp78i96S8\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#PaulGraham #YCombinator #Startup #Founder #Entrepreneurship #StartupAdvice",
+      "headline": "Paul Graham: the next trillion-dollar company comes from the founders",
+      "tag": "FREE_CLIP",
+      "company": "free-pg-d",
+      "clip_id": "free-pg-04",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Paul Graham: the next trillion-dollar company comes from the founders"
+    }
+  ]
+}
