@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-10",
+  "queued_at": "2026-11-10T08:50:22.527Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-chesky-01.mp4",
+      "image": "clip-free-chesky-01-cover.jpg",
+      "caption": "Brian Chesky says Airbnb lost 80% of its business in eight weeks when the pandemic hit.\n\nHe calls it a near-death business experience: the company flashed before his eyes, and it gave him clarity. That is when he decided to run Airbnb differently and get back involved in the details.\n\nHas a crisis ever made you rethink how you work?\n\nSource: Lenny’s Podcast, Brian Chesky’s new playbook. Full video: youtube.com/watch?v=4ef0juAMqoE\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#Airbnb #BrianChesky #FounderMode #Startup #Leadership #CEO #Entrepreneurship",
+      "headline": "Airbnb lost 80% of its business in 8 weeks",
+      "tag": "FREE_CLIP",
+      "company": "free-chesky-b",
+      "clip_id": "free-chesky-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Airbnb lost 80% of its business in 8 weeks"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-chesky-02.mp4",
+      "image": "clip-free-chesky-02-cover.jpg",
+      "caption": "Brian Chesky says the CEO of a product or tech company should basically be its chief product officer.\n\nHe recalls a Ben Horowitz post: founders are told to step away and delegate product, and end up delegating the thing they are best at. Airbnb has no chief product officer title, and if it did, he says it would be him.\n\nShould founders hand off product, or keep it?\n\nSource: Lenny’s Podcast, Brian Chesky’s new playbook. Full video: youtube.com/watch?v=4ef0juAMqoE\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#Airbnb #BrianChesky #FounderMode #ProductManagement #Startup #Leadership #CEO",
+      "headline": "Airbnb CEO: the CEO should be the chief product officer",
+      "tag": "FREE_CLIP",
+      "company": "free-chesky-a",
+      "clip_id": "free-chesky-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Airbnb CEO: the CEO should be the chief product officer"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-chesky-03.mp4",
+      "image": "clip-free-chesky-03-cover.jpg",
+      "caption": "Brian Chesky told Airbnb’s leaders that leaders are in the details.\n\nHe draws a line between micromanagement, telling people exactly what to do, and being in the details, which is what every responsible board does with its CEO. His question: if you don’t know the details, how do you know people are doing a good job?\n\nWhere is the line between being in the details and micromanaging?\n\nSource: Lenny’s Podcast, Brian Chesky’s new playbook. Full video: youtube.com/watch?v=4ef0juAMqoE\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#Airbnb #BrianChesky #FounderMode #Leadership #Management #Startup #CEO",
+      "headline": "Airbnb CEO: leaders are in the details",
+      "tag": "FREE_CLIP",
+      "company": "free-chesky-c",
+      "clip_id": "free-chesky-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Airbnb CEO: leaders are in the details"
+    }
+  ]
+}
