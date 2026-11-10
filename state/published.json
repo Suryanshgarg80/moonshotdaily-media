@@ -647,9 +647,17 @@
       "headline": "Paul Graham: the next trillion-dollar company comes from the founders",
       "tag": "FREE_CLIP",
       "company": "free-pg-d"
+    },
+    "2026-11-10/C1": {
+      "media_id": "18077254664732936",
+      "format": "reel",
+      "ts": "2026-11-10T15:42:27.077Z",
+      "headline": "Airbnb lost 80% of its business in 8 weeks",
+      "tag": "FREE_CLIP",
+      "company": "free-chesky-b"
     }
   },
-  "last_ts": "2026-11-10T03:55:18.279Z",
+  "last_ts": "2026-11-10T15:42:27.077Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1303,6 +1311,13 @@
       "key": "2026-11-09/C2",
       "format": "reel",
       "media_id": "18103113698356516"
+    },
+    {
+      "ts": "2026-11-10T15:42:27.077Z",
+      "event": "published",
+      "key": "2026-11-10/C1",
+      "format": "reel",
+      "media_id": "18077254664732936"
     }
   ]
 }
