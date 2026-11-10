@@ -639,9 +639,17 @@
       "headline": "Paul Graham: early AI was an undergrad faking a paper",
       "tag": "FREE_CLIP",
       "company": "free-pg-c"
+    },
+    "2026-11-09/C2": {
+      "media_id": "18103113698356516",
+      "format": "reel",
+      "ts": "2026-11-10T03:55:18.279Z",
+      "headline": "Paul Graham: the next trillion-dollar company comes from the founders",
+      "tag": "FREE_CLIP",
+      "company": "free-pg-d"
     }
   },
-  "last_ts": "2026-11-09T19:23:20.212Z",
+  "last_ts": "2026-11-10T03:55:18.279Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1288,6 +1296,13 @@
       "key": "2026-11-09/C1",
       "format": "reel",
       "media_id": "18064915439532702"
+    },
+    {
+      "ts": "2026-11-10T03:55:18.279Z",
+      "event": "published",
+      "key": "2026-11-09/C2",
+      "format": "reel",
+      "media_id": "18103113698356516"
     }
   ]
 }
