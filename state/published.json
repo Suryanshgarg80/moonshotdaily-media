@@ -655,9 +655,17 @@
       "headline": "Airbnb lost 80% of its business in 8 weeks",
       "tag": "FREE_CLIP",
       "company": "free-chesky-b"
+    },
+    "2026-11-10/C2": {
+      "media_id": "17945018127386015",
+      "format": "reel",
+      "ts": "2026-11-10T21:42:26.536Z",
+      "headline": "Airbnb CEO: the CEO should be the chief product officer",
+      "tag": "FREE_CLIP",
+      "company": "free-chesky-a"
     }
   },
-  "last_ts": "2026-11-10T15:42:27.077Z",
+  "last_ts": "2026-11-10T21:42:26.536Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1318,6 +1326,13 @@
       "key": "2026-11-10/C1",
       "format": "reel",
       "media_id": "18077254664732936"
+    },
+    {
+      "ts": "2026-11-10T21:42:26.536Z",
+      "event": "published",
+      "key": "2026-11-10/C2",
+      "format": "reel",
+      "media_id": "17945018127386015"
     }
   ]
 }
