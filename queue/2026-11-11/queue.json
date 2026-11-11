@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-11",
+  "queued_at": "2026-11-11T12:28:25.943Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-jensen-yf-01.mp4",
+      "image": "clip-free-jensen-yf-01-cover.jpg",
+      "caption": "Jensen Huang says one gigawatt of AI data center costs about $50 billion.\n\nThe Nvidia CEO adds that once the components ship, they pass through an OEM and land at the data center, and getting it running from there could take four to six months.\n\nIs $50 billion per gigawatt a sensible bet or too much, too fast?\n\nSource: Yahoo Finance, Nvidia’s CEO on the AI debt scare, China, and jobs (full interview). Full video: youtube.com/watch?v=sH5qyeHSdVs\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#JensenHuang #Nvidia #AI #Startup #Founder #Tech #ArtificialIntelligence",
+      "headline": "Jensen Huang: 1 gigawatt of AI costs $50 billion",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-yf-a",
+      "clip_id": "free-jensen-yf-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Jensen Huang: 1 gigawatt of AI costs $50 billion"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-jensen-yf-02.mp4",
+      "image": "clip-free-jensen-yf-02-cover.jpg",
+      "caption": "Jensen Huang says 80% of AI-native startups are using open models.\n\nHis point: you can take an open model that is close to the frontier, post-train it with your own expertise and data, make it very good at your domain, and build a company around it.\n\nIf you were starting an AI company today, would you build on an open model or a closed one?\n\nSource: Yahoo Finance, Nvidia’s CEO on the AI debt scare, China, and jobs (full interview). Full video: youtube.com/watch?v=sH5qyeHSdVs\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#JensenHuang #Nvidia #AI #Startup #Founder #Tech #ArtificialIntelligence",
+      "headline": "Jensen Huang: 80% of AI startups use open models",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-yf-b",
+      "clip_id": "free-jensen-yf-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Jensen Huang: 80% of AI startups use open models"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-jensen-yf-03.mp4",
+      "image": "clip-free-jensen-yf-03-cover.jpg",
+      "caption": "Jensen Huang says China manufactures AI researchers at scale.\n\nThe Nvidia CEO says that if one country can manufacture things at scale, chips, open models and, very importantly, AI researchers, nobody does it more seriously, at a larger scale or better than China.\n\nWhich matters more in the AI race: chips, models or people?\n\nSource: Yahoo Finance, Nvidia’s CEO on the AI debt scare, China, and jobs (full interview). Full video: youtube.com/watch?v=sH5qyeHSdVs\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#JensenHuang #Nvidia #AI #Startup #Founder #Tech #ArtificialIntelligence",
+      "headline": "Jensen Huang: China manufactures AI researchers at scale",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-yf-c",
+      "clip_id": "free-jensen-yf-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Jensen Huang: China manufactures AI researchers at scale"
+    }
+  ]
+}
