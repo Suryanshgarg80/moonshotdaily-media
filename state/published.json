@@ -671,9 +671,17 @@
       "headline": "Airbnb CEO: leaders are in the details",
       "tag": "FREE_CLIP",
       "company": "free-chesky-c"
+    },
+    "2026-11-11/C1": {
+      "media_id": "18104423792635058",
+      "format": "reel",
+      "ts": "2026-11-11T15:04:01.230Z",
+      "headline": "Jensen Huang: 1 gigawatt of AI costs $50 billion",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-yf-a"
     }
   },
-  "last_ts": "2026-11-11T03:41:29.993Z",
+  "last_ts": "2026-11-11T15:04:01.230Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1348,6 +1356,13 @@
       "key": "2026-11-10/C3",
       "format": "reel",
       "media_id": "17866146354695393"
+    },
+    {
+      "ts": "2026-11-11T15:04:01.231Z",
+      "event": "published",
+      "key": "2026-11-11/C1",
+      "format": "reel",
+      "media_id": "18104423792635058"
     }
   ]
 }
