@@ -663,9 +663,17 @@
       "headline": "Airbnb CEO: the CEO should be the chief product officer",
       "tag": "FREE_CLIP",
       "company": "free-chesky-a"
+    },
+    "2026-11-10/C3": {
+      "media_id": "17866146354695393",
+      "format": "reel",
+      "ts": "2026-11-11T03:41:29.993Z",
+      "headline": "Airbnb CEO: leaders are in the details",
+      "tag": "FREE_CLIP",
+      "company": "free-chesky-c"
     }
   },
-  "last_ts": "2026-11-10T21:42:26.536Z",
+  "last_ts": "2026-11-11T03:41:29.993Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1333,6 +1341,13 @@
       "key": "2026-11-10/C2",
       "format": "reel",
       "media_id": "17945018127386015"
+    },
+    {
+      "ts": "2026-11-11T03:41:29.993Z",
+      "event": "published",
+      "key": "2026-11-10/C3",
+      "format": "reel",
+      "media_id": "17866146354695393"
     }
   ]
 }
