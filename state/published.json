@@ -679,9 +679,17 @@
       "headline": "Jensen Huang: 1 gigawatt of AI costs $50 billion",
       "tag": "FREE_CLIP",
       "company": "free-jensen-yf-a"
+    },
+    "2026-11-11/C2": {
+      "media_id": "17995113978027482",
+      "format": "reel",
+      "ts": "2026-11-11T21:53:57.163Z",
+      "headline": "Jensen Huang: 80% of AI startups use open models",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-yf-b"
     }
   },
-  "last_ts": "2026-11-11T15:04:01.230Z",
+  "last_ts": "2026-11-11T21:53:57.163Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1363,6 +1371,13 @@
       "key": "2026-11-11/C1",
       "format": "reel",
       "media_id": "18104423792635058"
+    },
+    {
+      "ts": "2026-11-11T21:53:57.163Z",
+      "event": "published",
+      "key": "2026-11-11/C2",
+      "format": "reel",
+      "media_id": "17995113978027482"
     }
   ]
 }
