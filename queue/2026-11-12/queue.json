@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-12",
+  "queued_at": "2026-11-12T11:35:11.724Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-jensen-yf-04.mp4",
+      "image": "clip-free-jensen-yf-04-cover.jpg",
+      "caption": "Jensen Huang says AI has created more software jobs.\n\nThe Nvidia CEO says the facts point the same way in healthcare, that AI is even creating legal jobs, and that the energy sector is booming.\n\nHas AI added jobs or cut them where you work?\n\nSource: Yahoo Finance, Nvidia’s CEO on the AI debt scare, China, and jobs (full interview). Full video: youtube.com/watch?v=sH5qyeHSdVs\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#JensenHuang #Nvidia #AI #Startup #Founder #Tech #ArtificialIntelligence",
+      "headline": "Jensen Huang: AI has created more software jobs",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-yf-d",
+      "clip_id": "free-jensen-yf-04",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Jensen Huang: AI has created more software jobs"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-hassabis-mos-01.mp4",
+      "image": "clip-free-hassabis-mos-01-cover.jpg",
+      "caption": "Demis Hassabis says he watched an AI master chess in less than 12 hours.\n\nIt started from random play in the morning. At his 11am coffee break he could still just about beat it. By lunchtime it was Grandmaster level, and by tea time it was better than any chess playing entity.\n\nWhat skill would you want to learn that fast?\n\nSource: Masters of Scale, Demis Hassabis with Reid Hoffman (Summit ’26). Full video: youtube.com/watch?v=x7Z_1miRWB8\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#DemisHassabis #DeepMind #Google #AI #AGI #Founder #Tech",
+      "headline": "Demis Hassabis: AI mastered chess in 12 hours",
+      "tag": "FREE_CLIP",
+      "company": "free-hassabis-mos-a",
+      "clip_id": "free-hassabis-mos-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Demis Hassabis: AI mastered chess in 12 hours"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-hassabis-mos-02.mp4",
+      "image": "clip-free-hassabis-mos-02-cover.jpg",
+      "caption": "Demis Hassabis says the phase of AI that carries the most risk is closed-loop self-improvement.\n\nThe Google DeepMind CEO means AI improving itself with no human reviewer in the process. He says it would obviously be faster, but he thinks it is a very dangerous way to get to full AGI.\n\nShould a human always stay in the loop, even if it is slower?\n\nSource: Masters of Scale, Demis Hassabis with Reid Hoffman (Summit ’26). Full video: youtube.com/watch?v=x7Z_1miRWB8\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#DemisHassabis #DeepMind #Google #AI #AGI #Founder #Tech",
+      "headline": "Demis Hassabis: the most dangerous path to AGI",
+      "tag": "FREE_CLIP",
+      "company": "free-hassabis-mos-b",
+      "clip_id": "free-hassabis-mos-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Demis Hassabis: the most dangerous path to AGI"
+    }
+  ]
+}
