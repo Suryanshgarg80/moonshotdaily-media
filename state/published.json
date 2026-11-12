@@ -695,9 +695,17 @@
       "headline": "Jensen Huang: China manufactures AI researchers at scale",
       "tag": "FREE_CLIP",
       "company": "free-jensen-yf-c"
+    },
+    "2026-11-12/C1": {
+      "media_id": "18154243681549235",
+      "format": "reel",
+      "ts": "2026-11-12T15:02:39.349Z",
+      "headline": "Jensen Huang: AI has created more software jobs",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-yf-d"
     }
   },
-  "last_ts": "2026-11-12T03:52:20.457Z",
+  "last_ts": "2026-11-12T15:02:39.349Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1393,6 +1401,13 @@
       "key": "2026-11-11/C3",
       "format": "reel",
       "media_id": "18132410860746426"
+    },
+    {
+      "ts": "2026-11-12T15:02:39.349Z",
+      "event": "published",
+      "key": "2026-11-12/C1",
+      "format": "reel",
+      "media_id": "18154243681549235"
     }
   ]
 }
