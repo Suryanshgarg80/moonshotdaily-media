@@ -687,9 +687,17 @@
       "headline": "Jensen Huang: 80% of AI startups use open models",
       "tag": "FREE_CLIP",
       "company": "free-jensen-yf-b"
+    },
+    "2026-11-11/C3": {
+      "media_id": "18132410860746426",
+      "format": "reel",
+      "ts": "2026-11-12T03:52:20.457Z",
+      "headline": "Jensen Huang: China manufactures AI researchers at scale",
+      "tag": "FREE_CLIP",
+      "company": "free-jensen-yf-c"
     }
   },
-  "last_ts": "2026-11-11T21:53:57.163Z",
+  "last_ts": "2026-11-12T03:52:20.457Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1378,6 +1386,13 @@
       "key": "2026-11-11/C2",
       "format": "reel",
       "media_id": "17995113978027482"
+    },
+    {
+      "ts": "2026-11-12T03:52:20.457Z",
+      "event": "published",
+      "key": "2026-11-11/C3",
+      "format": "reel",
+      "media_id": "18132410860746426"
     }
   ]
 }
