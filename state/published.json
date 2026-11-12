@@ -703,9 +703,17 @@
       "headline": "Jensen Huang: AI has created more software jobs",
       "tag": "FREE_CLIP",
       "company": "free-jensen-yf-d"
+    },
+    "2026-11-12/C2": {
+      "media_id": "18113255117183641",
+      "format": "reel",
+      "ts": "2026-11-12T21:52:37.527Z",
+      "headline": "Demis Hassabis: AI mastered chess in 12 hours",
+      "tag": "FREE_CLIP",
+      "company": "free-hassabis-mos-a"
     }
   },
-  "last_ts": "2026-11-12T15:02:39.349Z",
+  "last_ts": "2026-11-12T21:52:37.527Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1408,6 +1416,13 @@
       "key": "2026-11-12/C1",
       "format": "reel",
       "media_id": "18154243681549235"
+    },
+    {
+      "ts": "2026-11-12T21:52:37.527Z",
+      "event": "published",
+      "key": "2026-11-12/C2",
+      "format": "reel",
+      "media_id": "18113255117183641"
     }
   ]
 }
