@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-13",
+  "queued_at": "2026-11-13T08:44:01.304Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-amodei-bld-01.mp4",
+      "image": "clip-free-amodei-bld-01-cover.jpg",
+      "caption": "Dario Amodei says Anthropic started with 7 co-founders, and all 7 are still at the company.\n\nPeople told them seven co-founders was going to be a disaster, because a company is supposed to need one single source of leadership. He says in some ways you do, but they made it work, which is not usually true with that many co-founders.\n\nHow many co-founders is too many?\n\nSource: The Builders with Walter Isaacson, Dario & Daniela Amodei. Full video: youtube.com/watch?v=1OdoSzfUkec\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#DarioAmodei #Anthropic #Claude #AI #Startup #Founder #Tech",
+      "headline": "Dario Amodei: 7 co-founders, all 7 still here",
+      "tag": "FREE_CLIP",
+      "company": "free-amodei-bld-a",
+      "clip_id": "free-amodei-bld-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Dario Amodei: 7 co-founders, all 7 still here"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-amodei-bld-02.mp4",
+      "image": "clip-free-amodei-bld-02-cover.jpg",
+      "caption": "Dario Amodei says GPT-2 left him super freaked out.\n\nHe looked at it and thought: scale this up another factor of a million and it will be better than humans at everything. He calls it the defining economic and scientific moment of the modern age, one we just don't know about yet.\n\nWhat was the first AI moment that made you stop and think?\n\nSource: The Builders with Walter Isaacson, Dario & Daniela Amodei. Full video: youtube.com/watch?v=1OdoSzfUkec\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#DarioAmodei #Anthropic #Claude #AI #Startup #Founder #Tech",
+      "headline": "Dario Amodei: GPT-2 left me super freaked out",
+      "tag": "FREE_CLIP",
+      "company": "free-amodei-bld-b",
+      "clip_id": "free-amodei-bld-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Dario Amodei: GPT-2 left me super freaked out"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-amodei-bld-03.mp4",
+      "image": "clip-free-amodei-bld-03-cover.jpg",
+      "caption": "Dario Amodei says what seems impossible for AI today, the models will be doing regularly in 12 months.\n\nHis timeline for today's limitations: in six months the things that seemed hard will be easy, and in twelve the things that seemed impossible will be routine. He says it is what he saw with GPT-2, repeating across wider and wider parts of the world.\n\nWhat can AI not do today that you think it will do a year from now?\n\nSource: The Builders with Walter Isaacson, Dario & Daniela Amodei. Full video: youtube.com/watch?v=1OdoSzfUkec\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#DarioAmodei #Anthropic #Claude #AI #Startup #Founder #Tech",
+      "headline": "Dario Amodei: impossible for AI today, routine in 12 months",
+      "tag": "FREE_CLIP",
+      "company": "free-amodei-bld-c",
+      "clip_id": "free-amodei-bld-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Dario Amodei: impossible for AI today, routine in 12 months"
+    }
+  ]
+}
