@@ -727,9 +727,17 @@
       "headline": "Dario Amodei: 7 co-founders, all 7 still here",
       "tag": "FREE_CLIP",
       "company": "free-amodei-bld-a"
+    },
+    "2026-11-13/C2": {
+      "media_id": "18347417794256480",
+      "format": "reel",
+      "ts": "2026-11-13T21:37:53.064Z",
+      "headline": "Dario Amodei: GPT-2 left me super freaked out",
+      "tag": "FREE_CLIP",
+      "company": "free-amodei-bld-b"
     }
   },
-  "last_ts": "2026-11-13T15:35:26.293Z",
+  "last_ts": "2026-11-13T21:37:53.064Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1453,6 +1461,13 @@
       "key": "2026-11-13/C1",
       "format": "reel",
       "media_id": "17910472800332200"
+    },
+    {
+      "ts": "2026-11-13T21:37:53.064Z",
+      "event": "published",
+      "key": "2026-11-13/C2",
+      "format": "reel",
+      "media_id": "18347417794256480"
     }
   ]
 }
