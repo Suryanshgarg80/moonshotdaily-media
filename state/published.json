@@ -711,9 +711,17 @@
       "headline": "Demis Hassabis: AI mastered chess in 12 hours",
       "tag": "FREE_CLIP",
       "company": "free-hassabis-mos-a"
+    },
+    "2026-11-12/C3": {
+      "media_id": "18224191954349336",
+      "format": "reel",
+      "ts": "2026-11-13T03:51:24.563Z",
+      "headline": "Demis Hassabis: the most dangerous path to AGI",
+      "tag": "FREE_CLIP",
+      "company": "free-hassabis-mos-b"
     }
   },
-  "last_ts": "2026-11-12T21:52:37.527Z",
+  "last_ts": "2026-11-13T03:51:24.563Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1423,6 +1431,13 @@
       "key": "2026-11-12/C2",
       "format": "reel",
       "media_id": "18113255117183641"
+    },
+    {
+      "ts": "2026-11-13T03:51:24.563Z",
+      "event": "published",
+      "key": "2026-11-12/C3",
+      "format": "reel",
+      "media_id": "18224191954349336"
     }
   ]
 }
