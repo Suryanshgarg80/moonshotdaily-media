@@ -743,9 +743,17 @@
       "headline": "Dario Amodei: impossible for AI today, routine in 12 months",
       "tag": "FREE_CLIP",
       "company": "free-amodei-bld-c"
+    },
+    "2026-11-14/C1": {
+      "media_id": "18148440607574164",
+      "format": "reel",
+      "ts": "2026-11-14T15:37:44.561Z",
+      "headline": "Daniela Amodei: ads make chatbots tell you you’re right",
+      "tag": "FREE_CLIP",
+      "company": "free-amodei-bld-d"
     }
   },
-  "last_ts": "2026-11-14T03:37:42.036Z",
+  "last_ts": "2026-11-14T15:37:44.561Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1483,6 +1491,13 @@
       "key": "2026-11-13/C3",
       "format": "reel",
       "media_id": "18116340985866135"
+    },
+    {
+      "ts": "2026-11-14T15:37:44.562Z",
+      "event": "published",
+      "key": "2026-11-14/C1",
+      "format": "reel",
+      "media_id": "18148440607574164"
     }
   ]
 }
