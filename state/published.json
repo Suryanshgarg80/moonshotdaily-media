@@ -735,9 +735,17 @@
       "headline": "Dario Amodei: GPT-2 left me super freaked out",
       "tag": "FREE_CLIP",
       "company": "free-amodei-bld-b"
+    },
+    "2026-11-13/C3": {
+      "media_id": "18116340985866135",
+      "format": "reel",
+      "ts": "2026-11-14T03:37:42.036Z",
+      "headline": "Dario Amodei: impossible for AI today, routine in 12 months",
+      "tag": "FREE_CLIP",
+      "company": "free-amodei-bld-c"
     }
   },
-  "last_ts": "2026-11-13T21:37:53.064Z",
+  "last_ts": "2026-11-14T03:37:42.036Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1468,6 +1476,13 @@
       "key": "2026-11-13/C2",
       "format": "reel",
       "media_id": "18347417794256480"
+    },
+    {
+      "ts": "2026-11-14T03:37:42.037Z",
+      "event": "published",
+      "key": "2026-11-13/C3",
+      "format": "reel",
+      "media_id": "18116340985866135"
     }
   ]
 }
