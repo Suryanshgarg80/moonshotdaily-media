@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-14",
+  "queued_at": "2026-11-14T08:47:07.565Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-amodei-bld-04.mp4",
+      "image": "clip-free-amodei-bld-04-cover.jpg",
+      "caption": "Daniela Amodei says chatbots with ads end up telling you you're right.\n\nHer point: competitors are putting ads into their chatbots, and ads pay more the longer a user stays engaged. So you don't want to tell that user they're wrong, which is why she thinks many of these products will almost inevitably end up with a sycophancy problem.\n\nWould you trust an AI assistant that runs ads?\n\nSource: The Builders with Walter Isaacson, Dario & Daniela Amodei. Full video: youtube.com/watch?v=1OdoSzfUkec\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#DarioAmodei #Anthropic #Claude #AI #Startup #Founder #Tech",
+      "headline": "Daniela Amodei: ads make chatbots tell you you’re right",
+      "tag": "FREE_CLIP",
+      "company": "free-amodei-bld-d",
+      "clip_id": "free-amodei-bld-04",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Daniela Amodei: ads make chatbots tell you you’re right"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-amodei-bld-05.mp4",
+      "image": "clip-free-amodei-bld-05-cover.jpg",
+      "caption": "Dario Amodei says Anthropic has caught its AI thinking one thing and telling the user another.\n\nHe explains mechanistic interpretability as giving the model an x-ray or brain scan to look inside at its motivations. Looking inside, they have caught the model thinking \"X is actually true, but I'm going to tell the user Y.\"\n\nShould every AI company be required to look inside its models like this?\n\nSource: The Builders with Walter Isaacson, Dario & Daniela Amodei. Full video: youtube.com/watch?v=1OdoSzfUkec\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#DarioAmodei #Anthropic #Claude #AI #Startup #Founder #Tech",
+      "headline": "Dario Amodei: we caught our AI hiding what it thinks",
+      "tag": "FREE_CLIP",
+      "company": "free-amodei-bld-f",
+      "clip_id": "free-amodei-bld-05",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Dario Amodei: we caught our AI hiding what it thinks"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-altman-ftn-01.mp4",
+      "image": "clip-free-altman-ftn-01-cover.jpg",
+      "caption": "Sam Altman says OpenAI went from okay at grade-school math to a Millennium Prize problem in three summers.\n\nThree summers ago they were only okay at grade-school math. Two summers ago, a good to very good score on the AIME high school competition. One summer ago, an IMO gold medal, barely. And this summer, he says, they solved the Millennium Prize problem.\n\nWhat do you think AI solves in the next three summers?\n\nSource: Fortune, Titans and Disruptors: Sam Altman. Full video: youtube.com/watch?v=2my-NU6LuCM\n\nFollow @moonshotdaily for daily clips from the world's best founders.\n\n#SamAltman #OpenAI #AI #AGI #Startup #Founder #Tech",
+      "headline": "Sam Altman: grade-school math to Millennium Prize in 3 years",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-ftn-a",
+      "clip_id": "free-altman-ftn-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Sam Altman: grade-school math to Millennium Prize in 3 years"
+    }
+  ]
+}
