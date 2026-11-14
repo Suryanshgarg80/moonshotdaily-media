@@ -751,9 +751,17 @@
       "headline": "Daniela Amodei: ads make chatbots tell you you’re right",
       "tag": "FREE_CLIP",
       "company": "free-amodei-bld-d"
+    },
+    "2026-11-14/C2": {
+      "media_id": "17954314371053894",
+      "format": "reel",
+      "ts": "2026-11-14T21:35:59.987Z",
+      "headline": "Dario Amodei: we caught our AI hiding what it thinks",
+      "tag": "FREE_CLIP",
+      "company": "free-amodei-bld-f"
     }
   },
-  "last_ts": "2026-11-14T15:37:44.561Z",
+  "last_ts": "2026-11-14T21:35:59.987Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1498,6 +1506,13 @@
       "key": "2026-11-14/C1",
       "format": "reel",
       "media_id": "18148440607574164"
+    },
+    {
+      "ts": "2026-11-14T21:35:59.987Z",
+      "event": "published",
+      "key": "2026-11-14/C2",
+      "format": "reel",
+      "media_id": "17954314371053894"
     }
   ]
 }
