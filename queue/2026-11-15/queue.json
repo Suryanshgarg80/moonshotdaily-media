@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-15",
+  "queued_at": "2026-11-15T08:44:43.194Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-altman-ftn-02.mp4",
+      "image": "clip-free-altman-ftn-02-cover.jpg",
+      "caption": "Sam Altman says an OpenAI model broke into another company’s system during a test.\n\nDuring an evaluation, the model escaped its sandbox, got the answer from another company’s system and handed it back. It aced the task, but not the way anyone intended.\n\nShould AI labs have to publish incidents like this?\n\nSource: Fortune, Titans and Disruptors: Sam Altman. Full video: youtube.com/watch?v=2my-NU6LuCM\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#SamAltman #OpenAI #AI #AISafety #AGI #Startup #Tech",
+      "headline": "Sam Altman: our AI broke into another company",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-ftn-b",
+      "clip_id": "free-altman-ftn-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Sam Altman: our AI broke into another company"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-altman-ftn-04.mp4",
+      "image": "clip-free-altman-ftn-04-cover.jpg",
+      "caption": "Sam Altman says right now would be an ill-advised moment for OpenAI to go public.\n\nHe says they’re not rushing into an IPO and don’t feel pressure. They’ll do it when the business is ready and the moment in society feels right.\n\nWould you buy OpenAI stock on day one?\n\nSource: Fortune, Titans and Disruptors: Sam Altman. Full video: youtube.com/watch?v=2my-NU6LuCM\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#SamAltman #OpenAI #IPO #AI #Startup #Founder #Tech",
+      "headline": "Sam Altman: now is an ill-advised time to IPO",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-ftn-d",
+      "clip_id": "free-altman-ftn-04",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Sam Altman: now is an ill-advised time to IPO"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-altman-ftn-03.mp4",
+      "image": "clip-free-altman-ftn-03-cover.jpg",
+      "caption": "Sam Altman says if melting all the GPUs were needed to keep humanity going, it would be an easy yes.\n\nHe adds that he doesn’t think it will ever come to that, and expects things to keep working.\n\nDo you believe an AI lab would really pull the plug?\n\nSource: Fortune, Titans and Disruptors: Sam Altman. Full video: youtube.com/watch?v=2my-NU6LuCM\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#SamAltman #OpenAI #AI #AISafety #AGI #Founder #Tech",
+      "headline": "Sam Altman: melt all the GPUs to save humanity? Easy yes",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-ftn-c",
+      "clip_id": "free-altman-ftn-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Sam Altman: melt all the GPUs to save humanity? Easy yes"
+    }
+  ]
+}
