@@ -759,9 +759,17 @@
       "headline": "Dario Amodei: we caught our AI hiding what it thinks",
       "tag": "FREE_CLIP",
       "company": "free-amodei-bld-f"
+    },
+    "2026-11-14/C3": {
+      "media_id": "18122708402069883",
+      "format": "image",
+      "ts": "2026-11-15T03:33:56.505Z",
+      "headline": "Sam Altman: grade-school math to Millennium Prize in 3 years",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-ftn-a"
     }
   },
-  "last_ts": "2026-11-14T21:35:59.987Z",
+  "last_ts": "2026-11-15T03:33:56.505Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1513,6 +1521,19 @@
       "key": "2026-11-14/C2",
       "format": "reel",
       "media_id": "17954314371053894"
+    },
+    {
+      "ts": "2026-11-15T03:33:45.200Z",
+      "event": "reel_failed_fallback_image",
+      "key": "2026-11-14/C3",
+      "reason": "container 18133861954806065: ERROR"
+    },
+    {
+      "ts": "2026-11-15T03:33:56.505Z",
+      "event": "published",
+      "key": "2026-11-14/C3",
+      "format": "image",
+      "media_id": "18122708402069883"
     }
   ]
 }
