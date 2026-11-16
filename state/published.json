@@ -799,9 +799,17 @@
       "headline": "Satya Nadella: I was wrong about AI alignment",
       "tag": "FREE_CLIP",
       "company": "free-nadella-20vc-b"
+    },
+    "2026-11-16/C2": {
+      "media_id": "18101851019102427",
+      "format": "reel",
+      "ts": "2026-11-16T21:41:00.888Z",
+      "headline": "Satya Nadella: every firm's core IP will be an eval",
+      "tag": "FREE_CLIP",
+      "company": "free-nadella-20vc-a"
     }
   },
-  "last_ts": "2026-11-16T16:31:46.767Z",
+  "last_ts": "2026-11-16T21:41:00.888Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1594,6 +1602,13 @@
       "key": "2026-11-16/C1",
       "format": "reel",
       "media_id": "17955748053318541"
+    },
+    {
+      "ts": "2026-11-16T21:41:00.889Z",
+      "event": "published",
+      "key": "2026-11-16/C2",
+      "format": "reel",
+      "media_id": "18101851019102427"
     }
   ]
 }
