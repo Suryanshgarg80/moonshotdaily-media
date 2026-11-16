@@ -783,9 +783,17 @@
       "headline": "Sam Altman: now is an ill-advised time to IPO",
       "tag": "FREE_CLIP",
       "company": "free-altman-ftn-d"
+    },
+    "2026-11-15/C3": {
+      "media_id": "18095350616201151",
+      "format": "reel",
+      "ts": "2026-11-16T03:34:19.101Z",
+      "headline": "Sam Altman: melt all the GPUs to save humanity? Easy yes",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-ftn-c"
     }
   },
-  "last_ts": "2026-11-15T21:36:04.500Z",
+  "last_ts": "2026-11-16T03:34:19.101Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1564,6 +1572,13 @@
       "key": "2026-11-15/C2",
       "format": "reel",
       "media_id": "18073335002768767"
+    },
+    {
+      "ts": "2026-11-16T03:34:19.101Z",
+      "event": "published",
+      "key": "2026-11-15/C3",
+      "format": "reel",
+      "media_id": "18095350616201151"
     }
   ]
 }
