@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-16",
+  "queued_at": "2026-11-16T08:42:15.104Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-nadella-20vc-01.mp4",
+      "image": "clip-free-nadella-20vc-01-cover.jpg",
+      "caption": "Satya Nadella says he was wrong about AI alignment.\n\nBack in 2018-2019 he believed in scaling laws and assumed alignment would just fall out of them. He no longer believes that, and now thinks alignment may be a harder, different problem.\n\nIs alignment the hardest problem in AI right now?\n\nSource: 20VC with Harry Stebbings, Satya Nadella on Open vs Closed Models. Full video: youtube.com/watch?v=24XUcWhqY_4\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#SatyaNadella #Microsoft #AI #AISafety #20VC #Founder #Tech",
+      "headline": "Satya Nadella: I was wrong about AI alignment",
+      "tag": "FREE_CLIP",
+      "company": "free-nadella-20vc-b",
+      "clip_id": "free-nadella-20vc-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Satya Nadella: I was wrong about AI alignment"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-nadella-20vc-02.mp4",
+      "image": "clip-free-nadella-20vc-02-cover.jpg",
+      "caption": "Satya Nadella says every company will have a private eval benchmark, and it will be their core IP.\n\nHis view: every model comes in and tries to hill climb on that eval, and that is how a firm will work.\n\nWhat would your company’s private benchmark measure?\n\nSource: 20VC with Harry Stebbings, Satya Nadella on Open vs Closed Models. Full video: youtube.com/watch?v=24XUcWhqY_4\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#SatyaNadella #Microsoft #AI #Startup #20VC #Founder #Tech",
+      "headline": "Satya Nadella: every firm's core IP will be an eval",
+      "tag": "FREE_CLIP",
+      "company": "free-nadella-20vc-a",
+      "clip_id": "free-nadella-20vc-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Satya Nadella: every firm's core IP will be an eval"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-nadella-20vc-03.mp4",
+      "image": "clip-free-nadella-20vc-03-cover.jpg",
+      "caption": "Satya Nadella thinks calling yourself “AI native” will be passé in five years.\n\nHe compares it to cloud: early on everyone asked who was cloud native, and now everybody is. Even Lloyd’s, roughly 500 years old, is cloud native.\n\nWill “AI native” still mean anything in 2030?\n\nSource: 20VC with Harry Stebbings, Satya Nadella on Open vs Closed Models. Full video: youtube.com/watch?v=24XUcWhqY_4\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#SatyaNadella #Microsoft #AI #Startup #20VC #Founder #Tech",
+      "headline": "Satya Nadella: \"AI-native\" will be passé in 5 years",
+      "tag": "FREE_CLIP",
+      "company": "free-nadella-20vc-c",
+      "clip_id": "free-nadella-20vc-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Satya Nadella: \"AI-native\" will be passé in 5 years"
+    }
+  ]
+}
