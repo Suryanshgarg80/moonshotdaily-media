@@ -791,9 +791,17 @@
       "headline": "Sam Altman: melt all the GPUs to save humanity? Easy yes",
       "tag": "FREE_CLIP",
       "company": "free-altman-ftn-c"
+    },
+    "2026-11-16/C1": {
+      "media_id": "17955748053318541",
+      "format": "reel",
+      "ts": "2026-11-16T16:31:46.767Z",
+      "headline": "Satya Nadella: I was wrong about AI alignment",
+      "tag": "FREE_CLIP",
+      "company": "free-nadella-20vc-b"
     }
   },
-  "last_ts": "2026-11-16T03:34:19.101Z",
+  "last_ts": "2026-11-16T16:31:46.767Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1579,6 +1587,13 @@
       "key": "2026-11-15/C3",
       "format": "reel",
       "media_id": "18095350616201151"
+    },
+    {
+      "ts": "2026-11-16T16:31:46.768Z",
+      "event": "published",
+      "key": "2026-11-16/C1",
+      "format": "reel",
+      "media_id": "17955748053318541"
     }
   ]
 }
