@@ -815,9 +815,17 @@
       "headline": "Satya Nadella: \"AI-native\" will be passé in 5 years",
       "tag": "FREE_CLIP",
       "company": "free-nadella-20vc-c"
+    },
+    "2026-11-17/C1": {
+      "media_id": "18204231373377710",
+      "format": "reel",
+      "ts": "2026-11-17T15:10:37.073Z",
+      "headline": "Sam Altman: AI disease cure candidate in a couple years",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-mb-a"
     }
   },
-  "last_ts": "2026-11-17T03:39:20.508Z",
+  "last_ts": "2026-11-17T15:10:37.073Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1630,6 +1638,13 @@
       "key": "2026-11-16/C3",
       "format": "image",
       "media_id": "17958500994277739"
+    },
+    {
+      "ts": "2026-11-17T15:10:37.074Z",
+      "event": "published",
+      "key": "2026-11-17/C1",
+      "format": "reel",
+      "media_id": "18204231373377710"
     }
   ]
 }
