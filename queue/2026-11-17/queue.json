@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-17",
+  "queued_at": "2026-11-17T12:34:13.216Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-altman-mb-01.mp4",
+      "image": "clip-free-altman-mb-01-cover.jpg",
+      "caption": "Sam Altman hopes AI finds a candidate to cure or treat a major disease within the next couple of years.\n\nHe is careful about the timeline: the FDA process will take a while, so this is about discovering a candidate that still has to go through testing, not a cure on shelves.\n\nWould you trust a drug discovered by AI?\n\nSource: Matthew Berman (Forward Future), Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and more! Full video: youtube.com/watch?v=3gXLmy7DK_4\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#SamAltman #OpenAI #AI #ChatGPT #Startup #Founder #Tech",
+      "headline": "Sam Altman: AI disease cure candidate in a couple years",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-mb-a",
+      "clip_id": "free-altman-mb-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Sam Altman: AI disease cure candidate in a couple years"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-altman-mb-02.mp4",
+      "image": "clip-free-altman-mb-02-cover.jpg",
+      "caption": "Sam Altman says people were wrong about AI killing the need for coders.\n\nSix to twelve months ago, many were certain of it. His lesson: the world actually had demand for way more software than anyone thought.\n\nIs AI creating more coding work or less where you are?\n\nSource: Matthew Berman (Forward Future), Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and more! Full video: youtube.com/watch?v=3gXLmy7DK_4\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#SamAltman #OpenAI #AI #ChatGPT #Startup #Founder #Tech",
+      "headline": "Sam Altman: AI didn't end coding jobs",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-mb-b",
+      "clip_id": "free-altman-mb-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Sam Altman: AI didn't end coding jobs"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-altman-mb-03.mp4",
+      "image": "clip-free-altman-mb-03-cover.jpg",
+      "caption": "Sam Altman says he hasn't read or even looked at a line of code in probably a year.\n\nHe doesn't code for work, but used to write small personal projects for fun. Now he doesn't think he'll ever do that again.\n\nWhen did you last write code by hand?\n\nSource: Matthew Berman (Forward Future), Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and more! Full video: youtube.com/watch?v=3gXLmy7DK_4\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#SamAltman #OpenAI #AI #ChatGPT #Startup #Founder #Tech",
+      "headline": "Sam Altman: I haven't looked at code in a year",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-mb-c",
+      "clip_id": "free-altman-mb-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Sam Altman: I haven't looked at code in a year"
+    }
+  ]
+}
