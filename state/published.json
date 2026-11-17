@@ -807,9 +807,17 @@
       "headline": "Satya Nadella: every firm's core IP will be an eval",
       "tag": "FREE_CLIP",
       "company": "free-nadella-20vc-a"
+    },
+    "2026-11-16/C3": {
+      "media_id": "17958500994277739",
+      "format": "image",
+      "ts": "2026-11-17T03:39:20.508Z",
+      "headline": "Satya Nadella: \"AI-native\" will be passé in 5 years",
+      "tag": "FREE_CLIP",
+      "company": "free-nadella-20vc-c"
     }
   },
-  "last_ts": "2026-11-16T21:41:00.888Z",
+  "last_ts": "2026-11-17T03:39:20.508Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1609,6 +1617,19 @@
       "key": "2026-11-16/C2",
       "format": "reel",
       "media_id": "18101851019102427"
+    },
+    {
+      "ts": "2026-11-17T03:39:09.428Z",
+      "event": "reel_failed_fallback_image",
+      "key": "2026-11-16/C3",
+      "reason": "container 18134529799806065: ERROR"
+    },
+    {
+      "ts": "2026-11-17T03:39:20.508Z",
+      "event": "published",
+      "key": "2026-11-16/C3",
+      "format": "image",
+      "media_id": "17958500994277739"
     }
   ]
 }
