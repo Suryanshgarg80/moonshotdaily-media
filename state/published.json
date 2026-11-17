@@ -823,9 +823,17 @@
       "headline": "Sam Altman: AI disease cure candidate in a couple years",
       "tag": "FREE_CLIP",
       "company": "free-altman-mb-a"
+    },
+    "2026-11-17/C2": {
+      "media_id": "18003551655046848",
+      "format": "reel",
+      "ts": "2026-11-17T22:02:21.222Z",
+      "headline": "Sam Altman: AI didn't end coding jobs",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-mb-b"
     }
   },
-  "last_ts": "2026-11-17T15:10:37.073Z",
+  "last_ts": "2026-11-17T22:02:21.222Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1645,6 +1653,13 @@
       "key": "2026-11-17/C1",
       "format": "reel",
       "media_id": "18204231373377710"
+    },
+    {
+      "ts": "2026-11-17T22:02:21.223Z",
+      "event": "published",
+      "key": "2026-11-17/C2",
+      "format": "reel",
+      "media_id": "18003551655046848"
     }
   ]
 }
