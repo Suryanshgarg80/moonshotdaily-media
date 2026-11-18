@@ -831,9 +831,17 @@
       "headline": "Sam Altman: AI didn't end coding jobs",
       "tag": "FREE_CLIP",
       "company": "free-altman-mb-b"
+    },
+    "2026-11-18/C1": {
+      "media_id": "18422598397088803",
+      "format": "reel",
+      "ts": "2026-11-18T15:43:01.514Z",
+      "headline": "Dario Amodei: Anthropic chose enterprise for safety",
+      "tag": "FREE_CLIP",
+      "company": "free-amodei-bb-a"
     }
   },
-  "last_ts": "2026-11-17T22:02:21.222Z",
+  "last_ts": "2026-11-18T15:43:01.514Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1660,6 +1668,13 @@
       "key": "2026-11-17/C2",
       "format": "reel",
       "media_id": "18003551655046848"
+    },
+    {
+      "ts": "2026-11-18T15:43:01.514Z",
+      "event": "published",
+      "key": "2026-11-18/C1",
+      "format": "reel",
+      "media_id": "18422598397088803"
     }
   ]
 }
