@@ -839,9 +839,17 @@
       "headline": "Dario Amodei: Anthropic chose enterprise for safety",
       "tag": "FREE_CLIP",
       "company": "free-amodei-bb-a"
+    },
+    "2026-11-18/C2": {
+      "media_id": "17878875678636080",
+      "format": "reel",
+      "ts": "2026-11-18T21:37:29.618Z",
+      "headline": "Zuckerberg: my AI watches my MMA fights",
+      "tag": "FREE_CLIP",
+      "company": "free-zuck-cp-a"
     }
   },
-  "last_ts": "2026-11-18T15:43:01.514Z",
+  "last_ts": "2026-11-18T21:37:29.618Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1675,6 +1683,13 @@
       "key": "2026-11-18/C1",
       "format": "reel",
       "media_id": "18422598397088803"
+    },
+    {
+      "ts": "2026-11-18T21:37:29.619Z",
+      "event": "published",
+      "key": "2026-11-18/C2",
+      "format": "reel",
+      "media_id": "17878875678636080"
     }
   ]
 }
