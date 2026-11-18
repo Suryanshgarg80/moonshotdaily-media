@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-18",
+  "queued_at": "2026-11-18T08:44:56.478Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-amodei-bb-01.mp4",
+      "image": "clip-free-amodei-bb-01-cover.jpg",
+      "caption": "Dario Amodei says Anthropic chose enterprise customers on purpose, because of safety.\n\nHis reasoning: enterprises care about safety more than consumers do, so selling to businesses fits Anthropic’s focus on building AI carefully.\n\nIs safety a real selling point for AI, or do buyers just want the best model?\n\nSource: Bloomberg Television, Anthropic’s Amodei Doesn’t Want AI Agents to ‘Run Wild’. Full video: youtube.com/watch?v=jbvHYx9aQ6k\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#DarioAmodei #Anthropic #Claude #AI #Startup #Founder #Tech",
+      "headline": "Dario Amodei: Anthropic chose enterprise for safety",
+      "tag": "FREE_CLIP",
+      "company": "free-amodei-bb-a",
+      "clip_id": "free-amodei-bb-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Dario Amodei: Anthropic chose enterprise for safety"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-zuck-cp-01.mp4",
+      "image": "clip-free-zuck-cp-01-cover.jpg",
+      "caption": "Mark Zuckerberg put cameras in his gym so an AI can coach him between rounds.\n\nIt watches the footage while he trains and gives feedback in the one-minute break. He says that is a hard problem: it has to process all the video fast enough to fit that minute.\n\nWould you trust an AI coach over a human one?\n\nSource: Cheeky Pint, Zuckerberg’s $100 Billion Bet. Full video: youtube.com/watch?v=XfdIhd1g6EI\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#MarkZuckerberg #Meta #AI #Startup #Founder #Tech #Superintelligence",
+      "headline": "Zuckerberg: my AI watches my MMA fights",
+      "tag": "FREE_CLIP",
+      "company": "free-zuck-cp-a",
+      "clip_id": "free-zuck-cp-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Zuckerberg: my AI watches my MMA fights"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-zuck-cp-02.mp4",
+      "image": "clip-free-zuck-cp-02-cover.jpg",
+      "caption": "Mark Zuckerberg says Meta was ready to write a $100 billion to $200 billion check before it had even seen the models.\n\nAt the end of last year the team was excited about the progress, but the models were not ready yet. So he turned to Alexandr Wang and asked: are you sure this is going to work?\n\nWould you bet that much on a model you had not seen yet?\n\nSource: Cheeky Pint, Zuckerberg’s $100 Billion Bet. Full video: youtube.com/watch?v=XfdIhd1g6EI\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#MarkZuckerberg #Meta #AI #Startup #Founder #Tech #Superintelligence",
+      "headline": "Zuckerberg: a $100-200B check before seeing the models",
+      "tag": "FREE_CLIP",
+      "company": "free-zuck-cp-b",
+      "clip_id": "free-zuck-cp-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Zuckerberg: a $100-200B check before seeing the models"
+    }
+  ]
+}
