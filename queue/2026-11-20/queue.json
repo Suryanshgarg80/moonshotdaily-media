@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-20",
+  "queued_at": "2026-11-20T14:49:25.670Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-zuck-cp-03.mp4",
+      "image": "clip-free-zuck-cp-03-cover.jpg",
+      "caption": "Alexandr Wang says Meta’s CFO pulled him aside many times with one message: this model has to work.\n\nWang leads Meta’s superintelligence lab. Susan Li told him that if the model is good, everything is fine, but if it is bad, it will be “very, very bad in financial terms.”\n\nWould you take a job where the CFO tells you that?\n\nSource: Cheeky Pint, Zuckerberg’s $100 Billion Bet. Full video: youtube.com/watch?v=XfdIhd1g6EI\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#AlexandrWang #Meta #MarkZuckerberg #AI #Startup #Founder #Tech",
+      "headline": "Alexandr Wang: Meta's CFO said this has to work",
+      "tag": "FREE_CLIP",
+      "company": "free-zuck-cp-c",
+      "clip_id": "free-zuck-cp-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Alexandr Wang: Meta's CFO said this has to work"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-zuck-cp-04.mp4",
+      "image": "clip-free-zuck-cp-04-cover.jpg",
+      "caption": "Mark Zuckerberg says Meta’s huge AI bet only fails if AI itself fails.\n\nHis logic: if AI works, plenty of other companies will want Meta’s compute, at roughly $15 billion a gigawatt. And even if AI fails overall, Meta still has other ways to use all that compute.\n\nSmart hedge or the biggest bet in tech history?\n\nSource: Cheeky Pint, Zuckerberg’s $100 Billion Bet. Full video: youtube.com/watch?v=XfdIhd1g6EI\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#MarkZuckerberg #Meta #AI #Startup #Founder #Tech #Superintelligence",
+      "headline": "Zuckerberg: Meta's AI bet only fails if AI fails",
+      "tag": "FREE_CLIP",
+      "company": "free-zuck-cp-d",
+      "clip_id": "free-zuck-cp-04",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Zuckerberg: Meta's AI bet only fails if AI fails"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-musk-rsbn-01.mp4",
+      "image": "clip-free-musk-rsbn-01-cover.jpg",
+      "caption": "Elon Musk says China produces about three times as much electricity as the United States.\n\nHe thinks the US will figure out chips. The real long-term challenge, he says, is generating enough power and having enough chip factories in the US or a safe region.\n\nIs power the real bottleneck for AI?\n\nSource: RSBN, FULL: Elon Musk, Jensen Huang, Tom Brown Discuss the AI Revolution. Full video: youtube.com/watch?v=388P7IFSpwE\n\nFollow @moonshotdaily for daily clips from the world’s best founders.\n\n#ElonMusk #AI #SpaceX #Startup #Founder #Tech #Superintelligence",
+      "headline": "Musk: China has 3x America’s electricity",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-rsbn-a",
+      "clip_id": "free-musk-rsbn-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Musk: China has 3x America’s electricity"
+    }
+  ]
+}
