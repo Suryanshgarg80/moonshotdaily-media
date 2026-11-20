@@ -863,9 +863,17 @@
       "headline": "Alexandr Wang: Meta's CFO said this has to work",
       "tag": "FREE_CLIP",
       "company": "free-zuck-cp-c"
+    },
+    "2026-11-20/C2": {
+      "media_id": "18085187519349249",
+      "format": "reel",
+      "ts": "2026-11-20T21:36:31.007Z",
+      "headline": "Zuckerberg: Meta's AI bet only fails if AI fails",
+      "tag": "FREE_CLIP",
+      "company": "free-zuck-cp-d"
     }
   },
-  "last_ts": "2026-11-20T16:31:32.267Z",
+  "last_ts": "2026-11-20T21:36:31.007Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1720,6 +1728,13 @@
       "key": "2026-11-20/C1",
       "format": "reel",
       "media_id": "18111670136630826"
+    },
+    {
+      "ts": "2026-11-20T21:36:31.007Z",
+      "event": "published",
+      "key": "2026-11-20/C2",
+      "format": "reel",
+      "media_id": "18085187519349249"
     }
   ]
 }
