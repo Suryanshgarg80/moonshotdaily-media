@@ -855,9 +855,17 @@
       "headline": "Zuckerberg: a $100-200B check before seeing the models",
       "tag": "FREE_CLIP",
       "company": "free-zuck-cp-b"
+    },
+    "2026-11-20/C1": {
+      "media_id": "18111670136630826",
+      "format": "reel",
+      "ts": "2026-11-20T16:31:32.267Z",
+      "headline": "Alexandr Wang: Meta's CFO said this has to work",
+      "tag": "FREE_CLIP",
+      "company": "free-zuck-cp-c"
     }
   },
-  "last_ts": "2026-11-19T03:31:09.452Z",
+  "last_ts": "2026-11-20T16:31:32.267Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1705,6 +1713,13 @@
       "key": "2026-11-18/C3",
       "format": "reel",
       "media_id": "18112394840236018"
+    },
+    {
+      "ts": "2026-11-20T16:31:32.268Z",
+      "event": "published",
+      "key": "2026-11-20/C1",
+      "format": "reel",
+      "media_id": "18111670136630826"
     }
   ]
 }
