@@ -871,9 +871,17 @@
       "headline": "Zuckerberg: Meta's AI bet only fails if AI fails",
       "tag": "FREE_CLIP",
       "company": "free-zuck-cp-d"
+    },
+    "2026-11-20/C3": {
+      "media_id": "18101171072446915",
+      "format": "reel",
+      "ts": "2026-11-21T03:31:29.992Z",
+      "headline": "Musk: China has 3x America’s electricity",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-rsbn-a"
     }
   },
-  "last_ts": "2026-11-20T21:36:31.007Z",
+  "last_ts": "2026-11-21T03:31:29.992Z",
   "blocked_until": "2026-10-23T18:29:43.061Z",
   "events": [
     {
@@ -1735,6 +1743,13 @@
       "key": "2026-11-20/C2",
       "format": "reel",
       "media_id": "18085187519349249"
+    },
+    {
+      "ts": "2026-11-21T03:31:29.992Z",
+      "event": "published",
+      "key": "2026-11-20/C3",
+      "format": "reel",
+      "media_id": "18101171072446915"
     }
   ]
 }
