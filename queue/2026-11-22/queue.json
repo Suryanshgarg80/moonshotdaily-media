@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-22",
+  "queued_at": "2026-11-22T08:47:07.717Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-jensen-rsbn-01.mp4",
+      "image": "clip-free-jensen-rsbn-01-cover.jpg",
+      "caption": "Jensen Huang says an AI agent now does in about three minutes the research that used to take him four to eight hours on a weekend.\nOn a Washington panel with Elon Musk, the Nvidia CEO describes hitting Enter and getting back a finished report.\nSource: RSBN, Elon Musk, Jensen Huang, Tom Brown Discuss the AI Revolution. Full video: https://www.youtube.com/watch?v=388P7IFSpwE\nSubscribe for daily AI founder clips\n#JensenHuang #Nvidia #AI #AIAgents #shorts",
+      "headline": "Jensen Huang: 8 Hours of Research Done in 3 Minutes",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-rsbn-b",
+      "clip_id": "free-jensen-rsbn-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Jensen: 8 hours of research done in 3 minutes"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-musk-rsbn-02.mp4",
+      "image": "clip-free-musk-rsbn-02-cover.jpg",
+      "caption": "Elon Musk says he has heard many cases where a doctor was wrong and AI read the X-ray or MRI correctly.\nHe shared these as anecdotes people told him, on a Washington panel with Jensen Huang.\nSource: RSBN, Elon Musk, Jensen Huang, Tom Brown Discuss the AI Revolution. Full video: https://www.youtube.com/watch?v=388P7IFSpwE\nSubscribe for daily AI founder clips\n#ElonMusk #AI #HealthTech #shorts",
+      "headline": "Elon Musk: AI Caught What the Doctor Missed",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-rsbn-c",
+      "clip_id": "free-musk-rsbn-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Musk: AI caught what the doctor missed"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-altman-cnbc-02.mp4",
+      "image": "clip-free-altman-cnbc-02-cover.jpg",
+      "caption": "Sam Altman says using the latest AI tools feels like managing a factory inside his computer.\nOn stage at Oracle AI World with Oracle co-CEO Clay Magouyrk, he says the work he does not enjoy now gets automated.\nSource: CNBC, Sam Altman and Oracle co-CEO Clay Magouyrk (full discussion). Full video: https://www.youtube.com/watch?v=SwoFsYmMvyA\nSubscribe for daily AI founder clips\n#SamAltman #OpenAI #AI #ChatGPT #shorts",
+      "headline": "Sam Altman: AI Feels Like a Factory in My Computer",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-cnbc-b",
+      "clip_id": "free-altman-cnbc-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Altman: it feels like a factory inside my computer"
+    }
+  ]
+}
