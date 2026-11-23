@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-23",
+  "queued_at": "2026-11-23T08:46:11.883Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-musk-rsbn-04.mp4",
+      "image": "clip-free-musk-rsbn-04-cover.jpg",
+      "caption": "Elon Musk says Starship will launch at least 300 gigawatts of AI compute a year.\nHe adds that 200 gigawatts a year alone would be a 40% annual increase in total US energy use, and it might one day reach a terawatt.\nSource: RSBN, Elon Musk, Jensen Huang, Tom Brown Discuss the AI Revolution. Full video: https://www.youtube.com/watch?v=388P7IFSpwE\nSubscribe for daily AI founder clips\n#ElonMusk #SpaceX #Starship #AI #shorts",
+      "headline": "Elon Musk: Starship to Launch 300 GW of AI a Year",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-rsbn-e",
+      "clip_id": "free-musk-rsbn-04",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Musk: Starship to launch 300 GW of AI compute a year"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-jensen-rsbn-02.mp4",
+      "image": "clip-free-jensen-rsbn-02-cover.jpg",
+      "caption": "Jensen Huang says building 10 to 20 gigawatts of AI data centers a year creates probably about a million jobs.\nThe Nvidia CEO lists power plants, construction, cooling and pipe fitters, and calls it the first time in 50 years the US is reindustrializing.\nSource: RSBN, Elon Musk, Jensen Huang, Tom Brown Discuss the AI Revolution. Full video: https://www.youtube.com/watch?v=388P7IFSpwE\nSubscribe for daily AI founder clips\n#JensenHuang #Nvidia #AI #DataCenters #shorts",
+      "headline": "Jensen Huang: AI Data Centers = 1 Million Jobs",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-rsbn-f",
+      "clip_id": "free-jensen-rsbn-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Jensen Huang: AI data centers create 1 million jobs"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-musk-rsbn-03.mp4",
+      "image": "clip-free-musk-rsbn-03-cover.jpg",
+      "caption": "Elon Musk says every 5 gigawatts of new steady power is a 1% increase in US power use, and he thinks it will mean about 1% more GDP.\nOn a Washington panel with Jensen Huang, he frames it against the roughly 500 gigawatts the US uses on average.\nSource: RSBN, Elon Musk, Jensen Huang, Tom Brown Discuss the AI Revolution. Full video: https://www.youtube.com/watch?v=388P7IFSpwE\nSubscribe for daily AI founder clips\n#ElonMusk #AI #Energy #DataCenters #shorts",
+      "headline": "Elon Musk: Every 5 GW of Power = 1% More GDP",
+      "tag": "FREE_CLIP",
+      "company": "free-musk-rsbn-d",
+      "clip_id": "free-musk-rsbn-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Musk: every 5 GW of power = 1% more GDP"
+    }
+  ]
+}
