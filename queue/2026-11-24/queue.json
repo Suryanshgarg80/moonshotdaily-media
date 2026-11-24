@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-24",
+  "queued_at": "2026-11-24T15:19:12.734Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-altman-sem-01.mp4",
+      "image": "clip-free-altman-sem-01-cover.jpg",
+      "caption": "Sam Altman says memory chips used to mean: invest $20 billion, make $19 billion.\nRelaying how someone explained it to him, he says decades of booms and busts made memory a poor business, and now all of a sudden it is a good one.\nSource: Semafor, Sam Altman: It’s Hard To Imagine the AI Revolution Without Jensen. Full video: https://www.youtube.com/watch?v=oi-E6xB4wSU\nSubscribe for daily AI founder clips\n#SamAltman #OpenAI #AI #Semiconductors #shorts",
+      "headline": "Sam Altman: Memory Chips Were Invest $20B, Make $19B",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-sem-a",
+      "clip_id": "free-altman-sem-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Altman: memory chips meant invest $20B, make $19B"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-altman-sem-02.mp4",
+      "image": "clip-free-altman-sem-02-cover.jpg",
+      "caption": "Sam Altman says he has never seen real revenue growth with great margins show up like this in any tech revolution of his career.\nAsked about AI debt, he says without that revenue it would be a problem, and that smart people on the whole are issuing the debt.\nSource: Semafor, Sam Altman: It’s Hard To Imagine the AI Revolution Without Jensen. Full video: https://www.youtube.com/watch?v=oi-E6xB4wSU\nSubscribe for daily AI founder clips\n#SamAltman #OpenAI #AI #AIBubble #shorts",
+      "headline": "Sam Altman: Never Seen Revenue Growth Like This in Tech",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-sem-b",
+      "clip_id": "free-altman-sem-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Altman: never seen revenue growth like this"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-altman-sem-03.mp4",
+      "image": "clip-free-altman-sem-03-cover.jpg",
+      "caption": "Sam Altman imagines a world where 10 or 100 years of science gets done in a single year.\nHe says physicists, chemists and material scientists are now saying it, and compounding that into products and technologies could make the world so much better.\nSource: Semafor, Sam Altman: It’s Hard To Imagine the AI Revolution Without Jensen. Full video: https://www.youtube.com/watch?v=oi-E6xB4wSU\nSubscribe for daily AI founder clips\n#SamAltman #OpenAI #AI #Science #shorts",
+      "headline": "Sam Altman: 100 Years of Science Done in One Year",
+      "tag": "FREE_CLIP",
+      "company": "free-altman-sem-c",
+      "clip_id": "free-altman-sem-03",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Altman: 100 years of science done in one year"
+    }
+  ]
+}
