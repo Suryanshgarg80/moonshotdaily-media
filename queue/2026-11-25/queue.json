@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-25",
+  "queued_at": "2026-11-25T08:57:49.791Z",
+  "items": [
+    {
+      "n": "C1",
+      "type": "reel",
+      "video": "clip-free-nadella-nyt-01.mp4",
+      "image": "clip-free-nadella-nyt-01-cover.jpg",
+      "caption": "Satya Nadella says a Microsoft team of about 11 developers builds a software factory that builds the product.\nTalking about the team behind Cowork, he says they no longer build the product directly, and that this level of indirection is going to happen in all jobs.\nSource: New York Times Events, Satya Nadella on the New Algorithm. Full video: https://www.youtube.com/watch?v=MsZmV9wzEZ8\nSubscribe for daily AI founder clips\n#SatyaNadella #Microsoft #AI #SoftwareEngineering #shorts",
+      "headline": "Satya Nadella: 11 Devs Build a Software Factory",
+      "tag": "FREE_CLIP",
+      "company": "free-nadella-nyt-a",
+      "clip_id": "free-nadella-nyt-01",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Nadella: 11 devs build a software factory"
+    },
+    {
+      "n": "C2",
+      "type": "reel",
+      "video": "clip-free-nadella-nyt-02.mp4",
+      "image": "clip-free-nadella-nyt-02-cover.jpg",
+      "caption": "Satya Nadella says arguing for massive pricing power on AI tokens is somehow betting against US GDP.\nHe would rather AI become like the cloud: a commodity the world uses at scale, which still has margin when you run it at scale.\nSource: New York Times Events, Satya Nadella on the New Algorithm. Full video: https://www.youtube.com/watch?v=MsZmV9wzEZ8\nSubscribe for daily AI founder clips\n#SatyaNadella #Microsoft #AI #Azure #shorts",
+      "headline": "Satya Nadella: Pricey AI Tokens Bet Against US GDP",
+      "tag": "FREE_CLIP",
+      "company": "free-nadella-nyt-b",
+      "clip_id": "free-nadella-nyt-02",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Nadella: pricey tokens = betting against US GDP"
+    },
+    {
+      "n": "C3",
+      "type": "reel",
+      "video": "clip-free-nadella-nyt-04.mp4",
+      "image": "clip-free-nadella-nyt-04-cover.jpg",
+      "caption": "Satya Nadella says being three to six months behind the frontier is a great place to be if you spend 5 to 20 percent of the compute.\nBecause Microsoft has access to a frontier model, he says it builds its own MAI models to be compute-efficient, with RL runs on real-world tasks.\nSource: New York Times Events, Satya Nadella on the New Algorithm. Full video: https://www.youtube.com/watch?v=MsZmV9wzEZ8\nSubscribe for daily AI founder clips\n#SatyaNadella #Microsoft #AI #OpenAI #shorts",
+      "headline": "Satya Nadella: 6 Months Behind Is a Great Place to Be",
+      "tag": "FREE_CLIP",
+      "company": "free-nadella-nyt-d",
+      "clip_id": "free-nadella-nyt-04",
+      "whop": null,
+      "collaborators": [],
+      "threads_text": "Nadella: 6 months behind is a great place to be"
+    }
+  ]
+}
